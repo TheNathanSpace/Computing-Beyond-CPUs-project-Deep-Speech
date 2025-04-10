@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 
 import torch
-from kospeech.models import DeepSpeech2
-
 
 if __name__ == '__main__' :
     cuda = torch.cuda.is_available()
