@@ -1,0 +1,10 @@
+astropy
+hydra-core
+librosa>=0.7.0
+matplotlib
+numpy
+pandas
+python-Levenshtein
+sentencepiece
+torch>=1.4.0
+tqdm
