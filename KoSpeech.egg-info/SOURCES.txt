@@ -1,11 +1,6 @@
-.gitattributes
-.gitignore
 LICENSE
 README.md
 setup.py
-.github/ISSUE_TEMPLATE/bug_report.md
-.github/ISSUE_TEMPLATE/feature_request.md
-.github/ISSUE_TEMPLATE/quesion.md
 KoSpeech.egg-info/PKG-INFO
 KoSpeech.egg-info/SOURCES.txt
 KoSpeech.egg-info/dependency_links.txt
