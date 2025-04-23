@@ -1,12 +1,15 @@
 #!/bin/bash
 
+echo "Enter device identifier:"
+read $device_id
+
+output_file="${device_id}_output.txt"
+
 if python -c "import torch; print(torch.cuda.is_available())" | grep -q "True"; then
     device="gpu"
 else
     device="cpu"
 fi
-
-output_file="${device}_output.txt"
 
 echo "Device identified: ${device}"
 echo "Output file set to: ${output_file}"
