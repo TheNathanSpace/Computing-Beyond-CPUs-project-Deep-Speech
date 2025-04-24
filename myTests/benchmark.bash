@@ -1,7 +1,10 @@
 #!/bin/bash
 
-echo "Enter device identifier:"
-read $device_id
+echo "Enter device identifier: "
+read device_id
+
+echo "Enter batch size: "
+read batch_size
 
 output_file="${device_id}_output.txt"
 
@@ -17,7 +20,7 @@ echo "" > $output_file
 echo "Starting ./Deepspeech2 script in background..."
 echo "-------"
 
-./Deepspeech2 > "${output_file}" 2>&1 &
+./Deepspeech2 $batch_size > "${output_file}" 2>&1 &
 
 tail -f "${output_file}" | while read -r line; do
     echo "$line"

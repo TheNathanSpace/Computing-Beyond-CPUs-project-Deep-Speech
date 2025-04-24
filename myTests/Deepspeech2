@@ -19,11 +19,11 @@ import torch.nn as nn
 import time
 import cProfile
 import tracemalloc
+import argparse
 
 from kospeech.models import DeepSpeech2
 
-def func():
-    batch_size = 3
+def func(batch_size):
     sequence_length = 14321
     dimension = 80
 
@@ -37,13 +37,38 @@ def func():
     criterion = nn.CTCLoss(blank=3, zero_infinity=True)
     optimizer = torch.optim.Adam(model.parameters(), lr=1e-04)
 
+    # Define input lengths, targets, and target lengths based on batch size
+    if batch_size == 2:
+        input_lengths = torch.IntTensor([12345, 12300]).to(device)
+        targets = torch.LongTensor([[1, 3, 3, 3, 3, 3, 4, 5, 6, 2],
+                                     [1, 3, 3, 3, 3, 3, 4, 5, 2, 0]]).to(device)
+        target_lengths = torch.LongTensor([9, 8]).to(device)
+    elif batch_size == 3:
+        input_lengths = torch.IntTensor([12345, 12300, 12000]).to(device)
+        targets = torch.LongTensor([[1, 3, 3, 3, 3, 3, 4, 5, 6, 2],
+                                     [1, 3, 3, 3, 3, 3, 4, 5, 2, 0],
+                                     [1, 3, 3, 3, 3, 3, 4, 2, 0, 0]]).to(device)
+        target_lengths = torch.LongTensor([9, 8, 7]).to(device)
+    elif batch_size == 4:
+        input_lengths = torch.IntTensor([12345, 12300, 12000, 12000]).to(device)
+        targets = torch.LongTensor([[1, 3, 3, 3, 3, 3, 4, 5, 6, 2],
+                                     [1, 3, 3, 3, 3, 3, 4, 5, 2, 0],
+                                     [1, 3, 3, 3, 3, 3, 4, 2, 0, 0],
+                                     [1, 3, 3, 3, 3, 3, 4, 2, 0, 0]]).to(device)
+        target_lengths = torch.LongTensor([9, 8, 7, 6]).to(device)
+    elif batch_size == 5:
+        input_lengths = torch.IntTensor([12345, 12300, 12000, 12000, 12000]).to(device)
+        targets = torch.LongTensor([[1, 3, 3, 3, 3, 3, 4, 5, 6, 2],
+                                     [1, 3, 3, 3, 3, 3, 4, 5, 2, 0],
+                                     [1, 3, 3, 3, 3, 3, 4, 2, 0, 0],
+                                     [1, 3, 3, 3, 3, 3, 4, 2, 0, 0],
+                                     [1, 3, 3, 3, 3, 3, 4, 2, 0, 0]]).to(device)
+        target_lengths = torch.LongTensor([9, 8, 7, 6, 5]).to(device)
+    else:
+        raise ValueError("Batch size must be between 2 and 5.")
+
     for i in range(10):
         inputs = torch.rand(batch_size, sequence_length, dimension).to(device)
-        input_lengths = torch.IntTensor([12345, 12300, 12000])
-        targets = torch.LongTensor([[1, 3, 3, 3, 3, 3, 4, 5, 6, 2],
-                                    [1, 3, 3, 3, 3, 3, 4, 5, 2, 0],
-                                    [1, 3, 3, 3, 3, 3, 4, 2, 0, 0]]).to(device)
-        target_lengths = torch.LongTensor([9, 8, 7])
         outputs, output_lengths = model(inputs, input_lengths)
 
         loss = criterion(outputs.transpose(0, 1), targets[:, 1:], output_lengths, target_lengths)
@@ -51,23 +76,16 @@ def func():
         optimizer.step()
         print(loss)
 
-# startTime = time.time()
-# print(startTime)
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description='Benchmark model training with specified batch size.')
+    parser.add_argument('batch_size', type=int, choices=[2, 3, 4, 5], help='Batch size for training (must be 2, 3, 4, or 5).')
 
-# func()
+    args = parser.parse_args()
 
-# endTime = time.time()
-# print(endTime)
+    tracemalloc.start()
+    cProfile.run(f'func({args.batch_size})')
+    current, peak = tracemalloc.get_traced_memory()
+    print(f"Current memory usage: {current / 1024**2} MB")
+    print(f"Peak memory usage: {peak / 1024**2} MB")
+    tracemalloc.stop()
 
-# elapsedTime = endTime - startTime
-# print(elapsedTime)
-
-tracemalloc.start()
-
-cProfile.run('func()')
-
-current, peak = tracemalloc.get_traced_memory()
-print(f"Current memory usage: {current / 1024**2} MB")
-print(f"Peak memory usage: {peak / 1024**2} MB")
-
-tracemalloc.stop()
