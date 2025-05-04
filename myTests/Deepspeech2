@@ -18,10 +18,74 @@ import torch
 import torch.nn as nn
 import time
 import cProfile
-import tracemalloc
+# import tracemalloc
 import argparse
 
 from kospeech.models import DeepSpeech2
+
+# power and memory tests
+import subprocess
+import threading
+import time
+import re
+
+import subprocess
+import threading
+import time
+import re
+
+class TegrastatsMonitor:
+    def __init__(self, interval=5):
+        self.interval = interval
+        self.running = False
+        self.thread = None
+
+    def parse_tegrastats_output(self, output):
+        # Example line:
+        # RAM 1024/3964MB (lfb 123x4MB) SWAP 0/1982MB CPU [5%@345,off,3%@345,...] EMC_FREQ 1%@1600 GR3D_FREQ 0%@998 VDD_IN 1234/1234 VDD_CPU_GPU_CV 567/567
+        mem_match = re.search(r'RAM (\d+)/(\d+)MB', output)
+        power_match = re.search(r'VDD_IN (\d+)/(\d+)', output)
+
+        mem_used = int(mem_match.group(1)) if mem_match else None
+        mem_total = int(mem_match.group(2)) if mem_match else None
+        power_current = int(power_match.group(1)) if power_match else None
+        power_avg = int(power_match.group(2)) if power_match else None
+
+        return {
+            'mem_used_MB': mem_used,
+            'mem_total_MB': mem_total,
+            'power_mW_current': power_current,
+            'power_mW_avg': power_avg
+        }
+
+    def _monitor(self):
+        print("[Tegrastats] Continuous monitoring started.")
+        try:
+            proc = subprocess.Popen(['tegrastats'], stdout=subprocess.PIPE, stderr=subprocess.DEVNULL, text=True)
+            while self.running:
+                line = proc.stdout.readline()
+                if not line:
+                    break
+                stats = self.parse_tegrastats_output(line.strip())
+                print(f"[Tegrastats] Stats: {stats}")
+                time.sleep(self.interval)  # Optional: throttle processing
+            proc.terminate()
+        except Exception as e:
+            print(f"[Tegrastats] Error: {e}")
+
+    def start(self):
+        if not self.running:
+            self.running = True
+            self.thread = threading.Thread(target=self._monitor, daemon=True)
+            self.thread.start()
+
+    def stop(self):
+        if self.running:
+            self.running = False
+            self.thread.join()
+            print("[Tegrastats] Monitoring stopped.")
+
+
 
 def func(batch_size):
     sequence_length = 14321
@@ -82,10 +146,15 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    tracemalloc.start()
+    monitor = TegrastatsMonitor(interval=1)
+    monitor.start()
+
+    # tracemalloc.start()
     cProfile.run(f'func({args.batch_size})')
-    current, peak = tracemalloc.get_traced_memory()
-    print(f"Current memory usage: {current / 1024**2} MB")
-    print(f"Peak memory usage: {peak / 1024**2} MB")
-    tracemalloc.stop()
+    # current, peak = tracemalloc.get_traced_memory()
+    # print(f"Current memory usage: {current / 1024**2} MB")
+    # print(f"Peak memory usage: {peak / 1024**2} MB")
+    # tracemalloc.stop()
+
+    monitor.stop()
 
