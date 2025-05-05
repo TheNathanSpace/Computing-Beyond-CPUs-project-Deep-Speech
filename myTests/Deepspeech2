@@ -82,6 +82,8 @@ class TegrastatsMonitor:
             'gpu_temperature': gpu_temp
         }
 
+        self.max_min["mem_total_MB"] = mem_total
+
         for key, value in return_dict.items():
             if key == "mem_total_MB": continue
             if not value: continue
@@ -198,9 +200,10 @@ if __name__ == "__main__":
 
     output_dict["total_time"] = ps.total_tt
 
-    profiling_output = s.getvalue()
     ps.print_stats()
-    
+    profiling_output = s.getvalue()
+    print(profiling_output)
+
     backward_pattern = r'\s+(-?\d+(?:\.\d+)?)\s+(-?\d+(?:\.\d+)?)\s+(-?\d+(?:\.\d+)?)\s+(-?\d+(?:\.\d+)?)\s+(-?\d+(?:\.\d+)?)\s__init__\.py:165\(backward\)'
     backward_match = re.search(backward_pattern, profiling_output, re.MULTILINE)
     if backward_match:
