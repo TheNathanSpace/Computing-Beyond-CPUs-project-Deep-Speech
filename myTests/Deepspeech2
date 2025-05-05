@@ -161,6 +161,7 @@ def func(batch_size):
     
     # Convert targets to a tensor
     targets_tensor = torch.LongTensor(padded_targets).to(device)
+    target_lengths = torch.LongTensor([len(target) for target in targets]).to(device)
 
     for i in range(10):
         inputs = torch.rand(batch_size, sequence_length, dimension).to(device)
