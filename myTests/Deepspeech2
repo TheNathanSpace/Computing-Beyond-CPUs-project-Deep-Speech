@@ -39,10 +39,7 @@ class TegrastatsMonitor:
                 'max': -1,
                 'min': math.inf
             },
-            'mem_total_MB': {
-                'max': -1,
-                'min': math.inf
-            },
+            'mem_total_MB': None,
             'power_mW_current': {
                 'max': -1,
                 'min': math.inf
@@ -86,6 +83,9 @@ class TegrastatsMonitor:
         }
 
         for key, value in return_dict.items():
+            if key == "mem_total_MB": continue
+            if not value: continue
+
             if value > self.max_min[key]["max"]:
                 self.max_min[key]["max"] = value
             if value < self.max_min[key]["min"]:
@@ -199,6 +199,7 @@ if __name__ == "__main__":
     output_dict["total_time"] = ps.total_tt
 
     profiling_output = s.getvalue()
+    print(profiling_output)
     
     backward_pattern = r'\s+(-?\d+(?:\.\d+)?)\s+(-?\d+(?:\.\d+)?)\s+(-?\d+(?:\.\d+)?)\s+(-?\d+(?:\.\d+)?)\s+(-?\d+(?:\.\d+)?)\s__init__\.py:165\(backward\)'
     backward_match = re.search(backward_pattern, profiling_output, re.MULTILINE)
