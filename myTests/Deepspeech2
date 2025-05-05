@@ -139,6 +139,7 @@ def func(batch_size):
     criterion = nn.CTCLoss(blank=3, zero_infinity=True)
     optimizer = torch.optim.Adam(model.parameters(), lr=1e-04)
 
+    # Define the input lengths
     input_lengths = torch.IntTensor([12345] + [12000] * (batch_size - 1)).to(device)
     
     # Define the target sequences
@@ -161,7 +162,7 @@ def func(batch_size):
     # Convert targets to a tensor
     targets_tensor = torch.LongTensor(padded_targets).to(device)
     
-    # Define target lengths
+    # Define target lengths (original lengths before padding)
     target_lengths = torch.LongTensor([len(target) for target in targets]).to(device)
 
     for i in range(10):
