@@ -166,7 +166,7 @@ def func(batch_size):
         inputs = torch.rand(batch_size, sequence_length, dimension).to(device)
         outputs, output_lengths = model(inputs, input_lengths)
 
-        loss = criterion(outputs.transpose(0, 1), targets[:, 1:], output_lengths, target_lengths)
+        loss = criterion(outputs.transpose(0, 1), targets_tensor[:, 1:], output_lengths, target_lengths)
         loss.backward()
         optimizer.step()
         # print(loss)
