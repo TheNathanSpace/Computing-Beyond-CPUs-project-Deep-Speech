@@ -189,16 +189,32 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     monitor = TegrastatsMonitor(interval=1)
+    pr = cProfile.Profile()
+
     monitor.start()
-
-    # tracemalloc.start()
-    cProfile.run(f'func({args.batch_size})')
-    # current, peak = tracemalloc.get_traced_memory()
-    # print(f"Current memory usage: {current / 1024**2} MB")
-    # print(f"Peak memory usage: {peak / 1024**2} MB")
-    # tracemalloc.stop()
-
+    pr.enable()
+    func(args.batch_size)
+    pr.disable()
     monitor.stop()
 
-    print(monitor.max_min)
+    s = io.StringIO()
+    sortby = 'cumulative'
+    ps = pstats.Stats(pr, stream=s).sort_stats(sortby)
 
+    output_dict = monitor.max_min
+
+    output_dict["total_time"] = ps.total_tt
+
+    profiling_output = s.getvalue()
+    
+    backward_pattern = r'^\s*\d+\s+\d+\.\d+\s+\d+\.\d+\s+(\d+\.\d+)\s+\d+\.\d+\s+__init__\.py:\d+$backward$'
+    backward_match = re.search(backward_pattern, profiling_output, re.MULTILINE)
+    if backward_match:
+        output_dict['backward_time'] = backward_match.group(1)
+    
+    forward_pattern = r'^\s*\d+\s+\d+\.\d+\s+\d+\.\d+\s+(\d+\.\d+)\s+\d+\.\d+\s+model\.py:\d+$forward$'
+    forward_match = re.search(forward_pattern, profiling_output, re.MULTILINE)
+    if forward_match:
+        output_dict['forward_time'] = forward_match.group(1)
+    
+    print(output_dict)
