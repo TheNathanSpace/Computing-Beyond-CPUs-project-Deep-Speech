@@ -149,9 +149,9 @@ def func(batch_size):
     # Create the targets for the remaining sequences
     for i in range(1, batch_size):
         if i == 1:
-            targets.append([1, 3, 3, 3, 3, 3, 4, 5, 2, 0])
+            targets.append([1, 3, 3, 3, 3, 3, 4, 5, 2, 0])  # Second target with a different ending
         else:
-            # Shift left and append 0
+            # Shift left and append 0 for subsequent targets
             new_target = targets[i-1][:-1] + [0]
             targets.append(new_target)
     
@@ -161,9 +161,6 @@ def func(batch_size):
     
     # Convert targets to a tensor
     targets_tensor = torch.LongTensor(padded_targets).to(device)
-    
-    # Define target lengths (original lengths before padding)
-    target_lengths = torch.LongTensor([len(target) for target in targets]).to(device)
 
     for i in range(10):
         inputs = torch.rand(batch_size, sequence_length, dimension).to(device)
