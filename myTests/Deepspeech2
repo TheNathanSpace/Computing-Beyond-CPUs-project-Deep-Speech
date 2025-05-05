@@ -18,23 +18,16 @@ import torch
 import torch.nn as nn
 import time
 import cProfile
-# import tracemalloc
 import argparse
+import subprocess
+import threading
+import re
+import math
+import pstats
+import io
 
 from kospeech.models import DeepSpeech2
 
-# power and memory tests
-import subprocess
-import threading
-import time
-import re
-
-import subprocess
-import threading
-import time
-import re
-
-import math
 
 class TegrastatsMonitor:
     def __init__(self, interval=5):
