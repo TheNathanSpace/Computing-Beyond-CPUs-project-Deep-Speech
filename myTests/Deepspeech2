@@ -46,7 +46,7 @@ class TegrastatsMonitor:
         mem_match = re.search(r'RAM (\d+)/(\d+)MB', output)
         power_match = re.search(r'VDD_IN (\d+)mW/(\d+)mW', output)
         utilization_match = re.search(r'GR3D_FREQ (\d+)%', output)
-        temperature_match = re.search(r'GPU@(\d+)C')
+        temperature_match = re.search(r'GPU@(\d+)C', output)
 
         mem_used = int(mem_match.group(1)) if mem_match else None
         mem_total = int(mem_match.group(2)) if mem_match else None
