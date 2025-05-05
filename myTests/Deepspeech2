@@ -215,12 +215,12 @@ if __name__ == "__main__":
         output_dict['forward_time'] = forward_match.group(4)
     
     values = []
-    for key, value in data.items():
+    for key, value in monitor.max_min.items():
         if isinstance(value, dict):
             values.append(value['max'])
             values.append(value['min'])
         else:
             values.append(value)
 
-    print(profiling_output)
+    print(monitor.max_min)
     print(', '.join(map(str, values)))
