@@ -199,7 +199,7 @@ if __name__ == "__main__":
     output_dict["total_time"] = ps.total_tt
 
     profiling_output = s.getvalue()
-    print(profiling_output)
+    ps.print_stats()
     
     backward_pattern = r'\s+(-?\d+(?:\.\d+)?)\s+(-?\d+(?:\.\d+)?)\s+(-?\d+(?:\.\d+)?)\s+(-?\d+(?:\.\d+)?)\s+(-?\d+(?:\.\d+)?)\s__init__\.py:165\(backward\)'
     backward_match = re.search(backward_pattern, profiling_output, re.MULTILINE)
