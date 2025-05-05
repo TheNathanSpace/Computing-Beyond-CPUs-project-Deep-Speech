@@ -214,4 +214,12 @@ if __name__ == "__main__":
     if forward_match:
         output_dict['forward_time'] = forward_match.group(4)
     
-    print(output_dict)
+    values = []
+    for key, value in data.items():
+        if isinstance(value, dict):
+            values.append(value['max'])
+            values.append(value['min'])
+        else:
+            values.append(value)
+    
+    print(', '.join(map(str, values)))
