@@ -109,6 +109,7 @@ class TegrastatsMonitor:
             proc.terminate()
         except Exception as e:
             # print(f"[Tegrastats] Error: {e}")
+            pass
 
     def start(self):
         if not self.running:
