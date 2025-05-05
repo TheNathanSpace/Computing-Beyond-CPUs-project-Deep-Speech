@@ -44,18 +44,21 @@ class TegrastatsMonitor:
         # Example line:
         # RAM 1024/3964MB (lfb 123x4MB) SWAP 0/1982MB CPU [5%@345,off,3%@345,...] EMC_FREQ 1%@1600 GR3D_FREQ 0%@998 VDD_IN 1234/1234 VDD_CPU_GPU_CV 567/567
         mem_match = re.search(r'RAM (\d+)/(\d+)MB', output)
-        power_match = re.search(r'VDD_IN (\d+)/(\d+)', output)
+        power_match = re.search(r'VDD_IN (\d+)mW/(\d+)mW', output)
+        utilization_match = re.search(r'GR3D_FREQ (\d+)%', output)
 
         mem_used = int(mem_match.group(1)) if mem_match else None
         mem_total = int(mem_match.group(2)) if mem_match else None
         power_current = int(power_match.group(1)) if power_match else None
         power_avg = int(power_match.group(2)) if power_match else None
+        gpu_usage = int(utilization_match.group(2)) if utilization_match else None
 
         return {
             'mem_used_MB': mem_used,
             'mem_total_MB': mem_total,
             'power_mW_current': power_current,
-            'power_mW_avg': power_avg
+            'power_mW_avg': power_avg,
+            'gpu_utilization': gpu_usage
         }
 
     def _monitor(self):
