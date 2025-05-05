@@ -170,7 +170,7 @@ def func(batch_size):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Benchmark model training with specified batch size.')
-    parser.add_argument('batch_size', type=int, choices=[2, 3, 4, 5], help='Batch size for training (must be 2, 3, 4, or 5).')
+    parser.add_argument('batch_size', type=int, help='Batch size for training')
 
     args = parser.parse_args()
 
