@@ -17,35 +17,16 @@ Paper presentation: https://docs.google.com/presentation/d/1ELHsZRicqHW5aVaVnZSZ
 
 ## Hardware
 
-NVIDIA Orin AGX
+Access NVIDIA Orin AGX:
 
 ```bash
 ssh username@hpsslab.com -p 49158
 ```
+
+Copying files to local machine:
+
 ```bash
-# On the Orin server:
-ssh-keygen -t ed25519 -C "your_github_accounts_email@example.com" # Generate an SSH key
-eval "$(ssh-agent -s)" # Start the SSH service
-ssh-add ~/.ssh/id_ed25519 # Add the generated key
-cat ~/.ssh/id_ed25519.pub
-
-# 1. Go to https://github.com/settings/keys
-# 2. "New SSH key"
-# 3. Add the output of the "cat" command as the key
-
-# In the file `~/.ssh/config`, add this to have it use the SSH key: 
-
-Host github.com
-User git
-Port 22
-Hostname github.com
-IdentityFile ~/.ssh/id_ed25519
-TCPKeepAlive yes
-IdentitiesOnly yes
-
-
-# Clone repos with this different format to use SSH:
-git clone git@github.com/TheNathanSpace/Computing-Beyond-CPUs-project-Deep-Speech
+scp -P 49157 -J nathanpanzer@jumpbox.mines.edu,nathanpanzer@isengard.mines.edu nathanpanzer@hpsslab.com:/home/nathanpanzer/Computing-Beyond-CPUs-project-Deep-Speech/myTests/test1_output.txt .
 ```
 
 ## Implementation
