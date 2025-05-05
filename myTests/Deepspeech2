@@ -53,7 +53,7 @@ class TegrastatsMonitor:
         power_current = int(power_match.group(1)) if power_match else None
         power_avg = int(power_match.group(2)) if power_match else None
         gpu_usage = int(utilization_match.group(1)) if utilization_match else None
-        gpu_temp = int(temperature_match.group(1)) if temperature_match else None
+        gpu_temp = float(temperature_match.group(1)) if temperature_match else None
 
         return {
             'mem_used_MB': mem_used,
