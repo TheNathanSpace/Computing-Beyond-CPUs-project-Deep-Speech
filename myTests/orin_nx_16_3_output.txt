@@ -2,118 +2,37 @@
   warnings.warn("dropout option adds dropout after all but last "
 [Tegrastats] Continuous monitoring started.
 cuda
-[Tegrastats] Stats: {'mem_used_MB': 5665, 'mem_total_MB': 15657, 'power_mW_current': 7199, 'power_mW_avg': 7199, 'gpu_utilization': 0, 'gpu_temperature': None}
-[Tegrastats] Stats: {'mem_used_MB': 5754, 'mem_total_MB': 15657, 'power_mW_current': 7846, 'power_mW_avg': 7522, 'gpu_utilization': 0, 'gpu_temperature': 51.156}
-[Tegrastats] Stats: {'mem_used_MB': 6431, 'mem_total_MB': 15657, 'power_mW_current': 8494, 'power_mW_avg': 7846, 'gpu_utilization': 0, 'gpu_temperature': 51.656}
-[Tegrastats] Stats: {'mem_used_MB': 6901, 'mem_total_MB': 15657, 'power_mW_current': 18006, 'power_mW_avg': 10386, 'gpu_utilization': 99, 'gpu_temperature': 55.031}
-[Tegrastats] Stats: {'mem_used_MB': 8385, 'mem_total_MB': 15657, 'power_mW_current': 17885, 'power_mW_avg': 11886, 'gpu_utilization': 0, 'gpu_temperature': 53.312}
-[Tegrastats] Stats: {'mem_used_MB': 9450, 'mem_total_MB': 15657, 'power_mW_current': 18418, 'power_mW_avg': 12974, 'gpu_utilization': 99, 'gpu_temperature': 56.343}
-[Tegrastats] Stats: {'mem_used_MB': 10277, 'mem_total_MB': 15657, 'power_mW_current': 20472, 'power_mW_avg': 14045, 'gpu_utilization': 99, 'gpu_temperature': 57.562}
-[Tegrastats] Stats: {'mem_used_MB': 10828, 'mem_total_MB': 15657, 'power_mW_current': 19381, 'power_mW_avg': 14712, 'gpu_utilization': 99, 'gpu_temperature': 56.906}
-[Tegrastats] Stats: {'mem_used_MB': 10854, 'mem_total_MB': 15657, 'power_mW_current': 19381, 'power_mW_avg': 15231, 'gpu_utilization': 99, 'gpu_temperature': 57.156}
-[Tegrastats] Stats: {'mem_used_MB': 10854, 'mem_total_MB': 15657, 'power_mW_current': 20023, 'power_mW_avg': 15710, 'gpu_utilization': 99, 'gpu_temperature': 57.687}
-[Tegrastats] Stats: {'mem_used_MB': 10854, 'mem_total_MB': 15657, 'power_mW_current': 20144, 'power_mW_avg': 16113, 'gpu_utilization': 99, 'gpu_temperature': 57.812}
-[Tegrastats] Stats: {'mem_used_MB': 10854, 'mem_total_MB': 15657, 'power_mW_current': 20144, 'power_mW_avg': 16449, 'gpu_utilization': 99, 'gpu_temperature': 58.093}
-[Tegrastats] Stats: {'mem_used_MB': 10888, 'mem_total_MB': 15657, 'power_mW_current': 17925, 'power_mW_avg': 16562, 'gpu_utilization': 99, 'gpu_temperature': 58.718}
-tensor(2005.7090, device='cuda:0', grad_fn=<MeanBackward0>)
-[Tegrastats] Stats: {'mem_used_MB': 11092, 'mem_total_MB': 15657, 'power_mW_current': 21554, 'power_mW_avg': 16919, 'gpu_utilization': 99, 'gpu_temperature': None}
-[Tegrastats] Stats: {'mem_used_MB': 11092, 'mem_total_MB': 15657, 'power_mW_current': 23240, 'power_mW_avg': 17340, 'gpu_utilization': 99, 'gpu_temperature': None}
-[Tegrastats] Stats: {'mem_used_MB': 11092, 'mem_total_MB': 15657, 'power_mW_current': 23920, 'power_mW_avg': 17752, 'gpu_utilization': 99, 'gpu_temperature': 60.343}
-[Tegrastats] Stats: {'mem_used_MB': 11107, 'mem_total_MB': 15657, 'power_mW_current': 22075, 'power_mW_avg': 18006, 'gpu_utilization': 99, 'gpu_temperature': 59.625}
-[Tegrastats] Stats: {'mem_used_MB': 11107, 'mem_total_MB': 15657, 'power_mW_current': 19823, 'power_mW_avg': 18107, 'gpu_utilization': 99, 'gpu_temperature': 59.531}
-[Tegrastats] Stats: {'mem_used_MB': 11107, 'mem_total_MB': 15657, 'power_mW_current': 19702, 'power_mW_avg': 18191, 'gpu_utilization': 99, 'gpu_temperature': 59.875}
-[Tegrastats] Stats: {'mem_used_MB': 11107, 'mem_total_MB': 15657, 'power_mW_current': 19823, 'power_mW_avg': 18272, 'gpu_utilization': 99, 'gpu_temperature': 59.875}
-[Tegrastats] Stats: {'mem_used_MB': 11107, 'mem_total_MB': 15657, 'power_mW_current': 19863, 'power_mW_avg': 18348, 'gpu_utilization': 99, 'gpu_temperature': 60.031}
-[Tegrastats] Stats: {'mem_used_MB': 11107, 'mem_total_MB': 15657, 'power_mW_current': 18499, 'power_mW_avg': 18355, 'gpu_utilization': 99, 'gpu_temperature': None}
-tensor(683.6763, device='cuda:0', grad_fn=<MeanBackward0>)
-[Tegrastats] Stats: {'mem_used_MB': 11133, 'mem_total_MB': 15657, 'power_mW_current': 21474, 'power_mW_avg': 18490, 'gpu_utilization': 99, 'gpu_temperature': 60.093}
-[Tegrastats] Stats: {'mem_used_MB': 11133, 'mem_total_MB': 15657, 'power_mW_current': 23640, 'power_mW_avg': 18705, 'gpu_utilization': 99, 'gpu_temperature': 61.937}
-[Tegrastats] Stats: {'mem_used_MB': 11133, 'mem_total_MB': 15657, 'power_mW_current': 23200, 'power_mW_avg': 18885, 'gpu_utilization': 99, 'gpu_temperature': 61.968}
-[Tegrastats] Stats: {'mem_used_MB': 11133, 'mem_total_MB': 15657, 'power_mW_current': 22435, 'power_mW_avg': 19021, 'gpu_utilization': 99, 'gpu_temperature': 61.593}
-[Tegrastats] Stats: {'mem_used_MB': 11133, 'mem_total_MB': 15657, 'power_mW_current': 20505, 'power_mW_avg': 19076, 'gpu_utilization': 99, 'gpu_temperature': 61.593}
-[Tegrastats] Stats: {'mem_used_MB': 11133, 'mem_total_MB': 15657, 'power_mW_current': 20425, 'power_mW_avg': 19124, 'gpu_utilization': 99, 'gpu_temperature': 61.5}
-[Tegrastats] Stats: {'mem_used_MB': 11133, 'mem_total_MB': 15657, 'power_mW_current': 20465, 'power_mW_avg': 19171, 'gpu_utilization': 99, 'gpu_temperature': 61.968}
-[Tegrastats] Stats: {'mem_used_MB': 11133, 'mem_total_MB': 15657, 'power_mW_current': 20505, 'power_mW_avg': 19215, 'gpu_utilization': 99, 'gpu_temperature': 61.781}
-tensor(82.2402, device='cuda:0', grad_fn=<MeanBackward0>)
-[Tegrastats] Stats: {'mem_used_MB': 11133, 'mem_total_MB': 15657, 'power_mW_current': 17563, 'power_mW_avg': 19162, 'gpu_utilization': 0, 'gpu_temperature': 61.093}
-[Tegrastats] Stats: {'mem_used_MB': 11133, 'mem_total_MB': 15657, 'power_mW_current': 21995, 'power_mW_avg': 19250, 'gpu_utilization': 99, 'gpu_temperature': 62.906}
-[Tegrastats] Stats: {'mem_used_MB': 11133, 'mem_total_MB': 15657, 'power_mW_current': 23920, 'power_mW_avg': 19392, 'gpu_utilization': 99, 'gpu_temperature': 63.5}
-[Tegrastats] Stats: {'mem_used_MB': 11133, 'mem_total_MB': 15657, 'power_mW_current': 23240, 'power_mW_avg': 19505, 'gpu_utilization': 99, 'gpu_temperature': 63.25}
-[Tegrastats] Stats: {'mem_used_MB': 11133, 'mem_total_MB': 15657, 'power_mW_current': 22395, 'power_mW_avg': 19587, 'gpu_utilization': 99, 'gpu_temperature': 63.093}
-[Tegrastats] Stats: {'mem_used_MB': 11133, 'mem_total_MB': 15657, 'power_mW_current': 20833, 'power_mW_avg': 19622, 'gpu_utilization': 99, 'gpu_temperature': 63.25}
-[Tegrastats] Stats: {'mem_used_MB': 11133, 'mem_total_MB': 15657, 'power_mW_current': 20753, 'power_mW_avg': 19653, 'gpu_utilization': 99, 'gpu_temperature': 63.375}
-[Tegrastats] Stats: {'mem_used_MB': 11133, 'mem_total_MB': 15657, 'power_mW_current': 20873, 'power_mW_avg': 19685, 'gpu_utilization': 99, 'gpu_temperature': 63.156}
-[Tegrastats] Stats: {'mem_used_MB': 11133, 'mem_total_MB': 15657, 'power_mW_current': 20833, 'power_mW_avg': 19714, 'gpu_utilization': 99, 'gpu_temperature': 63.281}
-tensor(12.0622, device='cuda:0', grad_fn=<MeanBackward0>)
-[Tegrastats] Stats: {'mem_used_MB': 11133, 'mem_total_MB': 15657, 'power_mW_current': 17403, 'power_mW_avg': 19656, 'gpu_utilization': 76, 'gpu_temperature': 62.187}
-[Tegrastats] Stats: {'mem_used_MB': 11133, 'mem_total_MB': 15657, 'power_mW_current': 22716, 'power_mW_avg': 19731, 'gpu_utilization': 99, 'gpu_temperature': 64.156}
-[Tegrastats] Stats: {'mem_used_MB': 11133, 'mem_total_MB': 15657, 'power_mW_current': 24200, 'power_mW_avg': 19837, 'gpu_utilization': 99, 'gpu_temperature': 64.781}
-[Tegrastats] Stats: {'mem_used_MB': 11133, 'mem_total_MB': 15657, 'power_mW_current': 23720, 'power_mW_avg': 19928, 'gpu_utilization': 99, 'gpu_temperature': 65.062}
-[Tegrastats] Stats: {'mem_used_MB': 11133, 'mem_total_MB': 15657, 'power_mW_current': 22556, 'power_mW_avg': 19987, 'gpu_utilization': 99, 'gpu_temperature': 64.5}
-[Tegrastats] Stats: {'mem_used_MB': 11133, 'mem_total_MB': 15657, 'power_mW_current': 21394, 'power_mW_avg': 20019, 'gpu_utilization': 99, 'gpu_temperature': 64.718}
-[Tegrastats] Stats: {'mem_used_MB': 11133, 'mem_total_MB': 15657, 'power_mW_current': 21314, 'power_mW_avg': 20047, 'gpu_utilization': 99, 'gpu_temperature': 64.843}
-[Tegrastats] Stats: {'mem_used_MB': 11133, 'mem_total_MB': 15657, 'power_mW_current': 21273, 'power_mW_avg': 20073, 'gpu_utilization': 99, 'gpu_temperature': 64.468}
-[Tegrastats] Stats: {'mem_used_MB': 11133, 'mem_total_MB': 15657, 'power_mW_current': 21273, 'power_mW_avg': 20098, 'gpu_utilization': 99, 'gpu_temperature': 64.687}
-tensor(11.5972, device='cuda:0', grad_fn=<MeanBackward0>)
-[Tegrastats] Stats: {'mem_used_MB': 11075, 'mem_total_MB': 15657, 'power_mW_current': 17202, 'power_mW_avg': 20039, 'gpu_utilization': 77, 'gpu_temperature': 63.781}
-[Tegrastats] Stats: {'mem_used_MB': 11075, 'mem_total_MB': 15657, 'power_mW_current': 22956, 'power_mW_avg': 20097, 'gpu_utilization': 99, 'gpu_temperature': 65.468}
-[Tegrastats] Stats: {'mem_used_MB': 11075, 'mem_total_MB': 15657, 'power_mW_current': 23560, 'power_mW_avg': 20165, 'gpu_utilization': 99, 'gpu_temperature': 65.281}
-[Tegrastats] Stats: {'mem_used_MB': 11075, 'mem_total_MB': 15657, 'power_mW_current': 23760, 'power_mW_avg': 20234, 'gpu_utilization': 99, 'gpu_temperature': 66.031}
-[Tegrastats] Stats: {'mem_used_MB': 11075, 'mem_total_MB': 15657, 'power_mW_current': 22515, 'power_mW_avg': 20277, 'gpu_utilization': 99, 'gpu_temperature': 65.531}
-[Tegrastats] Stats: {'mem_used_MB': 11075, 'mem_total_MB': 15657, 'power_mW_current': 21434, 'power_mW_avg': 20299, 'gpu_utilization': 99, 'gpu_temperature': 65.375}
-[Tegrastats] Stats: {'mem_used_MB': 11075, 'mem_total_MB': 15657, 'power_mW_current': 21434, 'power_mW_avg': 20319, 'gpu_utilization': 99, 'gpu_temperature': 65.687}
-[Tegrastats] Stats: {'mem_used_MB': 11075, 'mem_total_MB': 15657, 'power_mW_current': 21514, 'power_mW_avg': 20340, 'gpu_utilization': 99, 'gpu_temperature': 65.75}
-[Tegrastats] Stats: {'mem_used_MB': 11075, 'mem_total_MB': 15657, 'power_mW_current': 21434, 'power_mW_avg': 20360, 'gpu_utilization': 99, 'gpu_temperature': 65.812}
-tensor(15.1921, device='cuda:0', grad_fn=<MeanBackward0>)
-[Tegrastats] Stats: {'mem_used_MB': 11099, 'mem_total_MB': 15657, 'power_mW_current': 17282, 'power_mW_avg': 20307, 'gpu_utilization': 99, 'gpu_temperature': 64.781}
-[Tegrastats] Stats: {'mem_used_MB': 11101, 'mem_total_MB': 15657, 'power_mW_current': 23600, 'power_mW_avg': 20362, 'gpu_utilization': 99, 'gpu_temperature': 66.75}
-[Tegrastats] Stats: {'mem_used_MB': 11101, 'mem_total_MB': 15657, 'power_mW_current': 23360, 'power_mW_avg': 20412, 'gpu_utilization': 99, 'gpu_temperature': 66.468}
-[Tegrastats] Stats: {'mem_used_MB': 11101, 'mem_total_MB': 15657, 'power_mW_current': 24080, 'power_mW_avg': 20472, 'gpu_utilization': 99, 'gpu_temperature': 66.875}
-[Tegrastats] Stats: {'mem_used_MB': 11101, 'mem_total_MB': 15657, 'power_mW_current': 22756, 'power_mW_avg': 20509, 'gpu_utilization': 99, 'gpu_temperature': 67.281}
-[Tegrastats] Stats: {'mem_used_MB': 11101, 'mem_total_MB': 15657, 'power_mW_current': 22195, 'power_mW_avg': 20536, 'gpu_utilization': 99, 'gpu_temperature': 67.125}
-[Tegrastats] Stats: {'mem_used_MB': 11101, 'mem_total_MB': 15657, 'power_mW_current': 22155, 'power_mW_avg': 20561, 'gpu_utilization': 99, 'gpu_temperature': 67.562}
-[Tegrastats] Stats: {'mem_used_MB': 11101, 'mem_total_MB': 15657, 'power_mW_current': 22115, 'power_mW_avg': 20585, 'gpu_utilization': 99, 'gpu_temperature': 67.125}
-[Tegrastats] Stats: {'mem_used_MB': 11101, 'mem_total_MB': 15657, 'power_mW_current': 20873, 'power_mW_avg': 20590, 'gpu_utilization': 36, 'gpu_temperature': 65.406}
-tensor(19.3326, device='cuda:0', grad_fn=<MeanBackward0>)
-[Tegrastats] Stats: {'mem_used_MB': 11127, 'mem_total_MB': 15657, 'power_mW_current': 18367, 'power_mW_avg': 20556, 'gpu_utilization': 99, 'gpu_temperature': 66.25}
-[Tegrastats] Stats: {'mem_used_MB': 11127, 'mem_total_MB': 15657, 'power_mW_current': 23600, 'power_mW_avg': 20601, 'gpu_utilization': 99, 'gpu_temperature': 67.625}
-[Tegrastats] Stats: {'mem_used_MB': 11127, 'mem_total_MB': 15657, 'power_mW_current': 23520, 'power_mW_avg': 20643, 'gpu_utilization': 99, 'gpu_temperature': 67.718}
-[Tegrastats] Stats: {'mem_used_MB': 11127, 'mem_total_MB': 15657, 'power_mW_current': 24040, 'power_mW_avg': 20692, 'gpu_utilization': 99, 'gpu_temperature': 68.218}
-[Tegrastats] Stats: {'mem_used_MB': 11127, 'mem_total_MB': 15657, 'power_mW_current': 21955, 'power_mW_avg': 20710, 'gpu_utilization': 26, 'gpu_temperature': 66.187}
-[Tegrastats] Stats: {'mem_used_MB': 11133, 'mem_total_MB': 15657, 'power_mW_current': 21033, 'power_mW_avg': 20714, 'gpu_utilization': 13, 'gpu_temperature': 65.968}
-[Tegrastats] Stats: {'mem_used_MB': 11133, 'mem_total_MB': 15657, 'power_mW_current': 20665, 'power_mW_avg': 20714, 'gpu_utilization': 13, 'gpu_temperature': 66.031}
-[Tegrastats] Stats: {'mem_used_MB': 11133, 'mem_total_MB': 15657, 'power_mW_current': 20385, 'power_mW_avg': 20709, 'gpu_utilization': 13, 'gpu_temperature': 65.937}
-[Tegrastats] Stats: {'mem_used_MB': 11133, 'mem_total_MB': 15657, 'power_mW_current': 19221, 'power_mW_avg': 20689, 'gpu_utilization': 12, 'gpu_temperature': 65.562}
-tensor(20.8441, device='cuda:0', grad_fn=<MeanBackward0>)
-[Tegrastats] Stats: {'mem_used_MB': 11084, 'mem_total_MB': 15657, 'power_mW_current': 18940, 'power_mW_avg': 20666, 'gpu_utilization': 99, 'gpu_temperature': 67.5}
-[Tegrastats] Stats: {'mem_used_MB': 11084, 'mem_total_MB': 15657, 'power_mW_current': 24040, 'power_mW_avg': 20710, 'gpu_utilization': 99, 'gpu_temperature': 68.281}
-[Tegrastats] Stats: {'mem_used_MB': 11084, 'mem_total_MB': 15657, 'power_mW_current': 23880, 'power_mW_avg': 20751, 'gpu_utilization': 99, 'gpu_temperature': 68.531}
-[Tegrastats] Stats: {'mem_used_MB': 11084, 'mem_total_MB': 15657, 'power_mW_current': 24320, 'power_mW_avg': 20796, 'gpu_utilization': 99, 'gpu_temperature': 69.062}
-[Tegrastats] Stats: {'mem_used_MB': 11084, 'mem_total_MB': 15657, 'power_mW_current': 19823, 'power_mW_avg': 20784, 'gpu_utilization': 13, 'gpu_temperature': 66.25}
-[Tegrastats] Stats: {'mem_used_MB': 11084, 'mem_total_MB': 15657, 'power_mW_current': 19060, 'power_mW_avg': 20762, 'gpu_utilization': 13, 'gpu_temperature': 66.187}
-[Tegrastats] Stats: {'mem_used_MB': 11084, 'mem_total_MB': 15657, 'power_mW_current': 18820, 'power_mW_avg': 20739, 'gpu_utilization': 13, 'gpu_temperature': 65.937}
-[Tegrastats] Stats: {'mem_used_MB': 11084, 'mem_total_MB': 15657, 'power_mW_current': 18659, 'power_mW_avg': 20714, 'gpu_utilization': 13, 'gpu_temperature': 65.781}
-[Tegrastats] Stats: {'mem_used_MB': 11084, 'mem_total_MB': 15657, 'power_mW_current': 17925, 'power_mW_avg': 20680, 'gpu_utilization': 35, 'gpu_temperature': 66.187}
-tensor(23.9297, device='cuda:0', grad_fn=<MeanBackward0>)
-[Tegrastats] Stats: {'mem_used_MB': 11084, 'mem_total_MB': 15657, 'power_mW_current': 20264, 'power_mW_avg': 20676, 'gpu_utilization': 99, 'gpu_temperature': 68.906}
-[Tegrastats] Stats: {'mem_used_MB': 11084, 'mem_total_MB': 15657, 'power_mW_current': 23760, 'power_mW_avg': 20711, 'gpu_utilization': 99, 'gpu_temperature': 69.406}
-[Tegrastats] Stats: {'mem_used_MB': 11080, 'mem_total_MB': 15657, 'power_mW_current': 23880, 'power_mW_avg': 20748, 'gpu_utilization': 99, 'gpu_temperature': 69.312}
-[Tegrastats] Stats: {'mem_used_MB': 11080, 'mem_total_MB': 15657, 'power_mW_current': 23960, 'power_mW_avg': 20784, 'gpu_utilization': 99, 'gpu_temperature': 69.468}
-[Tegrastats] Stats: {'mem_used_MB': 11080, 'mem_total_MB': 15657, 'power_mW_current': 18579, 'power_mW_avg': 20760, 'gpu_utilization': 13, 'gpu_temperature': 66.718}
-[Tegrastats] Stats: {'mem_used_MB': 11080, 'mem_total_MB': 15657, 'power_mW_current': 18086, 'power_mW_avg': 20730, 'gpu_utilization': 16, 'gpu_temperature': 66.718}
-[Tegrastats] Stats: {'mem_used_MB': 11080, 'mem_total_MB': 15657, 'power_mW_current': 18046, 'power_mW_avg': 20700, 'gpu_utilization': 93, 'gpu_temperature': 66.718}
-[Tegrastats] Stats: {'mem_used_MB': 11080, 'mem_total_MB': 15657, 'power_mW_current': 18046, 'power_mW_avg': 20671, 'gpu_utilization': 99, 'gpu_temperature': 66.781}
-[Tegrastats] Stats: {'mem_used_MB': 11080, 'mem_total_MB': 15657, 'power_mW_current': 18327, 'power_mW_avg': 20646, 'gpu_utilization': 99, 'gpu_temperature': 68.375}
-tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
-         1169546 function calls (1156815 primitive calls) in 94.080 seconds
+[Tegrastats] Stats: {'mem_used_MB': 5852, 'mem_total_MB': 15657, 'power_mW_current': 7159, 'power_mW_avg': 7159, 'gpu_utilization': 0, 'gpu_temperature': 52.125}
+[Tegrastats] Stats: {'mem_used_MB': 5952, 'mem_total_MB': 15657, 'power_mW_current': 7806, 'power_mW_avg': 7482, 'gpu_utilization': 0, 'gpu_temperature': 52.343}
+[Tegrastats] Stats: {'mem_used_MB': 6918, 'mem_total_MB': 15657, 'power_mW_current': 8655, 'power_mW_avg': 7873, 'gpu_utilization': 0, 'gpu_temperature': 52.593}
+[Tegrastats] Stats: {'mem_used_MB': 7376, 'mem_total_MB': 15657, 'power_mW_current': 18739, 'power_mW_avg': 10589, 'gpu_utilization': 99, 'gpu_temperature': 56.218}
+[Tegrastats] Stats: {'mem_used_MB': 8717, 'mem_total_MB': 15657, 'power_mW_current': 18779, 'power_mW_avg': 12227, 'gpu_utilization': 0, 'gpu_temperature': 54.562}
+[Tegrastats] Stats: {'mem_used_MB': 9925, 'mem_total_MB': 15657, 'power_mW_current': 18418, 'power_mW_avg': 13259, 'gpu_utilization': 99, 'gpu_temperature': 57.093}
+[Tegrastats] Stats: {'mem_used_MB': 10751, 'mem_total_MB': 15657, 'power_mW_current': 20304, 'power_mW_avg': 14265, 'gpu_utilization': 99, 'gpu_temperature': 58.5}
+[Tegrastats] Stats: {'mem_used_MB': 11028, 'mem_total_MB': 15657, 'power_mW_current': 19622, 'power_mW_avg': 14935, 'gpu_utilization': 99, 'gpu_temperature': 57.937}
+[Tegrastats] Stats: {'mem_used_MB': 11053, 'mem_total_MB': 15657, 'power_mW_current': 19261, 'power_mW_avg': 15415, 'gpu_utilization': 99, 'gpu_temperature': 58.125}
+[Tegrastats] Stats: {'mem_used_MB': 11053, 'mem_total_MB': 15657, 'power_mW_current': 19783, 'power_mW_avg': 15852, 'gpu_utilization': 99, 'gpu_temperature': 58.406}
+[Tegrastats] Stats: {'mem_used_MB': 11053, 'mem_total_MB': 15657, 'power_mW_current': 19783, 'power_mW_avg': 16209, 'gpu_utilization': 99, 'gpu_temperature': 58.781}
+[Tegrastats] Error: '>' not supported between instances of 'NoneType' and 'float'
+tensor(1507.0962, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(136.2760, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(13.4221, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(14.0801, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(20.4231, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(21.9578, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(26.4717, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(29.4553, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(32.0499, device='cuda:0', grad_fn=<MeanBackward0>)
+tensor(35.0658, device='cuda:0', grad_fn=<MeanBackward0>)
+         1167566 function calls (1154835 primitive calls) in 94.352 seconds
 
    Ordered by: standard name
 
    ncalls  tottime  percall  cumtime  percall filename:lineno(function)
-     6433    0.011    0.000    0.014    0.000 <frozen importlib._bootstrap>:100(acquire)
-   3403/2    0.014    0.000    1.368    0.684 <frozen importlib._bootstrap>:1022(_find_and_load)
-2651/2643    0.002    0.000    0.277    0.000 <frozen importlib._bootstrap>:1038(_gcd_import)
-   822/44    0.003    0.000    1.005    0.023 <frozen importlib._bootstrap>:1053(_handle_fromlist)
+     6433    0.011    0.000    0.013    0.000 <frozen importlib._bootstrap>:100(acquire)
+   3403/2    0.014    0.000    1.359    0.680 <frozen importlib._bootstrap>:1022(_find_and_load)
+2651/2643    0.002    0.000    0.273    0.000 <frozen importlib._bootstrap>:1038(_gcd_import)
+   822/44    0.003    0.000    1.000    0.023 <frozen importlib._bootstrap>:1053(_handle_fromlist)
      6433    0.010    0.000    0.012    0.000 <frozen importlib._bootstrap>:125(release)
      3403    0.002    0.000    0.002    0.000 <frozen importlib._bootstrap>:165(__init__)
      3403    0.003    0.000    0.028    0.000 <frozen importlib._bootstrap>:169(__enter__)
@@ -121,28 +40,28 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
      6433    0.015    0.000    0.027    0.000 <frozen importlib._bootstrap>:179(_get_module_lock)
      6010    0.007    0.000    0.010    0.000 <frozen importlib._bootstrap>:198(cb)
      3030    0.004    0.000    0.025    0.000 <frozen importlib._bootstrap>:216(_lock_unlock_module)
-    912/2    0.001    0.000    1.366    0.683 <frozen importlib._bootstrap>:233(_call_with_frames_removed)
+    912/2    0.001    0.000    1.358    0.679 <frozen importlib._bootstrap>:233(_call_with_frames_removed)
      6013    0.003    0.000    0.003    0.000 <frozen importlib._bootstrap>:244(_verbose_message)
       761    0.001    0.000    0.001    0.000 <frozen importlib._bootstrap>:357(__init__)
      1462    0.001    0.000    0.015    0.000 <frozen importlib._bootstrap>:391(cached)
-     2193    0.002    0.000    0.002    0.000 <frozen importlib._bootstrap>:404(parent)
+     2193    0.002    0.000    0.003    0.000 <frozen importlib._bootstrap>:404(parent)
       732    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:412(has_location)
       730    0.001    0.000    0.001    0.000 <frozen importlib._bootstrap>:48(_new_module)
-      732    0.004    0.000    0.025    0.000 <frozen importlib._bootstrap>:492(_init_module_attrs)
+      732    0.005    0.000    0.025    0.000 <frozen importlib._bootstrap>:492(_init_module_attrs)
       732    0.002    0.000    0.030    0.000 <frozen importlib._bootstrap>:564(module_from_spec)
-    732/2    0.004    0.000    1.367    0.683 <frozen importlib._bootstrap>:664(_load_unlocked)
-     6010    0.007    0.000    0.010    0.000 <frozen importlib._bootstrap>:71(__init__)
+    732/2    0.004    0.000    1.359    0.679 <frozen importlib._bootstrap>:664(_load_unlocked)
+     6010    0.007    0.000    0.009    0.000 <frozen importlib._bootstrap>:71(__init__)
       761    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:746(find_spec)
-      761    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap>:826(find_spec)
-     2283    0.001    0.000    0.001    0.000 <frozen importlib._bootstrap>:893(__enter__)
+      761    0.001    0.000    0.001    0.000 <frozen importlib._bootstrap>:826(find_spec)
+     2283    0.001    0.000    0.002    0.000 <frozen importlib._bootstrap>:893(__enter__)
      2283    0.001    0.000    0.002    0.000 <frozen importlib._bootstrap>:897(__exit__)
         8    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:902(_resolve_name)
-      761    0.008    0.000    0.081    0.000 <frozen importlib._bootstrap>:921(_find_spec)
+      761    0.008    0.000    0.080    0.000 <frozen importlib._bootstrap>:921(_find_spec)
      2651    0.001    0.000    0.002    0.000 <frozen importlib._bootstrap>:968(_sanity_check)
-    763/2    0.004    0.000    1.367    0.684 <frozen importlib._bootstrap>:987(_find_and_load_unlocked)
+    763/2    0.004    0.000    1.359    0.680 <frozen importlib._bootstrap>:987(_find_and_load_unlocked)
       735    0.001    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:1040(__init__)
       730    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1065(get_filename)
-      730    0.003    0.000    0.048    0.000 <frozen importlib._bootstrap_external>:1070(get_data)
+      730    0.003    0.000    0.041    0.000 <frozen importlib._bootstrap_external>:1070(get_data)
       730    0.001    0.000    0.007    0.000 <frozen importlib._bootstrap_external>:1089(path_stats)
         2    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1163(__init__)
         2    0.000    0.000    0.002    0.001 <frozen importlib._bootstrap_external>:1174(create_module)
@@ -153,22 +72,22 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
      2920    0.002    0.000    0.002    0.000 <frozen importlib._bootstrap_external>:134(<genexpr>)
        70    0.001    0.000    0.004    0.000 <frozen importlib._bootstrap_external>:1343(_path_hooks)
      1012    0.001    0.000    0.005    0.000 <frozen importlib._bootstrap_external>:1356(_path_importer_cache)
-      761    0.003    0.000    0.067    0.000 <frozen importlib._bootstrap_external>:1399(_get_spec)
+      761    0.003    0.000    0.066    0.000 <frozen importlib._bootstrap_external>:1399(_get_spec)
      2805    0.002    0.000    0.026    0.000 <frozen importlib._bootstrap_external>:140(_path_stat)
-      761    0.001    0.000    0.068    0.000 <frozen importlib._bootstrap_external>:1431(find_spec)
+      761    0.001    0.000    0.067    0.000 <frozen importlib._bootstrap_external>:1431(find_spec)
        70    0.001    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:1494(__init__)
      1032    0.001    0.000    0.010    0.000 <frozen importlib._bootstrap_external>:150(_path_is_mode_type)
       560    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1500(<genexpr>)
       737    0.001    0.000    0.008    0.000 <frozen importlib._bootstrap_external>:1531(_get_spec)
-      973    0.012    0.000    0.058    0.000 <frozen importlib._bootstrap_external>:1536(find_spec)
-       70    0.001    0.000    0.005    0.000 <frozen importlib._bootstrap_external>:1587(_fill_cache)
-      962    0.001    0.000    0.011    0.000 <frozen importlib._bootstrap_external>:159(_path_isfile)
+      973    0.012    0.000    0.057    0.000 <frozen importlib._bootstrap_external>:1536(find_spec)
+       70    0.001    0.000    0.004    0.000 <frozen importlib._bootstrap_external>:1587(_fill_cache)
+      962    0.001    0.000    0.010    0.000 <frozen importlib._bootstrap_external>:159(_path_isfile)
        70    0.000    0.000    0.002    0.000 <frozen importlib._bootstrap_external>:1628(path_hook_for_FileFinder)
        70    0.000    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:164(_path_isdir)
       807    0.001    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:180(_path_isabs)
      1460    0.007    0.000    0.020    0.000 <frozen importlib._bootstrap_external>:380(cache_from_source)
       732    0.001    0.000    0.013    0.000 <frozen importlib._bootstrap_external>:510(_get_cached)
-      730    0.001    0.000    0.002    0.000 <frozen importlib._bootstrap_external>:542(_check_name_wrapper)
+      730    0.001    0.000    0.001    0.000 <frozen importlib._bootstrap_external>:542(_check_name_wrapper)
       730    0.002    0.000    0.004    0.000 <frozen importlib._bootstrap_external>:585(_classify_pyc)
       730    0.001    0.000    0.003    0.000 <frozen importlib._bootstrap_external>:618(_validate_timestamp_pyc)
       730    0.003    0.000    0.118    0.000 <frozen importlib._bootstrap_external>:670(_compile_bytecode)
@@ -176,23 +95,23 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
       737    0.003    0.000    0.006    0.000 <frozen importlib._bootstrap_external>:721(spec_from_file_location)
      2190    0.002    0.000    0.003    0.000 <frozen importlib._bootstrap_external>:84(_unpack_uint32)
       730    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:874(create_module)
-    730/2    0.003    0.000    1.367    0.683 <frozen importlib._bootstrap_external>:877(exec_module)
-      730    0.008    0.000    0.198    0.000 <frozen importlib._bootstrap_external>:950(get_code)
+    730/2    0.003    0.000    1.358    0.679 <frozen importlib._bootstrap_external>:877(exec_module)
+      730    0.008    0.000    0.191    0.000 <frozen importlib._bootstrap_external>:950(get_code)
        70    0.000    0.000    0.001    0.000 <frozen zipimport>:64(__init__)
         9    0.000    0.000    0.000    0.000 <string>:1(<lambda>)
-        1    0.001    0.001   94.084   94.084 <string>:1(<module>)
+        1    0.001    0.001   94.357   94.357 <string>:1(<module>)
         1    0.000    0.000    0.000    0.000 <string>:1(__create_fn__)
         6    0.000    0.000    0.000    0.000 <string>:2(__hash__)
         2    0.000    0.000    0.000    0.000 <string>:2(__init__)
-        1    0.039    0.039   94.082   94.082 Deepspeech2:96(func)
+        1    0.025    0.025   94.355   94.355 Deepspeech2:132(func)
       151    0.000    0.000    0.001    0.000 _VF.py:26(__getattr__)
        59    0.000    0.000    0.000    0.000 __future__.py:25(get_overwrite_module_params_on_conversion)
        30    0.000    0.000    0.000    0.000 __future__.py:68(get_swap_module_params_on_conversion)
-       70    0.004    0.000    4.109    0.059 __init__.py:1(<module>)
+       70    0.004    0.000    4.080    0.058 __init__.py:1(<module>)
        40    0.000    0.000    0.002    0.000 __init__.py:100(is_acceptable)
        13    0.000    0.000    0.000    0.000 __init__.py:101(_nvml_based_avail)
-       13    0.000    0.000    0.008    0.001 __init__.py:105(is_available)
-2649/2643    0.003    0.000    0.280    0.000 __init__.py:108(import_module)
+       13    0.000    0.000    0.012    0.001 __init__.py:105(is_available)
+2649/2643    0.003    0.000    0.277    0.000 __init__.py:108(import_module)
         7    0.000    0.000    0.000    0.000 __init__.py:1098(_check_with)
         6    0.000    0.000    0.000    0.000 __init__.py:1123(_check)
         4    0.000    0.000    0.000    0.000 __init__.py:1140(_check_is_size)
@@ -210,10 +129,10 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         4    0.000    0.000    0.000    0.000 __init__.py:145(register_decomposition)
         3    0.000    0.000    0.000    0.000 __init__.py:1455(debug)
        10    0.000    0.000    0.000    0.000 __init__.py:155(_tensor_or_tensors_to_tuple)
-        1    0.000    0.000    0.015    0.015 __init__.py:157(_check_capability)
+        1    0.000    0.000    0.013    0.013 __init__.py:157(_check_capability)
      1230    0.001    0.000    0.001    0.000 __init__.py:157(is_compiling)
         1    0.000    0.000    0.000    0.000 __init__.py:1580(make_contiguous_strides_for)
-       10    0.000    0.000   51.581    5.158 __init__.py:165(backward)
+       10    0.000    0.000   52.115    5.211 __init__.py:165(backward)
        11    0.000    0.000    0.000    0.000 __init__.py:1710(getEffectiveLevel)
         3    0.000    0.000    0.000    0.000 __init__.py:1724(isEnabledFor)
         4    0.000    0.000    0.001    0.000 __init__.py:173(decomposition_decorator)
@@ -233,9 +152,9 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
        43    0.000    0.000    0.000    0.000 __init__.py:219(_acquireLock)
        43    0.000    0.000    0.000    0.000 __init__.py:228(_releaseLock)
         8    0.000    0.000    0.000    0.000 __init__.py:24(_running_with_deploy)
-       40    0.000    0.000    0.002    0.000 __init__.py:25(_init)
+       40    0.000    0.000    0.001    0.000 __init__.py:25(_init)
         4    0.000    0.000    0.000    0.000 __init__.py:251(__init__)
-      4/1    0.000    0.000    0.016    0.016 __init__.py:263(_lazy_init)
+      4/1    0.000    0.000    0.014    0.014 __init__.py:263(_lazy_init)
         1    0.000    0.000    0.000    0.000 __init__.py:2785(_normal_meta)
         1    0.000    0.000    0.000    0.000 __init__.py:291(_backend_select_impl)
         9    0.001    0.000    0.002    0.000 __init__.py:328(namedtuple)
@@ -264,11 +183,11 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         4    0.000    0.000    0.000    0.000 __init__.py:568(validate_dim_length)
         2    0.000    0.000    0.000    0.000 __init__.py:581(validate_shape)
        10    0.000    0.000    0.001    0.000 __init__.py:60(_make_grads)
-        1    0.014    0.014    0.015    0.015 __init__.py:612(_raw_device_count_nvml)
+        1    0.011    0.011    0.013    0.013 __init__.py:612(_raw_device_count_nvml)
         4    0.000    0.000    0.000    0.000 __init__.py:63(_convert_out_params)
         1    0.000    0.000    0.000    0.000 __init__.py:640(update)
-        1    0.000    0.000    0.015    0.015 __init__.py:689(_device_count_nvml)
-        1    0.000    0.000    0.015    0.015 __init__.py:742(device_count)
+        1    0.000    0.000    0.013    0.013 __init__.py:689(_device_count_nvml)
+        1    0.000    0.000    0.013    0.013 __init__.py:742(device_count)
         2    0.000    0.000    0.000    0.000 __init__.py:752(get_arch_list)
        41    0.000    0.000    0.000    0.000 __init__.py:786(__init__)
         1    0.000    0.000    0.000    0.000 __init__.py:827(extract_shape_from_varargs)
@@ -312,7 +231,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         1    0.000    0.000    0.000    0.000 _collective_utils.py:172(MeshTopoInfo)
         4    0.000    0.000    0.000    0.000 _compatibility.py:24(mark_not_back_compat)
         4    0.000    0.000    0.000    0.000 _compatibility.py:7(compatibility)
-        1    0.000    0.000    1.367    1.367 _compile.py:20(inner)
+        1    0.000    0.000    1.359    1.359 _compile.py:20(inner)
         2    0.000    0.000    0.000    0.000 _compile.py:8(_disable_dynamo)
         1    0.000    0.000    0.003    0.003 _config.py:1(<module>)
         1    0.000    0.000    0.001    0.001 _config_module.py:1(<module>)
@@ -335,14 +254,14 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         1    0.000    0.000    0.013    0.013 _conversion.py:1(<module>)
         1    0.000    0.000    0.000    0.000 _conversion.py:17(Conversion)
         1    0.000    0.000    0.000    0.000 _custom_ops.py:1(<module>)
-        9    0.000    0.000    0.094    0.010 _custom_ops.py:181(impl_abstract)
+        9    0.000    0.000    0.093    0.010 _custom_ops.py:181(impl_abstract)
         1    0.000    0.000    0.000    0.000 _cxx_pytree.py:1(<module>)
         1    0.000    0.000    0.000    0.000 _deprecation.py:1(<module>)
        10    0.000    0.000    0.001    0.000 _deprecation.py:20(decorator)
        10    0.000    0.000    0.000    0.000 _deprecation.py:8(deprecated)
         1    0.000    0.000    0.000    0.000 _device.py:1(<module>)
         1    0.000    0.000    0.000    0.000 _device.py:59(DeviceContext)
-        1    0.000    0.000    0.082    0.082 _diagnostic.py:1(<module>)
+        1    0.000    0.000    0.081    0.081 _diagnostic.py:1(<module>)
         1    0.000    0.000    0.000    0.000 _diagnostic.py:100(__init__)
         1    0.000    0.000    0.000    0.000 _diagnostic.py:107(background_context)
         1    0.000    0.000    0.000    0.000 _diagnostic.py:43(TorchScriptOnnxExportDiagnostic)
@@ -374,7 +293,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         1    0.000    0.000    0.001    0.001 _dtypes_impl.py:1(<module>)
         1    0.000    0.000    0.001    0.001 _edge.py:1(<module>)
         1    0.000    0.000    0.000    0.000 _edge.py:12(Edge)
-        1    0.000    0.000    0.002    0.002 _edge_traversal.py:1(<module>)
+        1    0.001    0.001    0.002    0.002 _edge_traversal.py:1(<module>)
         1    0.000    0.000    0.000    0.000 _edge_traversal.py:12(EdgeTraversal)
         1    0.000    0.000    0.001    0.001 _exception.py:1(<module>)
         1    0.000    0.000    0.000    0.000 _exception.py:16(Exception)
@@ -399,7 +318,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         1    0.000    0.000    0.000    0.000 _funcs.py:53(IndexExpression)
         2    0.000    0.000    0.000    0.000 _funcs.py:61(__init__)
         1    0.000    0.000    0.000    0.000 _funcs_impl.py:1(<module>)
-        1    0.000    0.000    0.104    0.104 _functional_collectives.py:1(<module>)
+        1    0.000    0.000    0.103    0.103 _functional_collectives.py:1(<module>)
         1    0.000    0.000    0.000    0.000 _functional_collectives.py:538(AsyncCollectiveTensor)
         1    0.000    0.000    0.098    0.098 _functional_collectives.py:891(_register_ops)
         1    0.000    0.000    0.000    0.000 _functional_collectives_impl.py:1(<module>)
@@ -431,7 +350,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
        17    0.000    0.000    0.000    0.000 _internal.py:107(register_artifact_log)
        17    0.000    0.000    0.000    0.000 _internal.py:127(is_off_by_default)
        17    0.000    0.000    0.000    0.000 _internal.py:142(is_artifact_enabled)
-       17    0.000    0.000    0.001    0.000 _internal.py:513(getArtifactLogger)
+       17    0.000    0.000    0.000    0.000 _internal.py:513(getArtifactLogger)
        17    0.000    0.000    0.000    0.000 _internal.py:536(configure_artifact_log)
         1    0.000    0.000    0.004    0.004 _invocation.py:1(<module>)
         1    0.000    0.000    0.000    0.000 _invocation.py:17(Invocation)
@@ -455,7 +374,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         1    0.000    0.000    0.001    0.001 _node.py:1(<module>)
         1    0.000    0.000    0.000    0.000 _node.py:17(Node)
         1    0.000    0.000    0.001    0.001 _normalizations.py:1(<module>)
-      284    0.000    0.000    0.003    0.000 _normalizations.py:202(normalizer)
+      284    0.000    0.000    0.004    0.000 _normalizations.py:202(normalizer)
       284    0.001    0.000    0.003    0.000 _normalizations.py:203(normalizer_inner)
         1    0.000    0.000    0.002    0.002 _notification.py:1(<module>)
         1    0.000    0.000    0.000    0.000 _notification.py:18(Notification)
@@ -470,7 +389,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
        10    0.000    0.000    0.000    0.000 _ops.py:441(<listcomp>)
        10    0.000    0.000    0.000    0.000 _ops.py:494(_len_torch_dispatch_stack_pre_dispatch)
        10    0.000    0.000    0.000    0.000 _ops.py:521(mode_stack_state_for_pre_dispatch)
-       44    0.001    0.000    0.002    0.000 _ops.py:547(__init__)
+       44    0.001    0.000    0.001    0.000 _ops.py:547(__init__)
        13    0.000    0.000    0.001    0.000 _ops.py:591(__call__)
      1095    0.001    0.000    0.001    0.000 _ops.py:596(__hash__)
        13    0.000    0.000    0.000    0.000 _ops.py:751(name)
@@ -526,7 +445,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         1    0.000    0.000    0.000    0.000 _result.py:28(Result)
         1    0.000    0.000    0.001    0.001 _result_provenance.py:1(<module>)
         1    0.000    0.000    0.000    0.000 _result_provenance.py:15(ResultProvenance)
-        1    0.000    0.000    0.001    0.001 _rules.py:1(<module>)
+        1    0.000    0.000    0.002    0.002 _rules.py:1(<module>)
         1    0.000    0.000    0.000    0.000 _rules.py:126(_FxGraphToOnnx)
         1    0.000    0.000    0.000    0.000 _rules.py:146(_FxNodeToOnnx)
         1    0.000    0.000    0.000    0.000 _rules.py:166(_FxPass)
@@ -558,18 +477,18 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         1    0.000    0.000    0.000    0.000 _suppression.py:12(Suppression)
        80    0.001    0.000    0.008    0.000 _tensor.py:1037(__iter__)
       965    0.000    0.000    0.001    0.000 _tensor.py:1059(__hash__)
-       10    0.000    0.000    2.725    0.273 _tensor.py:458(__repr__)
-       10    0.000    0.000   51.581    5.158 _tensor.py:466(backward)
+       10    0.000    0.000    2.715    0.271 _tensor.py:458(__repr__)
+       10    0.000    0.000   52.115    5.212 _tensor.py:466(backward)
        10    0.000    0.000    0.001    0.000 _tensor.py:986(__format__)
        30    0.000    0.000    0.002    0.000 _tensor_str.py:116(tensor_totype)
-       10    0.032    0.003    2.720    0.272 _tensor_str.py:122(__init__)
+       10    0.033    0.003    2.709    0.271 _tensor_str.py:122(__init__)
        10    0.000    0.000    0.000    0.000 _tensor_str.py:192(format)
        10    0.000    0.000    0.001    0.000 _tensor_str.py:207(_scalar_str)
        10    0.000    0.000    0.001    0.000 _tensor_str.py:265(_tensor_str_with_formatter)
-       10    0.001    0.000    2.721    0.272 _tensor_str.py:302(_tensor_str)
+       10    0.001    0.000    2.711    0.271 _tensor_str.py:302(_tensor_str)
        10    0.000    0.000    0.000    0.000 _tensor_str.py:353(_add_suffixes)
-       10    0.001    0.000    2.723    0.272 _tensor_str.py:390(_str_intern)
-       10    0.000    0.000    2.725    0.272 _tensor_str.py:694(_str)
+       10    0.001    0.000    2.713    0.271 _tensor_str.py:390(_str_intern)
+       10    0.000    0.000    2.715    0.271 _tensor_str.py:694(_str)
         1    0.000    0.000    0.014    0.014 _thread_flow.py:1(<module>)
         1    0.000    0.000    0.000    0.000 _thread_flow.py:16(ThreadFlow)
         1    0.000    0.000    0.012    0.012 _thread_flow_location.py:1(<module>)
@@ -593,7 +512,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         1    0.000    0.000    0.000    0.000 _typing.py:7(RingElement)
         1    0.000    0.000    0.003    0.003 _ufuncs.py:1(<module>)
         1    0.000    0.000    0.000    0.000 _ufuncs.py:249(<listcomp>)
-       47    0.000    0.000    0.001    0.000 _ufuncs.py:289(deco_unary_ufunc)
+       47    0.000    0.000    0.002    0.000 _ufuncs.py:289(deco_unary_ufunc)
         1    0.000    0.000    0.000    0.000 _ufuncs.py:30(<listcomp>)
        38    0.000    0.000    0.000    0.000 _ufuncs.py:67(deco_binary_ufunc)
         1    0.000    0.000    0.000    0.000 _unary_ufuncs_impl.py:1(<module>)
@@ -612,8 +531,8 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         1    0.000    0.000    0.000    0.000 _web_response.py:15(WebResponse)
        35    0.000    0.000    0.002    0.000 abc.py:105(__new__)
        10    0.000    0.000    0.000    0.000 abc.py:110(register)
-       16    0.000    0.000    0.003    0.000 abc.py:117(__instancecheck__)
-   135/19    0.000    0.000    0.003    0.000 abc.py:121(__subclasscheck__)
+       16    0.000    0.000    0.001    0.000 abc.py:117(__instancecheck__)
+   135/19    0.000    0.000    0.001    0.000 abc.py:121(__subclasscheck__)
       175    0.000    0.000    0.000    0.000 abc.py:146(update_abstractmethods)
         2    0.000    0.000    0.000    0.000 abc.py:7(abstractmethod)
         9    0.000    0.000    0.000    0.000 abstract_impl.py:13(__init__)
@@ -622,16 +541,16 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         1    0.000    0.000    0.002    0.002 accumulationbounds.py:1(<module>)
         1    0.000    0.000    0.000    0.000 accumulationbounds.py:14(AccumulationBounds)
        20    0.000    0.000    0.028    0.001 activation.py:233(forward)
-       10    0.000    0.000    0.138    0.014 adam.py:135(step)
-        1    0.000    0.000    1.368    1.368 adam.py:15(__init__)
-       10    0.001    0.000    0.125    0.013 adam.py:260(adam)
+       10    0.000    0.000    0.143    0.014 adam.py:135(step)
+        1    0.000    0.000    1.360    1.360 adam.py:15(__init__)
+       10    0.001    0.000    0.130    0.013 adam.py:260(adam)
       600    0.000    0.000    0.000    0.000 adam.py:303(<genexpr>)
-       10    0.001    0.000    0.122    0.012 adam.py:450(_multi_tensor_adam)
+       10    0.001    0.000    0.128    0.013 adam.py:450(_multi_tensor_adam)
        10    0.000    0.000    0.002    0.000 adam.py:567(<listcomp>)
        10    0.000    0.000    0.002    0.000 adam.py:568(<listcomp>)
        10    0.000    0.000    0.000    0.000 adam.py:570(<listcomp>)
        10    0.000    0.000    0.001    0.000 adam.py:572(<listcomp>)
-       10    0.004    0.000    0.012    0.001 adam.py:82(_init_group)
+       10    0.004    0.000    0.011    0.001 adam.py:82(_init_group)
         1    0.000    0.000    0.000    0.000 add.py:1(<module>)
         1    0.000    0.000    0.000    0.000 add.py:86(Add)
         1    0.000    0.000    0.000    0.000 adjoint.py:1(<module>)
@@ -639,8 +558,8 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         1    0.000    0.000    0.007    0.007 algebraicfield.py:1(<module>)
         1    0.000    0.000    0.000    0.000 algebraicfield.py:14(AlgebraicField)
         1    0.000    0.000    0.000    0.000 alphabets.py:1(<module>)
-        1    0.000    0.000    0.027    0.027 aot_autograd.py:1(<module>)
-        1    0.000    0.000    0.007    0.007 api.py:1(<module>)
+        1    0.000    0.000    0.026    0.026 aot_autograd.py:1(<module>)
+        1    0.000    0.000    0.006    0.006 api.py:1(<module>)
         1    0.000    0.000    0.000    0.000 api.py:103(_FromTorchTensor)
         1    0.000    0.000    0.000    0.000 api.py:190(DTensor)
         1    0.000    0.000    0.000    0.000 api.py:60(_ToTorchTensor)
@@ -670,12 +589,12 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
     29242    0.008    0.000    0.008    0.000 assumptions.py:489(as_property)
        38    0.000    0.000    0.000    0.000 assumptions.py:494(make_property)
         1    0.000    0.000    0.000    0.000 assumptions.py:497(getit)
-      444    0.134    0.000    0.177    0.000 assumptions.py:614(_prepare_class_assumptions)
+      444    0.133    0.000    0.176    0.000 assumptions.py:614(_prepare_class_assumptions)
         1    0.000    0.000    0.000    0.000 assumptions.py:680(ManagedProperties)
         1    0.000    0.000    0.000    0.000 assumptions_generated.py:1(<module>)
        33    0.000    0.000    0.001    0.000 ast.py:33(parse)
         1    0.000    0.000    0.001    0.001 backend.py:1(<module>)
-        1    0.000    0.000    0.035    0.035 base.py:1(<module>)
+        1    0.000    0.000    0.034    0.034 base.py:1(<module>)
         1    0.000    0.000    0.000    0.000 base.py:120(VariableTrackerMeta)
        33    0.000    0.000    0.001    0.000 base.py:121(__call__)
        72    0.000    0.000    0.000    0.000 base.py:127(__instancecheck__)
@@ -695,7 +614,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         1    0.000    0.000    0.008    0.008 basic.py:1(<module>)
         1    0.000    0.000    0.000    0.000 basic.py:126(Basic)
        25    0.000    0.000    0.000    0.000 basic.py:178(__sympy__)
-      443    0.001    0.000    0.178    0.000 basic.py:182(__init_subclass__)
+      443    0.001    0.000    0.177    0.000 basic.py:182(__init_subclass__)
         2    0.000    0.000    0.000    0.000 basic.py:2090(_exec_constructor_postprocessors)
         4    0.000    0.000    0.000    0.000 basic.py:2104(<genexpr>)
         1    0.000    0.000    0.000    0.000 basic.py:2217(Atom)
@@ -843,7 +762,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         1    0.000    0.000    0.001    0.001 codegen.py:1(<module>)
         1    0.000    0.000    0.000    0.000 codegen.py:33(GraphOutputEntry)
         1    0.000    0.000    0.000    0.000 codegen.py:39(PyCodegen)
-        1    0.000    0.000    0.107    0.107 codeprinter.py:1(<module>)
+        1    0.000    0.000    0.106    0.106 codeprinter.py:1(<module>)
         1    0.000    0.000    0.000    0.000 codeprinter.py:18(requires)
         1    0.000    0.000    0.000    0.000 codeprinter.py:31(AssignmentError)
         1    0.000    0.000    0.000    0.000 codeprinter.py:37(PrintMethodNotImplementedError)
@@ -855,7 +774,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         1    0.000    0.000    0.000    0.000 companion.py:1(<module>)
         1    0.000    0.000    0.000    0.000 companion.py:8(CompanionMatrix)
         1    0.000    0.000    0.008    0.008 comparison.py:1(<module>)
-        1    0.000    0.000    0.000    0.000 compatibility.py:1(<module>)
+        1    0.000    0.000    0.001    0.001 compatibility.py:1(<module>)
         1    0.000    0.000    0.000    0.000 compatibility.py:231(IPolys)
         1    0.000    0.000    0.000    0.000 compile_utils.py:1(<module>)
         1    0.000    0.000    0.000    0.000 compiled_autograd.py:1(<module>)
@@ -897,10 +816,10 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         7    0.000    0.000    0.000    0.000 config.py:8(is_fbcode)
         1    0.000    0.000    0.000    0.000 conflict.py:1(<module>)
      6032    0.008    0.000    0.018    0.000 conflict.py:12(consistent)
-    13254    0.005    0.000    0.007    0.000 conflict.py:15(<genexpr>)
+    13254    0.004    0.000    0.007    0.000 conflict.py:15(<genexpr>)
      6032    0.002    0.000    0.022    0.000 conflict.py:19(ambiguous)
-       89    0.000    0.000    0.033    0.000 conflict.py:24(ambiguities)
-       89    0.007    0.000    0.033    0.000 conflict.py:27(<setcomp>)
+       89    0.000    0.000    0.032    0.000 conflict.py:24(ambiguities)
+       89    0.007    0.000    0.032    0.000 conflict.py:27(<setcomp>)
         1    0.000    0.000    0.000    0.000 conflict.py:3(AmbiguityWarning)
        36    0.000    0.000    0.000    0.000 conflict.py:30(<genexpr>)
         2    0.000    0.000    0.000    0.000 conflict.py:34(super_signature)
@@ -912,7 +831,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
       719    0.000    0.000    0.000    0.000 conflict.py:63(<lambda>)
        89    0.000    0.000    0.001    0.000 conflict.py:67(<dictcomp>)
       875    0.000    0.000    0.000    0.000 conflict.py:67(<listcomp>)
-    15783    0.012    0.000    0.018    0.000 conflict.py:7(supercedes)
+    15453    0.012    0.000    0.018    0.000 conflict.py:7(supercedes)
         1    0.000    0.000    0.000    0.000 constant.py:1(<module>)
         1    0.000    0.000    0.000    0.000 constant.py:192(EnumVariable)
         1    0.000    0.000    0.000    0.000 constant.py:32(ConstantVariable)
@@ -923,7 +842,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         5    0.000    0.000    0.000    0.000 container.py:311(__len__)
        10    0.000    0.000    0.000    0.000 container.py:315(__iter__)
         5    0.000    0.000    0.000    0.000 container.py:377(append)
-        2    0.000    0.000    0.000    0.000 container.py:99(__init__)
+        2    0.000    0.000    0.002    0.001 container.py:99(__init__)
         1    0.000    0.000    0.001    0.001 containers.py:1(<module>)
         1    0.000    0.000    0.000    0.000 containers.py:21(Tuple)
         1    0.000    0.000    0.000    0.000 containers.py:217(Dict)
@@ -944,23 +863,23 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         2    0.000    0.000    0.000    0.000 contextlib.py:75(__call__)
         1    0.000    0.000    0.000    0.000 continued_fraction.py:1(<module>)
         2    0.000    0.000    0.003    0.001 conv.py:143(reset_parameters)
-        2    0.000    0.000    0.007    0.003 conv.py:428(__init__)
-       20    0.000    0.000    0.296    0.015 conv.py:451(_conv_forward)
-       20    0.000    0.000    0.297    0.015 conv.py:459(forward)
+        2    0.000    0.000    0.004    0.002 conv.py:428(__init__)
+       20    0.000    0.000    0.347    0.017 conv.py:451(_conv_forward)
+       20    0.000    0.000    0.348    0.017 conv.py:459(forward)
         2    0.000    0.000    0.004    0.002 conv.py:70(__init__)
         1    0.000    0.000    0.000    0.000 conv_ops.py:1(<module>)
-        1    0.000    0.000    0.000    0.000 conventions.py:1(<module>)
-        1    0.000    0.000    1.003    1.003 convert_frame.py:1(<module>)
+        1    0.000    0.000    0.001    0.001 conventions.py:1(<module>)
+        1    0.000    0.000    0.997    0.997 convert_frame.py:1(<module>)
         1    0.000    0.000    0.000    0.000 convert_frame.py:106(Tracker)
         2    0.000    0.000    0.000    0.000 convert_frame.py:107(__init__)
         1    0.000    0.000    0.000    0.000 convolution.py:194(__init__)
-       10    0.046    0.005    2.781    0.278 convolution.py:198(forward)
-       60    0.041    0.001    0.047    0.001 convolution.py:221(_get_sequence_lengths)
+       10    0.034    0.003    2.828    0.283 convolution.py:198(forward)
+       60    0.039    0.001    0.045    0.001 convolution.py:221(_get_sequence_lengths)
         1    0.000    0.000    0.000    0.000 convolution.py:268(__init__)
         1    0.000    0.000    0.000    0.000 convolution.py:288(get_output_dim)
-       10    0.001    0.000    2.784    0.278 convolution.py:306(forward)
-        1    0.000    0.000    0.009    0.009 convolution.py:384(__init__)
-       10    0.000    0.000    2.785    0.278 convolution.py:405(forward)
+       10    0.001    0.000    2.831    0.283 convolution.py:306(forward)
+        1    0.000    0.000    0.008    0.008 convolution.py:384(__init__)
+       10    0.000    0.000    2.832    0.283 convolution.py:405(forward)
         1    0.000    0.000    0.000    0.000 convolutions.py:1(<module>)
         4    0.000    0.000    0.001    0.000 core.py:1(<module>)
         3    0.000    0.000    0.000    0.000 core.py:104(do_one)
@@ -979,13 +898,13 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         1    0.000    0.000    0.000    0.000 cse_main.py:218(FuncArgTracker)
         1    0.000    0.000    0.000    0.000 cse_main.py:345(Unevaluated)
         1    0.000    0.000    0.000    0.000 cse_opts.py:1(<module>)
-        1    0.000    0.000    0.025    0.025 ctx_base.py:1(<module>)
+        1    0.000    0.000    0.024    0.024 ctx_base.py:1(<module>)
         1    0.000    0.000    0.000    0.000 ctx_base.py:21(Context)
         1    0.000    0.000    0.000    0.000 ctx_base.py:24(StandardBaseContext)
         3    0.000    0.000    0.002    0.001 ctx_base.py:42(__init__)
         3    0.000    0.000    0.000    0.000 ctx_base.py:458(memoize)
         2    0.000    0.000    0.000    0.000 ctx_base.py:52(_init_aliases)
-        1    0.000    0.000    0.027    0.027 ctx_fp.py:1(<module>)
+        1    0.000    0.000    0.026    0.026 ctx_fp.py:1(<module>)
         1    0.000    0.000    0.000    0.000 ctx_fp.py:12(FPContext)
         1    0.000    0.000    0.001    0.001 ctx_fp.py:18(__init__)
        17    0.000    0.000    0.000    0.000 ctx_fp.py:28(<lambda>)
@@ -1041,7 +960,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         2    0.000    0.000    0.000    0.000 ctx_mp_python.py:147(__nonzero__)
         1    0.000    0.000    0.000    0.000 ctx_mp_python.py:163(__neg__)
         2    0.000    0.000    0.000    0.000 ctx_mp_python.py:201(__rdiv__)
-        7    0.000    0.000    0.002    0.000 ctx_mp_python.py:279(binary_op)
+        7    0.000    0.000    0.003    0.000 ctx_mp_python.py:279(binary_op)
         1    0.000    0.000    0.000    0.000 ctx_mp_python.py:33(mpnumeric)
         1    0.000    0.000    0.000    0.000 ctx_mp_python.py:330(_constant)
        14    0.000    0.000    0.000    0.000 ctx_mp_python.py:336(__new__)
@@ -1066,8 +985,8 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
       175    0.000    0.000    0.000    0.000 dataclasses.py:1043(<listcomp>)
       173    0.000    0.000    0.000    0.000 dataclasses.py:1049(<listcomp>)
       985    0.000    0.000    0.000    0.000 dataclasses.py:1098(<genexpr>)
-      175    0.000    0.000    0.100    0.001 dataclasses.py:1156(dataclass)
-      175    0.000    0.000    0.155    0.001 dataclasses.py:1174(wrap)
+      175    0.000    0.000    0.099    0.001 dataclasses.py:1156(dataclass)
+      175    0.000    0.000    0.154    0.001 dataclasses.py:1174(wrap)
         1    0.000    0.000    0.000    0.000 dataclasses.py:1187(fields)
        15    0.000    0.000    0.000    0.000 dataclasses.py:1202(<genexpr>)
        21    0.000    0.000    0.000    0.000 dataclasses.py:178(__repr__)
@@ -1081,12 +1000,12 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
       175    0.000    0.000    0.000    0.000 dataclasses.py:396(<genexpr>)
       394    0.001    0.000    0.001    0.000 dataclasses.py:400(_tuple_str)
       374    0.001    0.000    0.001    0.000 dataclasses.py:409(<listcomp>)
-      671    0.006    0.000    0.091    0.000 dataclasses.py:412(_create_fn)
+      671    0.005    0.000    0.091    0.000 dataclasses.py:412(_create_fn)
      2560    0.001    0.000    0.001    0.000 dataclasses.py:424(<genexpr>)
       812    0.000    0.000    0.000    0.000 dataclasses.py:436(_field_assign)
       833    0.001    0.000    0.002    0.000 dataclasses.py:448(_field_init)
       810    0.001    0.000    0.001    0.000 dataclasses.py:508(_init_param)
-      175    0.002    0.000    0.040    0.000 dataclasses.py:527(_init_fn)
+      175    0.002    0.000    0.039    0.000 dataclasses.py:527(_init_fn)
       175    0.000    0.000    0.000    0.000 dataclasses.py:547(<dictcomp>)
        27    0.000    0.000    0.000    0.000 dataclasses.py:564(<genexpr>)
       175    0.000    0.000    0.001    0.000 dataclasses.py:572(<listcomp>)
@@ -1097,17 +1016,17 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
       173    0.000    0.000    0.022    0.000 dataclasses.py:623(_cmp_fn)
        48    0.000    0.000    0.004    0.000 dataclasses.py:637(_hash_fn)
      1270    0.001    0.000    0.001    0.000 dataclasses.py:645(_is_classvar)
-     1270    0.001    0.000    0.001    0.000 dataclasses.py:653(_is_initvar)
+     1270    0.000    0.000    0.000    0.000 dataclasses.py:653(_is_initvar)
      1270    0.000    0.000    0.000    0.000 dataclasses.py:659(_is_kw_only)
      1476    0.003    0.000    0.006    0.000 dataclasses.py:663(_is_type)
-      798    0.006    0.000    0.013    0.000 dataclasses.py:722(_get_field)
+      798    0.004    0.000    0.011    0.000 dataclasses.py:722(_get_field)
       827    0.001    0.000    0.001    0.000 dataclasses.py:817(_set_qualname)
       798    0.001    0.000    0.004    0.000 dataclasses.py:824(_set_new_attribute)
       117    0.000    0.000    0.000    0.000 dataclasses.py:839(_hash_set_none)
        48    0.000    0.000    0.004    0.000 dataclasses.py:842(_hash_add)
        48    0.000    0.000    0.000    0.000 dataclasses.py:843(<listcomp>)
-      175    0.011    0.000    0.155    0.001 dataclasses.py:881(_process_class)
-        1    0.000    0.000    0.003    0.003 ddm.py:1(<module>)
+      175    0.010    0.000    0.153    0.001 dataclasses.py:881(_process_class)
+        1    0.000    0.000    0.002    0.002 ddm.py:1(<module>)
         1    0.000    0.000    0.000    0.000 ddm.py:102(DDM)
         1    0.000    0.000    0.002    0.002 decimal.py:1(<module>)
         1    0.000    0.000    0.000    0.000 decompogen.py:1(<module>)
@@ -1118,7 +1037,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         2    0.000    0.000    0.000    0.000 decompositions_for_rng.py:15(register_rng_decomposition)
         1    0.000    0.000    0.000    0.000 decompositions_for_rng.py:63(PhiloxState)
         1    0.000    0.000    0.000    0.000 decorator.py:1(<module>)
-        1    0.000    0.000    0.154    0.154 decorator.py:10(threaded_factory)
+        1    0.000    0.000    0.153    0.153 decorator.py:10(threaded_factory)
         2    0.000    0.000    0.000    0.000 decorator.py:114(__init__)
        15    0.000    0.000    0.000    0.000 decorator.py:126(doctest_depends_on)
        15    0.000    0.000    0.000    0.000 decorator.py:164(depends_on_deco)
@@ -1127,7 +1046,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
        20    0.000    0.000    0.000    0.000 decorator.py:245(deprecated)
        20    0.000    0.000    0.000    0.000 decorator.py:311(deprecated_decorator)
         1    0.000    0.000    0.000    0.000 decorator.py:313(wrapper)
-        1    0.000    0.000    0.154    0.154 decorator.py:59(xthreaded)
+        1    0.000    0.000    0.153    0.153 decorator.py:59(xthreaded)
         1    0.000    0.000    0.000    0.000 decorator.py:79(conserve_mpmath_dps)
         1    0.000    0.000    0.000    0.000 decorator.py:95(no_attrs_in_subclass)
         2    0.000    0.000    0.002    0.001 decorators.py:1(<module>)
@@ -1147,7 +1066,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
        37    0.000    0.000    0.000    0.000 decorators.py:202(make_wrapped)
         1    0.000    0.000    0.000    0.000 decorators.py:224(_func)
        54    0.000    0.000    0.001    0.000 decorators.py:35(deco)
-        2    0.000    0.000    0.361    0.180 decorators.py:36(disable)
+        2    0.000    0.000    0.358    0.179 decorators.py:36(disable)
        54    0.000    0.000    0.001    0.000 decorators.py:41(__sympifyit)
         1    0.000    0.000    0.000    0.000 decorators.py:70(assume_constant_result)
        41    0.000    0.000    0.000    0.000 decorators.py:72(call_highest_priority)
@@ -1158,7 +1077,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         1    0.000    0.000    0.000    0.000 delta_functions.py:17(DiracDelta)
         1    0.000    0.000    0.000    0.000 delta_functions.py:393(Heaviside)
         1    0.000    0.000    0.000    0.000 deltafunctions.py:1(<module>)
-        2    0.000    0.000    0.121    0.061 dense.py:1(<module>)
+        2    0.000    0.000    0.121    0.060 dense.py:1(<module>)
         1    0.000    0.000    0.000    0.000 dense.py:114(MutableDenseMatrix)
         1    0.000    0.000    0.000    0.000 dense.py:27(DenseMatrix)
         1    0.000    0.000    0.002    0.002 dense_ndim_array.py:1(<module>)
@@ -1185,7 +1104,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         1    0.000    0.000    0.000    0.000 device_interface.py:40(device)
         1    0.000    0.000    0.000    0.000 device_interface.py:44(Worker)
         2    0.000    0.000    0.001    0.000 device_mesh.py:1(<module>)
-        1    0.000    0.000    0.000    0.000 device_mesh.py:160(DeviceMesh)
+        1    0.000    0.000    0.001    0.001 device_mesh.py:160(DeviceMesh)
         1    0.000    0.000    0.000    0.000 device_mesh.py:59(_MeshEnv)
         1    0.000    0.000    0.000    0.000 device_mesh.py:60(__init__)
         1    0.000    0.000    0.000    0.000 dfm.py:1(<module>)
@@ -1225,7 +1144,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         1    0.000    0.000    0.000    0.000 diophantine.py:918(InhomogeneousGeneralQuadratic)
         1    0.000    0.000    0.000    0.000 diophantine.py:938(HomogeneousGeneralQuadratic)
         1    0.000    0.000    0.000    0.000 diophantine.py:958(GeneralSumOfSquares)
-        1    0.000    0.000    0.006    0.006 dispatch.py:1(<module>)
+        1    0.000    0.000    0.005    0.005 dispatch.py:1(<module>)
         1    0.000    0.000    0.000    0.000 dispatch.py:63(OpDispatcher)
         1    0.000    0.000    0.000    0.000 dispatch.py:70(__init__)
         1    0.000    0.000    0.000    0.000 dispatch_and_compile_graph.py:1(<module>)
@@ -1234,7 +1153,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
        14    0.000    0.000    0.000    0.000 dispatcher.py:113(__init__)
        43    0.000    0.000    0.000    0.000 dispatcher.py:120(register)
        43    0.000    0.000    0.036    0.001 dispatcher.py:147(_)
-       89    0.000    0.000    0.066    0.001 dispatcher.py:178(add)
+       89    0.000    0.000    0.065    0.001 dispatcher.py:178(add)
       267    0.000    0.000    0.000    0.000 dispatcher.py:204(<genexpr>)
        89    0.000    0.000    0.065    0.001 dispatcher.py:222(reorder)
         1    0.000    0.000    0.000    0.000 dispatcher.py:33(RaiseNotImplementedError)
@@ -1280,7 +1199,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         1    0.000    0.000    0.000    0.000 elliptic_integrals.py:13(elliptic_k)
         1    0.000    0.000    0.000    0.000 elliptic_integrals.py:188(elliptic_e)
         1    0.000    0.000    0.000    0.000 elliptic_integrals.py:310(elliptic_pi)
-        1    0.000    0.000    0.129    0.129 embedding_ops.py:1(<module>)
+        1    0.000    0.000    0.127    0.127 embedding_ops.py:1(<module>)
         1    0.000    0.000    0.000    0.000 embedding_ops.py:34(MaskBuffer)
         1    0.000    0.000    0.000    0.000 embedding_ops.py:64(_MaskPartial)
         1    0.000    0.000    0.043    0.043 entity.py:1(<module>)
@@ -1369,7 +1288,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         6    0.000    0.000    0.000    0.000 eval_frame.py:265(innermost_fn)
         1    0.000    0.000    0.000    0.000 eval_frame.py:289(_TorchDynamoContext)
         2    0.000    0.000    0.000    0.000 eval_frame.py:290(__init__)
-        2    0.000    0.000    0.361    0.180 eval_frame.py:351(__call__)
+        2    0.000    0.000    0.358    0.179 eval_frame.py:351(__call__)
         1    0.000    0.000    0.000    0.000 eval_frame.py:428(_fn)
         1    0.000    0.000    0.000    0.000 eval_frame.py:448(<listcomp>)
         1    0.000    0.000    0.000    0.000 eval_frame.py:514(OptimizeContext)
@@ -1459,12 +1378,12 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         1    0.000    0.000    0.000    0.000 expr.py:3958(AtomicExpr)
         1    0.000    0.000    0.000    0.000 expr.py:4045(UnevaluatedExpr)
         1    0.000    0.000    0.000    0.000 expr.py:4103(ExprBuilder)
-        1    0.000    0.000    0.001    0.001 expr.py:43(Expr)
+        1    0.000    0.000    0.000    0.000 expr.py:43(Expr)
         1    0.000    0.000    0.000    0.000 expr.py:966(_eval_power)
         1    0.000    0.000    0.001    0.001 expr_with_intlimits.py:1(<module>)
         1    0.000    0.000    0.000    0.000 expr_with_intlimits.py:13(ExprWithIntLimits)
         1    0.000    0.000    0.000    0.000 expr_with_intlimits.py:5(ReorderError)
-        1    0.000    0.000    0.000    0.000 expr_with_limits.py:1(<module>)
+        1    0.000    0.000    0.001    0.001 expr_with_limits.py:1(<module>)
         1    0.000    0.000    0.000    0.000 expr_with_limits.py:199(ExprWithLimits)
         1    0.000    0.000    0.000    0.000 expr_with_limits.py:538(AddWithLimits)
         1    0.000    0.000    0.000    0.000 expressiondomain.py:1(<module>)
@@ -1515,9 +1434,9 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         1    0.000    0.000    0.000    0.000 facts.py:565(InconsistentAssumptions)
         1    0.000    0.000    0.000    0.000 facts.py:571(FactKB)
       482    0.000    0.000    0.000    0.000 facts.py:579(__init__)
-     2436    0.001    0.000    0.001    0.000 facts.py:582(_tell)
+     2567    0.001    0.000    0.001    0.000 facts.py:582(_tell)
       150    0.003    0.000    0.007    0.000 facts.py:599(deduce_all_facts)
-     3399    0.001    0.000    0.001    0.000 facts.py:633(<genexpr>)
+     3280    0.001    0.000    0.001    0.000 facts.py:633(<genexpr>)
         1    0.000    0.000    0.000    0.000 facts.py:75(transitive_closure)
         1    0.000    0.000    0.000    0.000 facts.py:95(deduce_alpha_implications)
         1    0.000    0.000    0.000    0.000 fake_tensor_prop.py:1(<module>)
@@ -1566,7 +1485,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         1    0.000    0.000    0.000    0.000 funcmatrix.py:1(<module>)
         1    0.000    0.000    0.000    0.000 funcmatrix.py:9(FunctionMatrix)
         1    0.000    0.000    0.000    0.000 funcname_cache.py:1(<module>)
-        1    0.000    0.000    0.014    0.014 function.py:1(<module>)
+        1    0.000    0.000    0.013    0.013 function.py:1(<module>)
         1    0.000    0.000    0.000    0.000 function.py:101(PoleError)
         1    0.000    0.000    0.000    0.000 function.py:1017(Derivative)
         1    0.000    0.000    0.000    0.000 function.py:105(ArgumentIndexError)
@@ -1590,13 +1509,13 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         1    0.000    0.000    0.000    0.000 function.py:938(WildFunction)
         1    0.000    0.000    0.000    0.000 function_docs.py:1(<module>)
        50    0.000    0.000    0.026    0.001 functional.py:1489(relu)
-       20    0.000    0.000    0.027    0.001 functional.py:1539(hardtanh)
+       20    0.000    0.000    0.028    0.001 functional.py:1539(hardtanh)
        70    0.001    0.000    0.001    0.000 functional.py:2461(_verify_batch_size)
        70    0.002    0.000    0.068    0.001 functional.py:2478(batch_norm)
        10    0.000    0.000    0.042    0.004 functional.py:2558(layer_norm)
-       10    0.000    0.000    0.461    0.046 functional.py:2628(ctc_loss)
+       10    0.000    0.000    0.468    0.047 functional.py:2628(ctc_loss)
         1    0.000    0.000    0.000    0.000 functional_utils.py:1(<module>)
-        4    0.000    0.000    0.603    0.151 functions.py:1(<module>)
+        4    0.000    0.000    0.599    0.150 functions.py:1(<module>)
         1    0.000    0.000    0.000    0.000 functions.py:102(ModularIndexing)
         1    0.000    0.000    0.000    0.000 functions.py:11(TensorProduct)
         1    0.000    0.000    0.000    0.000 functions.py:111(UserFunctionVariable)
@@ -1695,7 +1614,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
       154    0.000    0.000    0.001    0.000 grad_mode.py:79(__enter__)
       154    0.001    0.000    0.002    0.000 grad_mode.py:83(__exit__)
         1    0.000    0.000    0.000    0.000 graph.py:1(<module>)
-       10    0.000    0.000   51.579    5.158 graph.py:739(_engine_run_backward)
+       10    0.000    0.000   52.113    5.211 graph.py:739(_engine_run_backward)
        10    0.000    0.000    0.000    0.000 graphs.py:23(is_current_stream_capturing)
         1    0.000    0.000    0.000    0.000 groebnertools.py:1(<module>)
         1    0.000    0.000    0.000    0.000 groundtypes.py:1(<module>)
@@ -1706,7 +1625,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         1    0.000    0.000    0.000    0.000 gruntz.py:1(<module>)
         1    0.000    0.000    0.000    0.000 gruntz.py:155(SubsSet)
         1    0.000    0.000    0.000    0.000 gtk.py:1(<module>)
-        1    0.000    0.000    0.015    0.015 guards.py:1(<module>)
+        1    0.000    0.000    0.014    0.014 guards.py:1(<module>)
         1    0.000    0.000    0.000    0.000 guards.py:214(GuardCodeList)
         1    0.000    0.000    0.000    0.000 guards.py:220(GuardBuilder)
         1    0.000    0.000    0.001    0.001 guards.py:889(PyExprCSEPass)
@@ -1719,7 +1638,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         1    0.000    0.000    0.000    0.000 hadamard.py:313(HadamardPower)
         1    0.000    0.000    0.000    0.000 hadamard.py:41(HadamardProduct)
         1    0.000    0.000    0.000    0.000 heuristicgcd.py:1(<module>)
-        1    0.000    0.000    0.131    0.131 higher_order_ops.py:1(<module>)
+        1    0.000    0.000    0.130    0.130 higher_order_ops.py:1(<module>)
         1    0.000    0.000    0.000    0.000 higher_order_ops.py:1013(FunctorchGradHigherOrderVariable)
         1    0.000    0.000    0.000    0.000 higher_order_ops.py:1183(FunctorchHigherOrderVariable)
         1    0.000    0.000    0.000    0.000 higher_order_ops.py:1199(WrapHigherOrderVariable)
@@ -1823,8 +1742,8 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         1    0.000    0.000    0.000    0.000 inference.py:1(<module>)
         1    0.000    0.000    0.000    0.000 inference.py:252(KB)
         1    0.000    0.000    0.000    0.000 inference.py:273(PropKB)
-       40    0.000    0.000    0.146    0.004 init.py:124(uniform_)
-       41    0.000    0.000    0.146    0.004 init.py:13(_no_grad_uniform_)
+       40    0.000    0.000    0.133    0.003 init.py:124(uniform_)
+       41    0.000    0.000    0.133    0.003 init.py:13(_no_grad_uniform_)
         8    0.000    0.000    0.000    0.000 init.py:224(ones_)
         8    0.000    0.000    0.000    0.000 init.py:237(zeros_)
         4    0.000    0.000    0.000    0.000 init.py:315(_calculate_fan_in_and_fan_out)
@@ -1836,17 +1755,17 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         3    0.000    0.000    0.000    0.000 init.py:68(calculate_gain)
         1    0.000    0.000    0.000    0.000 input_output_analysis.py:1(<module>)
         4    0.000    0.000    0.001    0.000 inspect.py:1112(getsourcelines)
-        4    0.000    0.000    0.002    0.000 inspect.py:1133(getsource)
+        4    0.000    0.000    0.001    0.000 inspect.py:1133(getsource)
       305    0.001    0.000    0.003    0.000 inspect.py:1349(formatannotation)
       220    0.000    0.000    0.000    0.000 inspect.py:1351(repl)
         9    0.000    0.000    0.093    0.010 inspect.py:1604(getframeinfo)
         3    0.000    0.000    0.000    0.000 inspect.py:1667(currentframe)
     26200    0.012    0.000    0.012    0.000 inspect.py:1684(_static_getmro)
-     5240    0.006    0.000    0.007    0.000 inspect.py:1687(_check_instance)
-     5240    0.010    0.000    0.031    0.000 inspect.py:1696(_check_class)
+     5240    0.007    0.000    0.007    0.000 inspect.py:1687(_check_instance)
+     5240    0.010    0.000    0.032    0.000 inspect.py:1696(_check_class)
      5240    0.004    0.000    0.009    0.000 inspect.py:1705(_is_type)
-    15720    0.024    0.000    0.030    0.000 inspect.py:1712(_shadowed_dict)
-     5240    0.009    0.000    0.066    0.000 inspect.py:1726(getattr_static)
+    15720    0.025    0.000    0.030    0.000 inspect.py:1712(_shadowed_dict)
+     5240    0.009    0.000    0.067    0.000 inspect.py:1726(getattr_static)
      2541    0.001    0.000    0.001    0.000 inspect.py:182(ismodule)
       234    0.000    0.000    0.000    0.000 inspect.py:1867(_signature_get_user_defined_method)
      1177    0.000    0.000    0.001    0.000 inspect.py:191(isclass)
@@ -1871,9 +1790,9 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
       229    0.001    0.000    0.004    0.000 inspect.py:2721(__str__)
      1083    0.001    0.000    0.001    0.000 inspect.py:277(isfunction)
         1    0.000    0.000    0.000    0.000 inspect.py:290(_has_code_flag)
-      708    0.005    0.000    0.007    0.000 inspect.py:2920(__init__)
+      708    0.005    0.000    0.008    0.000 inspect.py:2920(__init__)
      1342    0.002    0.000    0.002    0.000 inspect.py:2969(<genexpr>)
-      392    0.001    0.000    0.045    0.000 inspect.py:2998(from_callable)
+      392    0.001    0.000    0.046    0.000 inspect.py:2998(from_callable)
       708    0.000    0.000    0.000    0.000 inspect.py:3006(parameters)
       154    0.000    0.000    0.000    0.000 inspect.py:3010(return_annotation)
       316    0.001    0.000    0.002    0.000 inspect.py:3014(replace)
@@ -1887,7 +1806,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         3    0.001    0.000    0.003    0.001 inspect.py:444(getmembers)
       901    0.000    0.000    0.000    0.000 inspect.py:485(<lambda>)
        71    0.000    0.000    0.000    0.000 inspect.py:606(getmro)
-      474    0.002    0.000    0.002    0.000 inspect.py:612(unwrap)
+      474    0.001    0.000    0.002    0.000 inspect.py:612(unwrap)
         4    0.000    0.000    0.000    0.000 inspect.py:629(_is_wrapper)
       470    0.000    0.000    0.001    0.000 inspect.py:632(_is_wrapper)
       359    0.001    0.000    0.002    0.000 inspect.py:66(get_annotations)
@@ -1896,7 +1815,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
      2304    0.001    0.000    0.001    0.000 inspect.py:820(<genexpr>)
      3066    0.001    0.000    0.002    0.000 inspect.py:823(<genexpr>)
       744    0.001    0.000    0.025    0.000 inspect.py:838(getabsfile)
-       22    0.003    0.000    0.093    0.004 inspect.py:850(getmodule)
+       22    0.003    0.000    0.092    0.004 inspect.py:850(getmodule)
        13    0.000    0.000    0.094    0.007 inspect.py:932(findsource)
         1    0.000    0.000    0.000    0.000 integerring.py:1(<module>)
         1    0.000    0.000    0.000    0.000 integerring.py:20(IntegerRing)
@@ -2047,7 +1966,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
        36    0.002    0.000    0.002    0.000 library.py:113(impl)
         1    0.000    0.000    0.000    0.000 library.py:174(_destroy)
         2    0.000    0.000    0.001    0.000 library.py:205(_scoped_library)
-        9    0.000    0.000    0.094    0.010 library.py:383(impl_abstract)
+        9    0.000    0.000    0.093    0.010 library.py:383(impl_abstract)
         9    0.000    0.000    0.003    0.000 library.py:460(inner)
         9    0.000    0.000    0.000    0.000 library.py:480(_check_pystubs_once)
        15    0.000    0.000    0.003    0.000 library.py:55(__init__)
@@ -2113,13 +2032,13 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         1    0.000    0.000    0.000    0.000 logic.py:401(Not)
        46    0.000    0.000    0.000    0.000 logic.py:92(fuzzy_bool)
         1    0.000    0.000    0.000    0.000 loss.py:1779(__init__)
-       10    0.000    0.000    0.461    0.046 loss.py:1784(forward)
+       10    0.000    0.000    0.468    0.047 loss.py:1784(forward)
         1    0.000    0.000    0.000    0.000 loss.py:20(__init__)
         1    0.000    0.000    0.000    0.000 magic.py:1(<module>)
         1    0.000    0.000    0.001    0.001 make_functional.py:1(<module>)
         1    0.000    0.000    0.000    0.000 make_functional.py:254(FunctionalModuleWithBuffers)
         1    0.000    0.000    0.000    0.000 make_functional.py:310(FunctionalModule)
-        1    0.000    0.000    0.028    0.028 map.py:1(<module>)
+        1    0.000    0.000    0.027    0.027 map.py:1(<module>)
         1    0.000    0.000    0.000    0.000 map.py:200(MapAutogradOp)
         1    0.000    0.000    0.000    0.000 map.py:30(MapWrapper)
         1    0.000    0.000    0.000    0.000 maple.py:1(<module>)
@@ -2166,7 +2085,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         3    0.000    0.000    0.000    0.000 matrices.py:749(__init__)
         1    0.000    0.000    0.000    0.000 matrices.py:9(_matrix)
         1    0.000    0.000    0.002    0.002 matrix_ops.py:1(<module>)
-        1    0.000    0.000    0.116    0.116 matrixbase.py:1(<module>)
+        1    0.000    0.000    0.115    0.115 matrixbase.py:1(<module>)
         1    0.000    0.000    0.000    0.000 matrixbase.py:5402(DeferredVector)
         1    0.000    0.000    0.001    0.001 matrixbase.py:98(MatrixBase)
         1    0.000    0.000    0.000    0.000 meijerint.py:1(<module>)
@@ -2175,7 +2094,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         7    0.000    0.000    0.000    0.000 memoization.py:27(decorator)
         7    0.000    0.000    0.000    0.000 memoization.py:4(recurrence_memo)
         1    0.000    0.000    0.006    0.006 minpoly.py:1(<module>)
-        2    0.000    0.000    0.001    0.001 misc.py:1(<module>)
+        2    0.000    0.000    0.002    0.001 misc.py:1(<module>)
         1    0.000    0.000    0.000    0.000 misc.py:13(Undecidable)
         1    0.000    0.000    0.000    0.000 misc.py:173(UnknownVariable)
         1    0.000    0.000    0.000    0.000 misc.py:179(DelayGraphBreakVariable)
@@ -2219,19 +2138,19 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         2    0.000    0.000    0.000    0.000 mock.py:67(_is_instance_mock)
         1    0.000    0.000    0.002    0.002 mod.py:1(<module>)
         1    0.000    0.000    0.000    0.000 mod.py:11(Mod)
-        1    0.000    0.000    0.164    0.164 model.py:108(__init__)
-       10    0.002    0.000   37.020    3.702 model.py:142(forward)
+        1    0.000    0.000    0.151    0.151 model.py:108(__init__)
+       10    0.002    0.000   36.793    3.679 model.py:142(forward)
         1    0.000    0.000    0.000    0.000 model.py:32(__init__)
-        5    0.000    0.000    0.154    0.031 model.py:50(__init__)
+        5    0.000    0.000    0.141    0.028 model.py:50(__init__)
         1    0.000    0.000    0.000    0.000 model.py:52(__init__)
-       50    0.004    0.000   34.146    0.683 model.py:72(forward)
+       50    0.004    0.000   33.873    0.677 model.py:72(forward)
         1    0.000    0.000    0.000    0.000 modular.py:1(<module>)
         1    0.000    0.000    0.000    0.000 modularinteger.py:1(<module>)
         1    0.000    0.000    0.000    0.000 modularinteger.py:15(ModularInteger)
-        1    0.000    0.000    0.177    0.177 module.py:1051(to)
+        1    0.000    0.000    0.173    0.173 module.py:1051(to)
        80    0.000    0.000    0.123    0.002 module.py:1150(convert)
-   290/20    0.002    0.000   37.482    1.874 module.py:1528(_wrapped_call_impl)
-   290/20    0.005    0.000   37.482    1.874 module.py:1534(_call_impl)
+   290/20    0.002    0.000   37.262    1.863 module.py:1528(_wrapped_call_impl)
+   290/20    0.005    0.000   37.262    1.863 module.py:1534(_call_impl)
      1825    0.003    0.000    0.003    0.000 module.py:1696(__getattr__)
       237    0.001    0.000    0.002    0.000 module.py:1711(__setattr__)
        76    0.000    0.000    0.000    0.000 module.py:1712(remove_from)
@@ -2242,11 +2161,11 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
        59    0.000    0.000    0.000    0.000 module.py:2313(children)
        59    0.000    0.000    0.000    0.000 module.py:2322(named_children)
    143/40    0.000    0.000    0.000    0.000 module.py:2369(named_modules)
-       29    0.001    0.000    0.001    0.000 module.py:428(__init__)
+       29    0.003    0.000    0.003    0.000 module.py:428(__init__)
        21    0.000    0.000    0.000    0.000 module.py:470(register_buffer)
        62    0.000    0.000    0.001    0.000 module.py:528(register_parameter)
        13    0.000    0.000    0.000    0.000 module.py:573(add_module)
-     30/1    0.008    0.000    0.177    0.177 module.py:776(_apply)
+     30/1    0.006    0.000    0.173    0.173 module.py:776(_apply)
        59    0.000    0.000    0.000    0.000 module.py:781(compute_should_use_set_data)
         2    0.000    0.000    0.002    0.001 modules.py:1(<module>)
         1    0.000    0.000    0.000    0.000 modules.py:1005(SubQuotientModule)
@@ -2269,7 +2188,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         1    0.000    0.000    0.000    0.000 modules.py:454(FreeModulePolyRing)
         1    0.000    0.000    0.000    0.000 modules.py:46(__init__)
         1    0.000    0.000    0.000    0.000 modules.py:504(FreeModuleQuotientRing)
-       10    0.000    0.000    0.005    0.001 modules.py:53(forward)
+       10    0.000    0.000    0.006    0.001 modules.py:53(forward)
         1    0.000    0.000    0.000    0.000 modules.py:606(SubModule)
         1    0.000    0.000    0.000    0.000 modules.py:698(PowerBasis)
         1    0.000    0.000    0.000    0.000 modules.py:840(Submodule)
@@ -2285,7 +2204,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         1    0.000    0.000    0.000    0.000 mpelements.py:44(MPContext)
         2    0.000    0.000    0.000    0.000 mpelements.py:47(__init__)
         2    0.000    0.000    0.000    0.000 mpelements.py:94(_make_tol)
-        1    0.000    0.000    0.034    0.034 mul.py:1(<module>)
+        1    0.000    0.000    0.033    0.033 mul.py:1(<module>)
         1    0.000    0.000    0.000    0.000 mul.py:23(NC_Marker)
         1    0.000    0.000    0.000    0.000 mul.py:91(Mul)
         1    0.000    0.000    0.000    0.000 multidimensional.py:1(<module>)
@@ -2307,7 +2226,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         3    0.000    0.000    0.000    0.000 nested_tensor.py:14(get_tensor_symint)
         3    0.000    0.000    0.005    0.002 nested_tensor.py:167(__tensor_flatten__)
       8/4    0.000    0.000    0.001    0.000 nested_tensor.py:207(__torch_dispatch__)
-        4    0.000    0.000    0.007    0.002 nested_tensor.py:220(__torch_function__)
+        4    0.000    0.000    0.006    0.002 nested_tensor.py:220(__torch_function__)
         1    0.000    0.000    0.000    0.000 nested_tensor.py:241(ViewBufferFromNested)
         1    0.000    0.000    0.000    0.000 nested_tensor.py:261(ViewNestedFromBuffer)
         1    0.000    0.000    0.000    0.000 nested_tensor.py:29(NestedTensor)
@@ -2323,7 +2242,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         1    0.000    0.000    0.000    0.000 normalization.py:194(reset_parameters)
        10    0.000    0.000    0.042    0.004 normalization.py:200(forward)
         1    0.000    0.000    0.000    0.000 ntheory.py:1(<module>)
-        2    0.000    0.000    0.054    0.027 numbers.py:1(<module>)
+        2    0.000    0.000    0.053    0.027 numbers.py:1(<module>)
         1    0.000    0.000    0.000    0.000 numbers.py:1026(euler)
         1    0.000    0.000    0.000    0.000 numbers.py:1183(catalan)
         1    0.000    0.000    0.000    0.000 numbers.py:1202(Rational)
@@ -2431,7 +2350,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         2    0.000    0.000    0.000    0.000 operations.py:590(__init__)
         2    0.000    0.000    0.000    0.000 operations.py:600(register_handlerclass)
         1    0.000    0.000    0.000    0.000 operators.py:1(<module>)
-        1    0.000    0.000    0.005    0.005 ops.py:1(<module>)
+        1    0.000    0.000    0.004    0.004 ops.py:1(<module>)
         8    0.000    0.000    0.000    0.000 ops.py:103(check_fn)
        44    0.000    0.000    0.000    0.000 ops.py:170(register_func)
        44    0.000    0.000    0.000    0.000 ops.py:176(wrapper)
@@ -2462,16 +2381,16 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
       600    0.001    0.000    0.001    0.000 optimizer.py:122(<genexpr>)
        59    0.000    0.000    0.000    0.000 optimizer.py:135(_get_scalar_dtype)
         1    0.000    0.000    0.000    0.000 optimizer.py:22(ArgMappingException)
-        1    0.000    0.000    1.368    1.368 optimizer.py:250(__init__)
+        1    0.000    0.000    1.360    1.360 optimizer.py:250(__init__)
         1    0.000    0.000    0.000    0.000 optimizer.py:26(GuardInstallException)
         1    0.000    0.000    0.000    0.000 optimizer.py:30(OptimizerVariable)
        10    0.000    0.000    0.001    0.000 optimizer.py:327(_cuda_graph_capture_health_check)
        10    0.000    0.000    0.000    0.000 optimizer.py:358(_optimizer_step_code)
         1    0.000    0.000    0.000    0.000 optimizer.py:371(profile_hook_step)
-       10    0.001    0.000    0.143    0.014 optimizer.py:374(wrapper)
+       10    0.001    0.000    0.147    0.015 optimizer.py:374(wrapper)
        10    0.000    0.000    0.003    0.000 optimizer.py:402(_group_tensors_by_device_and_dtype)
         1    0.000    0.000    0.000    0.000 optimizer.py:417(_patch_step_function)
-       10    0.000    0.000    0.139    0.014 optimizer.py:58(_use_grad)
+       10    0.000    0.000    0.144    0.014 optimizer.py:58(_use_grad)
      1180    0.001    0.000    0.004    0.000 optimizer.py:84(_get_value)
         1    0.000    0.000    0.000    0.000 optimizer.py:863(add_param_group)
        10    0.000    0.000    0.000    0.000 optimizer.py:91(_stack_if_compiling)
@@ -2519,7 +2438,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         1    0.000    0.000    0.000    0.000 parameters.py:60(__init__)
         1    0.000    0.000    0.000    0.000 parameters.py:7(_global_parameters)
         1    0.000    0.000    0.000    0.000 parameters.py:70(evaluate)
-        1    0.000    0.000    0.154    0.154 partfrac.py:1(<module>)
+        1    0.000    0.000    0.153    0.153 partfrac.py:1(<module>)
         1    0.000    0.000    0.001    0.001 partitioners.py:1(<module>)
         1    0.000    0.000    0.000    0.000 partitioners.py:51(InvalidNodeBase)
         1    0.000    0.000    0.001    0.001 partitions_.py:1(<module>)
@@ -2542,7 +2461,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         1    0.000    0.000    0.000    0.000 plane.py:1(<module>)
         1    0.000    0.000    0.000    0.000 plane.py:27(<listcomp>)
         1    0.000    0.000    0.000    0.000 plane.py:30(Plane)
-        1    0.000    0.000    0.007    0.007 plot.py:1(<module>)
+        1    0.000    0.000    0.006    0.006 plot.py:1(<module>)
         1    0.000    0.000    0.000    0.000 plot_implicit.py:1(<module>)
         1    0.000    0.000    0.000    0.000 plotgrid.py:1(<module>)
         1    0.000    0.000    0.000    0.000 plotgrid.py:16(PlotGrid)
@@ -2588,7 +2507,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         1    0.000    0.000    0.000    0.000 polyerrors.py:94(CoercionFailed)
         1    0.000    0.000    0.000    0.000 polyerrors.py:98(NotInvertible)
         1    0.000    0.000    0.000    0.000 polyfill.py:1(<module>)
-        1    0.000    0.000    0.144    0.144 polyfuncs.py:1(<module>)
+        1    0.000    0.000    0.143    0.143 polyfuncs.py:1(<module>)
         1    0.000    0.000    0.001    0.001 polygon.py:1(<module>)
         1    0.000    0.000    0.000    0.000 polygon.py:1420(RegularPolygon)
         1    0.000    0.000    0.000    0.000 polygon.py:2053(Triangle)
@@ -2663,7 +2582,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         6    0.000    0.000    0.000    0.000 posixpath.py:150(dirname)
      1480    0.009    0.000    0.013    0.000 posixpath.py:338(normpath)
      1480    0.002    0.000    0.018    0.000 posixpath.py:377(abspath)
-      734    0.001    0.000    0.061    0.000 posixpath.py:392(realpath)
+      734    0.001    0.000    0.060    0.000 posixpath.py:392(realpath)
       734    0.012    0.000    0.051    0.000 posixpath.py:401(_joinrealpath)
      8463    0.003    0.000    0.004    0.000 posixpath.py:41(_get_sep)
       744    0.000    0.000    0.000    0.000 posixpath.py:52(normcase)
@@ -2770,7 +2689,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         1    0.000    0.000    0.000    0.000 quaternion.py:1(<module>)
         1    0.000    0.000    0.000    0.000 quaternion.py:58(Quaternion)
         1    0.000    0.000    0.001    0.001 radsimp.py:1(<module>)
-        3    0.000    0.000    0.007    0.002 random.py:1(<module>)
+        3    0.000    0.000    0.006    0.002 random.py:1(<module>)
         3    0.000    0.000    0.000    0.000 random.py:119(__init__)
         3    0.000    0.000    0.000    0.000 random.py:128(seed)
         1    0.000    0.000    0.000    0.000 random.py:147(OffsetBasedRNGTracker)
@@ -2792,7 +2711,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         1    0.000    0.000    0.000    0.000 ratsimp.py:1(<module>)
         1    0.000    0.000    0.000    0.000 rcode.py:1(<module>)
         1    0.000    0.000    0.000    0.000 rcode.py:78(RCodePrinter)
-      746    0.000    0.000    0.001    0.000 re.py:187(match)
+      746    0.000    0.000    0.002    0.000 re.py:187(match)
        99    0.000    0.000    0.002    0.000 re.py:202(sub)
        36    0.000    0.000    0.061    0.002 re.py:249(compile)
       310    0.000    0.000    0.001    0.000 re.py:269(escape)
@@ -2825,7 +2744,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         1    0.000    0.000    0.000    0.000 registration.py:210(__init__)
       573    0.001    0.000    0.004    0.000 registration.py:213(register)
       573    0.000    0.000    0.000    0.000 registration.py:267(onnx_symbolic)
-      573    0.001    0.000    0.005    0.000 registration.py:296(wrapper)
+      573    0.001    0.000    0.006    0.000 registration.py:296(wrapper)
         1    0.000    0.000    0.000    0.000 registration.py:36(OpName)
         1    0.000    0.000    0.000    0.000 registration.py:64(OverrideDict)
       573    0.001    0.000    0.001    0.000 registration.py:71(__init__)
@@ -2873,22 +2792,22 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         1    0.000    0.000    0.000    0.000 rl.py:43(glom)
         1    0.000    0.000    0.000    0.000 rl.py:83(sort)
         1    0.000    0.000    0.000    0.000 rnn.py:1(<module>)
-        5    0.000    0.000    0.151    0.030 rnn.py:1069(__init__)
-       50    0.005    0.000   30.368    0.607 rnn.py:1084(forward)
+        5    0.000    0.000    0.138    0.028 rnn.py:1069(__init__)
+       50    0.005    0.000   30.103    0.602 rnn.py:1084(forward)
         5    0.000    0.000    0.000    0.000 rnn.py:11(get_cudnn_mode)
        10    0.000    0.000    0.000    0.000 rnn.py:142(<listcomp>)
-       10    0.000    0.000    0.044    0.004 rnn.py:153(_init_flat_weights)
+       10    0.000    0.000    0.042    0.004 rnn.py:153(_init_flat_weights)
        10    0.000    0.000    0.000    0.000 rnn.py:154(<listcomp>)
        10    0.000    0.000    0.000    0.000 rnn.py:156(<listcomp>)
       150    0.003    0.000    0.003    0.000 rnn.py:156(_packed_sequence_init_args)
-      125    0.000    0.000    0.001    0.000 rnn.py:160(__setattr__)
-       10    0.001    0.000    0.043    0.004 rnn.py:167(flatten_parameters)
-       50    0.000    0.000    0.002    0.000 rnn.py:187(_packed_sequence_init)
+      125    0.000    0.000    0.002    0.000 rnn.py:160(__setattr__)
+       10    0.001    0.000    0.041    0.004 rnn.py:167(flatten_parameters)
+       50    0.000    0.000    0.003    0.000 rnn.py:187(_packed_sequence_init)
         5    0.000    0.000    0.000    0.000 rnn.py:195(<setcomp>)
       150    0.000    0.000    0.000    0.000 rnn.py:198(invert_permutation)
-       50    0.002    0.000    0.072    0.001 rnn.py:207(pack_padded_sequence)
-        5    0.000    0.000    0.078    0.016 rnn.py:215(_apply)
-        5    0.000    0.000    0.147    0.029 rnn.py:226(reset_parameters)
+       50    0.002    0.000    0.064    0.001 rnn.py:207(pack_padded_sequence)
+        5    0.000    0.000    0.075    0.015 rnn.py:215(_apply)
+        5    0.000    0.000    0.134    0.027 rnn.py:226(reset_parameters)
        50    0.001    0.000    0.001    0.000 rnn.py:231(check_input)
        50    0.002    0.000    0.002    0.000 rnn.py:243(get_expected_hidden_size)
        50    0.000    0.000    0.000    0.000 rnn.py:257(check_hidden_size)
@@ -2898,7 +2817,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
        50    0.000    0.000    0.003    0.000 rnn.py:273(check_forward_args)
        50    0.000    0.000    0.000    0.000 rnn.py:279(permute_hidden)
        50    0.000    0.000    0.003    0.000 rnn.py:301(_update_flat_weights)
-        5    0.001    0.000    0.151    0.030 rnn.py:59(__init__)
+        5    0.001    0.000    0.138    0.028 rnn.py:59(__init__)
       100    0.001    0.000    0.004    0.000 rnn.py:64(__new__)
         1    0.000    0.000    0.000    0.000 rootisolation.py:1(<module>)
         1    0.000    0.000    0.000    0.000 rootisolation.py:1734(RealInterval)
@@ -3035,7 +2954,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
        52    0.000    0.000    0.000    0.000 singleton.py:106(__getattr__)
        27    0.000    0.000    0.000    0.000 singleton.py:127(__repr__)
         1    0.000    0.000    0.000    0.000 singleton.py:133(Singleton)
-       27    0.000    0.000    0.001    0.000 singleton.py:165(__init__)
+       27    0.000    0.000    0.000    0.000 singleton.py:165(__init__)
        29    0.000    0.000    0.000    0.000 singleton.py:167(<lambda>)
         1    0.000    0.000    0.000    0.000 singleton.py:8(SingletonRegistry)
         1    0.000    0.000    0.000    0.000 singleton.py:89(__init__)
@@ -3060,7 +2979,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
     82/41    0.001    0.000    0.001    0.000 sorting.py:10(default_sort_key)
        41    0.000    0.000    0.001    0.000 sorting.py:179(_nodes)
    191/69    0.001    0.000    0.003    0.000 sorting.py:202(ordered)
-        2    0.000    0.000    0.033    0.017 source.py:1(<module>)
+        2    0.000    0.000    0.033    0.016 source.py:1(<module>)
         1    0.000    0.000    0.000    0.000 source.py:111(GlobalSource)
         1    0.000    0.000    0.000    0.000 source.py:127(GlobalWeakRefSource)
         1    0.000    0.000    0.000    0.000 source.py:144(AttrSource)
@@ -3095,7 +3014,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         1    0.000    0.000    0.000    0.000 sparse_ndim_array.py:11(SparseNDimArray)
         1    0.000    0.000    0.000    0.000 sparse_ndim_array.py:138(MutableSparseNDimArray)
         1    0.000    0.000    0.000    0.000 sparsetools.py:1(<module>)
-        1    0.000    0.000    0.001    0.001 special.py:1(<module>)
+        1    0.000    0.000    0.002    0.002 special.py:1(<module>)
         1    0.000    0.000    0.000    0.000 special.py:10(ZeroMatrix)
         1    0.000    0.000    0.000    0.000 special.py:104(Identity)
         1    0.000    0.000    0.000    0.000 special.py:174(GenericIdentity)
@@ -3103,7 +3022,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         1    0.000    0.000    0.000    0.000 special.py:213(OneMatrix)
         1    0.000    0.000    0.000    0.000 special.py:68(GenericZeroMatrix)
         1    0.000    0.000    0.000    0.000 special.py:75(__new__)
-        1    0.000    0.000    0.143    0.143 specialpolys.py:1(<module>)
+        1    0.000    0.000    0.142    0.142 specialpolys.py:1(<module>)
         1    0.000    0.000    0.001    0.001 spherical_harmonics.py:1(<module>)
         1    0.000    0.000    0.000    0.000 spherical_harmonics.py:15(Ynm)
         1    0.000    0.000    0.000    0.000 spherical_harmonics.py:267(Znm)
@@ -3122,7 +3041,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
        28    0.000    0.000    0.001    0.000 sre_compile.py:560(_compile_info)
        56    0.000    0.000    0.000    0.000 sre_compile.py:619(isstring)
        28    0.000    0.000    0.017    0.001 sre_compile.py:622(_code)
-       28    0.000    0.000    0.060    0.002 sre_compile.py:783(compile)
+       28    0.000    0.000    0.061    0.002 sre_compile.py:783(compile)
        50    0.000    0.000    0.000    0.000 sre_compile.py:81(_combine_flags)
    440/28    0.008    0.000    0.016    0.001 sre_compile.py:87(_compile)
       446    0.000    0.000    0.000    0.000 sre_parse.py:112(__init__)
@@ -3134,7 +3053,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
    480/72    0.003    0.000    0.004    0.000 sre_parse.py:175(getwidth)
        28    0.000    0.000    0.000    0.000 sre_parse.py:225(__init__)
     10719    0.005    0.000    0.005    0.000 sre_parse.py:234(__next)
-      592    0.000    0.000    0.001    0.000 sre_parse.py:250(match)
+      592    0.000    0.000    0.000    0.000 sre_parse.py:250(match)
     10282    0.004    0.000    0.009    0.000 sre_parse.py:255(get)
         7    0.000    0.000    0.000    0.000 sre_parse.py:268(getuntil)
       210    0.000    0.000    0.000    0.000 sre_parse.py:287(tell)
@@ -3186,7 +3105,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
        12    0.000    0.000    0.000    0.000 symbol.py:770(literal)
        10    0.000    0.000    0.000    0.000 symbol.py:784(<listcomp>)
        22    0.000    0.000    0.000    0.000 symbol.py:785(<genexpr>)
-        1    0.000    0.000    0.015    0.015 symbolic_caffe2.py:1(<module>)
+        1    0.000    0.000    0.016    0.016 symbolic_caffe2.py:1(<module>)
         1    0.000    0.000    0.021    0.021 symbolic_convert.py:1(<module>)
         1    0.000    0.000    0.000    0.000 symbolic_convert.py:129(SpeculationEntry)
         1    0.000    0.000    0.000    0.000 symbolic_convert.py:145(SpeculationLog)
@@ -3250,7 +3169,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         3    0.000    0.000    0.000    0.000 symbolic_opset9.py:793(_reduce_op_symbolic)
         4    0.000    0.000    0.000    0.000 symbolic_opset9.py:815(overload_by_arg_count)
         3    0.000    0.000    0.000    0.000 symbolic_opset9.py:832(_reduce_with_dtype)
-        1    0.000    0.000    0.628    0.628 symbolic_shapes.py:1(<module>)
+        1    0.000    0.000    0.624    0.624 symbolic_shapes.py:1(<module>)
         1    0.000    0.000    0.000    0.000 symbolic_shapes.py:1001(SubclassSymbolicContext)
         6    0.000    0.000    0.000    0.000 symbolic_shapes.py:1099(_lru_cache)
         1    0.000    0.000    0.000    0.000 symbolic_shapes.py:1155(RuntimeAssert)
@@ -3272,7 +3191,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         1    0.000    0.000    0.000    0.000 symbolic_shapes.py:912(SymbolicContext)
         1    0.000    0.000    0.000    0.000 symbolic_shapes.py:926(StatelessSymbolicContext)
         1    0.000    0.000    0.000    0.000 symbolic_shapes.py:968(StatefulSymbolicContext)
-        1    0.000    0.000    0.016    0.016 sympify.py:1(<module>)
+        1    0.000    0.000    0.015    0.015 sympify.py:1(<module>)
         1    0.000    0.000    0.000    0.000 sympify.py:17(SympifyError)
         4    0.000    0.000    0.000    0.000 sympify.py:18(__init__)
         1    0.000    0.000    0.000    0.000 sympify.py:39(CantSympify)
@@ -3342,10 +3261,10 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         1    0.000    0.000    0.000    0.000 tp_conv.py:1(<module>)
         1    0.000    0.000    0.000    0.000 trace.py:1(<module>)
         1    0.000    0.000    0.000    0.000 trace.py:11(Trace)
-        1    0.000    0.000    0.290    0.290 trace_rules.py:1(<module>)
-        1    0.003    0.003    0.359    0.359 trace_rules.py:2777(get_torch_obj_rule_map)
-     2640    0.003    0.000    0.270    0.000 trace_rules.py:2793(_load_obj_from_str)
-     2640    0.005    0.000    0.356    0.000 trace_rules.py:2803(load_object)
+        1    0.000    0.000    0.289    0.289 trace_rules.py:1(<module>)
+        1    0.003    0.003    0.356    0.356 trace_rules.py:2777(get_torch_obj_rule_map)
+     2640    0.003    0.000    0.266    0.000 trace_rules.py:2793(_load_obj_from_str)
+     2640    0.005    0.000    0.353    0.000 trace_rules.py:2803(load_object)
         1    0.001    0.001    0.001    0.001 trace_rules.py:2823(get_tensor_method)
         2    0.000    0.000    0.001    0.001 trace_rules.py:2840(is_aten_op_or_tensor_method)
         1    0.000    0.000    0.001    0.001 trace_rules.py:2847(FunctionIdSet)
@@ -3364,11 +3283,11 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
        18    0.000    0.000    0.056    0.003 trace_rules.py:3252(add)
         1    0.000    0.000    0.000    0.000 trace_rules.py:3269(SkipResult)
         1    0.000    0.000    0.000    0.000 trace_rules.py:3275(check_file)
-       15    0.000    0.000    0.000    0.000 trace_rules.py:3279(<genexpr>)
+       11    0.000    0.000    0.000    0.000 trace_rules.py:3279(<genexpr>)
         1    0.000    0.000    0.000    0.000 trace_rules.py:3300(FunctionInfo)
-        2    0.000    0.000    0.360    0.180 trace_rules.py:3342(check_verbose)
-        2    0.000    0.000    0.360    0.180 trace_rules.py:3377(check)
-        2    0.000    0.000    0.360    0.180 trace_rules.py:3432(lookup_inner)
+        2    0.000    0.000    0.358    0.179 trace_rules.py:3342(check_verbose)
+        2    0.000    0.000    0.358    0.179 trace_rules.py:3377(check)
+        2    0.000    0.000    0.358    0.179 trace_rules.py:3432(lookup_inner)
        15    0.000    0.000    0.002    0.000 traceback.py:216(extract_stack)
        45    0.000    0.000    0.000    0.000 traceback.py:259(__init__)
        45    0.000    0.000    0.001    0.000 traceback.py:301(line)
@@ -3453,7 +3372,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
       160    0.000    0.000    0.001    0.000 typing.py:1234(<genexpr>)
       235    0.000    0.000    0.000    0.000 typing.py:1242(__eq__)
     80/77    0.000    0.000    0.000    0.000 typing.py:1247(__hash__)
-       55    0.000    0.000    0.000    0.000 typing.py:1250(__repr__)
+       55    0.000    0.000    0.001    0.000 typing.py:1250(__repr__)
         3    0.000    0.000    0.000    0.000 typing.py:1272(_value_and_type_iter)
        53    0.000    0.000    0.000    0.000 typing.py:1273(<genexpr>)
         5    0.000    0.000    0.000    0.000 typing.py:1323(__class_getitem__)
@@ -3470,9 +3389,9 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
        13    0.000    0.000    0.000    0.000 typing.py:1737(cast)
         3    0.000    0.000    0.000    0.000 typing.py:180(_is_param_expr)
   144/113    0.000    0.000    0.000    0.000 typing.py:185(_type_repr)
-      833    0.001    0.000    0.001    0.000 typing.py:1902(get_origin)
+      833    0.001    0.000    0.002    0.000 typing.py:1902(get_origin)
        14    0.000    0.000    0.000    0.000 typing.py:2018(overload)
-        6    0.000    0.000    0.001    0.000 typing.py:2247(_make_nmtuple)
+        6    0.000    0.000    0.002    0.000 typing.py:2247(_make_nmtuple)
         6    0.000    0.000    0.000    0.000 typing.py:2248(<listcomp>)
         6    0.000    0.000    0.000    0.000 typing.py:2249(<dictcomp>)
         6    0.000    0.000    0.002    0.000 typing.py:2267(__new__)
@@ -3482,7 +3401,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
       171    0.000    0.000    0.001    0.000 typing.py:253(_deduplicate)
       168    0.001    0.000    0.001    0.000 typing.py:267(_remove_dups_flatten)
         3    0.000    0.000    0.000    0.000 typing.py:284(_flatten_literal_params)
-1365/1265    0.003    0.000    0.038    0.000 typing.py:306(inner)
+1365/1265    0.003    0.000    0.037    0.000 typing.py:306(inner)
       137    0.000    0.000    0.000    0.000 typing.py:380(__repr__)
   270/170    0.001    0.000    0.016    0.000 typing.py:401(__getitem__)
         3    0.000    0.000    0.001    0.000 typing.py:407(__getitem__)
@@ -3490,8 +3409,8 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         1    0.000    0.000    0.000    0.000 typing.py:462(Final)
       168    0.001    0.000    0.013    0.000 typing.py:483(Union)
       538    0.000    0.000    0.002    0.000 typing.py:515(<genexpr>)
-      100    0.001    0.000    0.010    0.000 typing.py:523(Optional)
-        3    0.000    0.000    0.000    0.000 typing.py:532(Literal)
+      100    0.000    0.000    0.010    0.000 typing.py:523(Optional)
+        3    0.000    0.000    0.001    0.000 typing.py:532(Literal)
        53    0.000    0.000    0.000    0.000 typing.py:560(<genexpr>)
        30    0.000    0.000    0.001    0.000 typing.py:664(__init__)
       220    0.000    0.000    0.000    0.000 typing.py:705(__eq__)
@@ -3513,7 +3432,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
       137    0.000    0.000    0.000    0.000 typing_extensions.py:3296(_check_generic)
       415    0.002    0.000    0.002    0.000 typing_extensions.py:3389(_has_generic_or_protocol_as_origin)
       833    0.001    0.000    0.002    0.000 typing_extensions.py:3411(_is_unpacked_typevartuple)
-      415    0.004    0.000    0.009    0.000 typing_extensions.py:3424(_collect_type_vars)
+      415    0.003    0.000    0.009    0.000 typing_extensions.py:3424(_collect_type_vars)
       185    0.000    0.000    0.000    0.000 typing_extensions.py:3462(<listcomp>)
         1    0.000    0.000    0.011    0.011 union.py:1(<module>)
         1    0.000    0.000    0.001    0.001 user_defined.py:1(<module>)
@@ -3530,7 +3449,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         1    0.000    0.000    0.000    0.000 utilities.py:166(AlgIntPowers)
         1    0.000    0.000    0.000    0.000 utilities.py:7(DotProdSimpState)
         1    0.000    0.000    0.000    0.000 utilities.py:8(__init__)
-        7    0.001    0.000    0.036    0.005 utils.py:1(<module>)
+        7    0.001    0.000    0.034    0.005 utils.py:1(<module>)
         1    0.000    0.000    0.000    0.000 utils.py:127(PytreeThunk)
         1    0.000    0.000    0.000    0.000 utils.py:130(maybe_cprofile)
         1    0.000    0.000    0.000    0.000 utils.py:1461(CompileProfiler)
@@ -3561,9 +3480,9 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
       132    0.000    0.000    0.000    0.000 utils.py:483(istype)
       405    0.001    0.000    0.002    0.000 utils.py:51(wrapper)
      5238    0.005    0.000    0.006    0.000 utils.py:544(is_function)
-     2625    0.001    0.000    0.079    0.000 utils.py:557(unwrap_if_wrapper)
+     2625    0.001    0.000    0.080    0.000 utils.py:557(unwrap_if_wrapper)
       964    0.000    0.000    0.000    0.000 utils.py:56(<genexpr>)
-     2625    0.005    0.000    0.078    0.000 utils.py:561(unwrap_with_attr_name_if_wrapper)
+     2625    0.005    0.000    0.079    0.000 utils.py:561(unwrap_with_attr_name_if_wrapper)
        21    0.000    0.000    0.000    0.000 utils.py:60(<listcomp>)
         1    0.000    0.000    0.000    0.000 utils.py:60(autograd_not_implemented)
        89    0.001    0.000    0.001    0.000 utils.py:61(reverse_dict)
@@ -3572,7 +3491,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         1    0.000    0.000    0.000    0.000 utils.py:710(CleanupManager)
        89    0.001    0.000    0.001    0.000 utils.py:83(groupby)
         2    0.000    0.000    0.000    0.000 utils.py:862(getfile)
-       10    0.000    0.000    0.003    0.000 utils.py:9(parse)
+       10    0.000    0.000    0.001    0.000 utils.py:9(parse)
         1    0.000    0.000    0.003    0.003 value_ranges.py:1(<module>)
         1    0.000    0.000    0.000    0.000 value_ranges.py:24(ValueRangeError)
         1    0.000    0.000    0.000    0.000 value_ranges.py:282(SymPyValueRangeAnalysis)
@@ -3620,11 +3539,11 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         1    0.000    0.000    0.000    0.000 zeta_functions.py:668(riemann_xi)
         1    0.000    0.000    0.000    0.000 zeta_functions.py:707(stieltjes)
         1    0.000    0.000    0.000    0.000 zetazeros.py:1(<module>)
-     5424    0.003    0.000    0.005    0.000 {built-in method __new__ of type object at 0xaaaab33e2a08}
+     5424    0.003    0.000    0.005    0.000 {built-in method __new__ of type object at 0xaaaad80d2a08}
        35    0.000    0.000    0.000    0.000 {built-in method _abc._abc_init}
-       16    0.000    0.000    0.003    0.000 {built-in method _abc._abc_instancecheck}
+       16    0.000    0.000    0.001    0.000 {built-in method _abc._abc_instancecheck}
        10    0.000    0.000    0.000    0.000 {built-in method _abc._abc_register}
-   135/19    0.003    0.000    0.003    0.000 {built-in method _abc._abc_subclasscheck}
+   135/19    0.001    0.000    0.001    0.000 {built-in method _abc._abc_subclasscheck}
      1189    0.000    0.000    0.000    0.000 {built-in method _bisect.bisect_right}
        30    0.000    0.000    0.000    0.000 {built-in method _codecs.utf_8_decode}
         1    0.000    0.000    0.000    0.000 {built-in method _ctypes.byref}
@@ -3651,10 +3570,10 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         1    0.000    0.000    0.000    0.000 {built-in method _warnings._filters_mutated}
         5    0.000    0.000    0.000    0.000 {built-in method _warnings.warn}
         1    0.000    0.000    0.000    0.000 {built-in method atexit.register}
-1542/1501    0.040    0.000    0.312    0.000 {built-in method builtins.__build_class__}
-    177/3    0.001    0.000    1.005    0.335 {built-in method builtins.__import__}
+1542/1501    0.039    0.000    0.311    0.000 {built-in method builtins.__build_class__}
+    177/3    0.001    0.000    1.000    0.333 {built-in method builtins.__import__}
        16    0.000    0.000    0.000    0.000 {built-in method builtins.abs}
-    23146    0.006    0.000    0.014    0.000 {built-in method builtins.all}
+    22820    0.006    0.000    0.014    0.000 {built-in method builtins.all}
      1780    0.002    0.000    0.006    0.000 {built-in method builtins.any}
      1570    0.000    0.000    0.000    0.000 {built-in method builtins.callable}
        63    0.002    0.000    0.002    0.000 {built-in method builtins.compile}
@@ -3662,26 +3581,26 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         7    0.000    0.000    0.000    0.000 {built-in method builtins.dir}
        14    0.000    0.000    0.000    0.000 {built-in method builtins.divmod}
        11    0.001    0.000    0.001    0.000 {built-in method builtins.eval}
-   1409/1    0.086    0.000   94.084   94.084 {built-in method builtins.exec}
-    40906    0.028    0.000    0.029    0.000 {built-in method builtins.getattr}
+   1409/1    0.086    0.000   94.357   94.357 {built-in method builtins.exec}
+    40906    0.028    0.000    0.028    0.000 {built-in method builtins.getattr}
        36    0.000    0.000    0.000    0.000 {built-in method builtins.globals}
     23735    0.015    0.000    0.016    0.000 {built-in method builtins.hasattr}
 31045/30932    0.005    0.000    0.005    0.000 {built-in method builtins.hash}
      1535    0.000    0.000    0.000    0.000 {built-in method builtins.id}
-101974/101778    0.020    0.000    0.023    0.000 {built-in method builtins.isinstance}
-    13501    0.002    0.000    0.002    0.000 {built-in method builtins.issubclass}
+101974/101778    0.020    0.000    0.021    0.000 {built-in method builtins.isinstance}
+    12952    0.002    0.000    0.002    0.000 {built-in method builtins.issubclass}
       287    0.000    0.000    0.000    0.000 {built-in method builtins.iter}
-62256/61801    0.008    0.000    0.008    0.000 {built-in method builtins.len}
+61596/61141    0.008    0.000    0.008    0.000 {built-in method builtins.len}
         1    0.000    0.000    0.000    0.000 {built-in method builtins.locals}
      1797    0.002    0.000    0.004    0.000 {built-in method builtins.max}
      1226    0.000    0.000    0.000    0.000 {built-in method builtins.min}
     79/78    0.000    0.000    0.001    0.000 {built-in method builtins.next}
      9587    0.001    0.000    0.001    0.000 {built-in method builtins.ord}
-       11    0.000    0.000    2.725    0.248 {built-in method builtins.print}
+       11    0.000    0.000    2.715    0.247 {built-in method builtins.print}
   448/402    0.000    0.000    0.001    0.000 {built-in method builtins.repr}
         3    0.000    0.000    0.000    0.000 {built-in method builtins.round}
     12752    0.005    0.000    0.006    0.000 {built-in method builtins.setattr}
-       67    0.000    0.000    0.000    0.000 {built-in method builtins.sorted}
+       67    0.000    0.000    0.001    0.000 {built-in method builtins.sorted}
        12    0.000    0.000    0.000    0.000 {built-in method builtins.sum}
       331    0.000    0.000    0.000    0.000 {built-in method builtins.vars}
      2190    0.001    0.000    0.001    0.000 {built-in method from_bytes}
@@ -3699,7 +3618,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
       609    0.000    0.000    0.000    0.000 {built-in method math.sqrt}
     15098    0.002    0.000    0.002    0.000 {built-in method posix.fspath}
         1    0.000    0.000    0.000    0.000 {built-in method posix.getcwd}
-       70    0.004    0.000    0.004    0.000 {built-in method posix.listdir}
+       70    0.003    0.000    0.003    0.000 {built-in method posix.listdir}
      6240    0.016    0.000    0.016    0.000 {built-in method posix.lstat}
         1    0.000    0.000    0.000    0.000 {built-in method posix.putenv}
         1    0.000    0.000    0.000    0.000 {built-in method posix.sched_getaffinity}
@@ -3711,7 +3630,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         5    0.000    0.000    0.000    0.000 {built-in method torch._C._cuda_exchangeDevice}
         2    0.000    0.000    0.000    0.000 {built-in method torch._C._cuda_getArchFlags}
         1    0.000    0.000    0.000    0.000 {built-in method torch._C._cuda_getCompiledVersion}
-       13    0.008    0.001    0.008    0.001 {built-in method torch._C._cuda_getDeviceCount}
+       13    0.011    0.001    0.011    0.001 {built-in method torch._C._cuda_getDeviceCount}
         1    0.000    0.000    0.000    0.000 {built-in method torch._C._cuda_init}
        10    0.000    0.000    0.000    0.000 {built-in method torch._C._cuda_isCurrentStreamCapturing}
         1    0.000    0.000    0.000    0.000 {built-in method torch._C._cuda_isInBadFork}
@@ -3732,7 +3651,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
        44    0.001    0.000    0.001    0.000 {built-in method torch._C._get_operation_overload}
        20    0.000    0.000    0.000    0.000 {built-in method torch._C._get_privateuse1_backend_name}
        44    0.000    0.000    0.000    0.000 {built-in method torch._C._get_schema}
-      370    0.002    0.000    0.002    0.000 {built-in method torch._C._get_tracing_state}
+      370    0.003    0.000    0.003    0.000 {built-in method torch._C._get_tracing_state}
        10    0.002    0.000    0.002    0.000 {built-in method torch._C._group_tensors_by_device_and_dtype}
       100    0.000    0.000    0.000    0.000 {built-in method torch._C._has_torch_function_unary}
       133    0.000    0.000    0.000    0.000 {built-in method torch._C._has_torch_function_variadic}
@@ -3744,49 +3663,49 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
        20    0.027    0.001    0.027    0.001 {built-in method torch._C._nn.hardtanh_}
        10    0.005    0.001    0.005    0.001 {built-in method torch._C._nn.linear}
       328    0.001    0.000    0.001    0.000 {built-in method torch._C._set_grad_enabled}
-        5    0.039    0.008    0.039    0.008 {built-in method torch._cudnn_rnn_flatten_weight}
-       20    0.005    0.000    0.005    0.000 {built-in method torch._foreach_add_}
-       10    0.004    0.000    0.004    0.000 {built-in method torch._foreach_addcdiv_}
-       10    0.005    0.001    0.005    0.001 {built-in method torch._foreach_addcmul_}
-       10    0.011    0.001    0.011    0.001 {built-in method torch._foreach_div_}
+        5    0.037    0.007    0.037    0.007 {built-in method torch._cudnn_rnn_flatten_weight}
+       20    0.004    0.000    0.004    0.000 {built-in method torch._foreach_add_}
+       10    0.003    0.000    0.003    0.000 {built-in method torch._foreach_addcdiv_}
+       10    0.006    0.001    0.006    0.001 {built-in method torch._foreach_addcmul_}
+       10    0.012    0.001    0.012    0.001 {built-in method torch._foreach_div_}
        10    0.031    0.003    0.031    0.003 {built-in method torch._foreach_lerp_}
-       10    0.012    0.001    0.012    0.001 {built-in method torch._foreach_mul_}
-       10    0.045    0.004    0.045    0.004 {built-in method torch._foreach_sqrt}
+       10    0.014    0.001    0.014    0.001 {built-in method torch._foreach_mul_}
+       10    0.048    0.005    0.048    0.005 {built-in method torch._foreach_sqrt}
        59    0.000    0.000    0.000    0.000 {built-in method torch._has_compatible_shallow_copy_type}
        10    0.000    0.000    0.000    0.000 {built-in method torch._is_functional_tensor}
         2    0.000    0.000    0.000    0.000 {built-in method torch._ops.aten.}
         1    0.000    0.000    0.000    0.000 {built-in method torch._ops.prims.}
        10    0.001    0.000    0.001    0.000 {built-in method torch._ops.profiler._record_function_enter_new}
        10    0.000    0.000    0.000    0.000 {built-in method torch._ops.profiler.}
-       50    0.065    0.001    0.065    0.001 {built-in method torch._pack_padded_sequence}
-       50    0.021    0.000    0.021    0.000 {built-in method torch._pad_packed_sequence}
+       50    0.057    0.001    0.057    0.001 {built-in method torch._pack_padded_sequence}
+       50    0.022    0.000    0.022    0.000 {built-in method torch._pad_packed_sequence}
         5    0.000    0.000    0.000    0.000 {built-in method torch._use_cudnn_rnn_flatten_weight}
        70    0.064    0.001    0.064    0.001 {built-in method torch.batch_norm}
-       10    0.013    0.001    0.013    0.001 {built-in method torch.ceil}
-       20    0.296    0.015    0.296    0.015 {built-in method torch.conv2d}
-       10    0.461    0.046    0.461    0.046 {built-in method torch.ctc_loss}
+       10    0.012    0.001    0.012    0.001 {built-in method torch.ceil}
+       20    0.347    0.017    0.347    0.017 {built-in method torch.conv2d}
+       10    0.468    0.047    0.468    0.047 {built-in method torch.ctc_loss}
         3    0.000    0.000    0.000    0.000 {built-in method torch.cuda._get_device_properties}
         1    0.000    0.000    0.000    0.000 {built-in method torch.empty_strided}
        60    0.002    0.000    0.002    0.000 {built-in method torch.empty}
        80    0.000    0.000    0.000    0.000 {built-in method torch.get_default_dtype}
-       50   30.349    0.607   30.349    0.607 {built-in method torch.gru}
+       50   30.084    0.602   30.084    0.602 {built-in method torch.gru}
       590    0.000    0.000    0.000    0.000 {built-in method torch.is_complex}
       492    0.000    0.000    0.000    0.000 {built-in method torch.is_grad_enabled}
-       10    0.005    0.001    0.005    0.001 {built-in method torch.isfinite}
+       10    0.005    0.000    0.005    0.000 {built-in method torch.isfinite}
        10    0.042    0.004    0.042    0.004 {built-in method torch.layer_norm}
-       10    2.651    0.265    2.651    0.265 {built-in method torch.masked_select}
+       10    2.641    0.264    2.641    0.264 {built-in method torch.masked_select}
        10    0.001    0.000    0.001    0.000 {built-in method torch.ones_like}
         7    0.000    0.000    0.000    0.000 {built-in method torch.ones}
         1    0.000    0.000    0.000    0.000 {built-in method torch.randint}
         1    0.000    0.000    0.001    0.001 {built-in method torch.randn}
-       10    0.370    0.037    0.370    0.037 {built-in method torch.rand}
+       10    0.368    0.037    0.368    0.037 {built-in method torch.rand}
        50    0.026    0.001    0.026    0.001 {built-in method torch.relu}
        76    0.002    0.000    0.002    0.000 {built-in method torch.tensor}
       118    0.005    0.000    0.005    0.000 {built-in method torch.zeros_like}
        57    0.005    0.000    0.005    0.000 {built-in method torch.zeros}
       347    0.000    0.000    0.000    0.000 {built-in method unicodedata.lookup}
-        3    0.000    0.000    0.000    0.000 {function Random.seed at 0xffff910015a0}
-      332    0.000    0.000    0.000    0.000 {function _ParameterMeta.__instancecheck__ at 0xffff09856950}
+        3    0.000    0.000    0.000    0.000 {function Random.seed at 0xffffaaaa9510}
+      332    0.000    0.000    0.000    0.000 {function _ParameterMeta.__instancecheck__ at 0xffff232fa8c0}
        47    0.000    0.000    0.000    0.000 {method '__contains__' of 'frozenset' objects}
       738    0.004    0.000    0.004    0.000 {method '__exit__' of '_io._IOBase' objects}
     12867    0.003    0.000    0.003    0.000 {method '__exit__' of '_thread.lock' objects}
@@ -3798,8 +3717,8 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
        10    0.001    0.000    0.001    0.000 {method 'abs' of 'torch._C.TensorBase' objects}
        43    0.000    0.000    0.000    0.000 {method 'acquire' of '_thread.RLock' objects}
      2010    0.000    0.000    0.000    0.000 {method 'add' of 'set' objects}
-       70    0.013    0.000    0.013    0.000 {method 'add_' of 'torch._C.TensorBase' objects}
-    55824    0.007    0.000    0.007    0.000 {method 'append' of 'list' objects}
+       70    0.014    0.000    0.014    0.000 {method 'add_' of 'torch._C.TensorBase' objects}
+    55818    0.007    0.000    0.007    0.000 {method 'append' of 'list' objects}
         1    0.000    0.000    0.000    0.000 {method 'bit_length' of 'int' objects}
         2    0.000    0.000    0.000    0.000 {method 'capitalize' of 'str' objects}
       104    0.000    0.000    0.000    0.000 {method 'clear' of 'dict' objects}
@@ -3807,8 +3726,8 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
        10    0.001    0.000    0.001    0.000 {method 'contiguous' of 'torch._C.TensorBase' objects}
       234    0.002    0.000    0.002    0.000 {method 'copy' of 'dict' objects}
         1    0.000    0.000    0.000    0.000 {method 'copy' of 'set' objects}
-       50    3.593    0.072    3.593    0.072 {method 'cpu' of 'torch._C.TensorBase' objects}
-       60    1.611    0.027    1.611    0.027 {method 'cuda' of 'torch._C.TensorBase' objects}
+       50    3.590    0.072    3.590    0.072 {method 'cpu' of 'torch._C.TensorBase' objects}
+       60    1.621    0.027    1.621    0.027 {method 'cuda' of 'torch._C.TensorBase' objects}
        40    0.000    0.000    0.000    0.000 {method 'data_ptr' of 'torch._C.TensorBase' objects}
      1416    0.000    0.000    0.000    0.000 {method 'decode' of 'bytes' objects}
       2/1    0.000    0.000    0.001    0.001 {method 'detach' of 'torch._C.TensorBase' objects}
@@ -3818,14 +3737,14 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
        21    0.000    0.000    0.000    0.000 {method 'discard' of 'set' objects}
       243    0.000    0.000    0.000    0.000 {method 'encode' of 'str' objects}
         2    0.000    0.000    0.000    0.000 {method 'end' of 're.Match' objects}
-    12647    0.004    0.000    0.004    0.000 {method 'endswith' of 'str' objects}
+    12647    0.003    0.000    0.003    0.000 {method 'endswith' of 'str' objects}
       453    0.000    0.000    0.001    0.000 {method 'extend' of 'list' objects}
-      255    0.152    0.001    0.152    0.001 {method 'fill_' of 'torch._C.TensorBase' objects}
+      255    0.139    0.001    0.139    0.001 {method 'fill_' of 'torch._C.TensorBase' objects}
       104    0.000    0.000    0.000    0.000 {method 'find' of 'bytearray' objects}
        14    0.000    0.000    0.000    0.000 {method 'findall' of 're.Pattern' objects}
        20    0.003    0.000    0.003    0.000 {method 'float' of 'torch._C.TensorBase' objects}
       682    0.001    0.000    0.002    0.000 {method 'format' of 'str' objects}
-    29680    0.005    0.000    0.005    0.000 {method 'get' of 'dict' objects}
+    29557    0.005    0.000    0.005    0.000 {method 'get' of 'dict' objects}
     14558    0.004    0.000    0.004    0.000 {method 'get' of 'mappingproxy' objects}
         5    0.000    0.000    0.000    0.000 {method 'get_device' of 'torch._C.TensorBase' objects}
         1    0.000    0.000    0.000    0.000 {method 'getrandbits' of '_random.Random' objects}
@@ -3847,14 +3766,14 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
       471    0.000    0.000    0.000    0.000 {method 'items' of 'mappingproxy' objects}
     11474    0.006    0.000    0.008    0.000 {method 'join' of 'str' objects}
       737    0.000    0.000    0.000    0.000 {method 'keys' of 'dict' objects}
-       10    0.034    0.003    0.034    0.003 {method 'log_softmax' of 'torch._C.TensorBase' objects}
+       10    0.033    0.003    0.033    0.003 {method 'log_softmax' of 'torch._C.TensorBase' objects}
        10    0.000    0.000    0.000    0.000 {method 'lower' of 'str' objects}
-       60    0.531    0.009    0.531    0.009 {method 'masked_fill' of 'torch._C.TensorBase' objects}
+       60    0.546    0.009    0.546    0.009 {method 'masked_fill' of 'torch._C.TensorBase' objects}
      5581    0.006    0.000    0.006    0.000 {method 'match' of 're.Pattern' objects}
        10    0.001    0.000    0.001    0.000 {method 'max' of 'torch._C.TensorBase' objects}
-       10    0.011    0.001    0.011    0.001 {method 'min' of 'torch._C.TensorBase' objects}
+       10    0.010    0.001    0.010    0.001 {method 'min' of 'torch._C.TensorBase' objects}
        26    0.000    0.000    0.000    0.000 {method 'mro' of 'type' objects}
-      180    0.008    0.000    0.008    0.000 {method 'narrow' of 'torch._C.TensorBase' objects}
+      180    0.009    0.000    0.009    0.000 {method 'narrow' of 'torch._C.TensorBase' objects}
        10    0.000    0.000    0.000    0.000 {method 'ne' of 'torch._C.TensorBase' objects}
        50    0.000    0.000    0.000    0.000 {method 'numel' of 'torch._C.TensorBase' objects}
      6240    0.002    0.000    0.002    0.000 {method 'partition' of 'str' objects}
@@ -3864,7 +3783,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
         6    0.000    0.000    0.000    0.000 {method 'pop' of 'set' objects}
       875    0.000    0.000    0.000    0.000 {method 'popitem' of 'collections.OrderedDict' objects}
         1    0.000    0.000    0.000    0.000 {method 'popitem' of 'dict' objects}
-      730    0.021    0.000    0.021    0.000 {method 'read' of '_io.BufferedReader' objects}
+      730    0.014    0.000    0.014    0.000 {method 'read' of '_io.BufferedReader' objects}
         9    0.000    0.000    0.000    0.000 {method 'readline' of '_io.BufferedReader' objects}
         5    0.000    0.000    0.000    0.000 {method 'readline' of '_io.BytesIO' objects}
         8    0.001    0.000    0.001    0.000 {method 'readlines' of '_io._IOBase' objects}
@@ -3879,7 +3798,7 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
      5701    0.002    0.000    0.002    0.000 {method 'rpartition' of 'str' objects}
      2649    0.001    0.000    0.001    0.000 {method 'rsplit' of 'str' objects}
     13325    0.002    0.000    0.002    0.000 {method 'rstrip' of 'str' objects}
-       10   51.579    5.158   51.579    5.158 {method 'run_backward' of 'torch._C._EngineBase' objects}
+       10   52.113    5.211   52.113    5.211 {method 'run_backward' of 'torch._C._EngineBase' objects}
         8    0.000    0.000    0.000    0.000 {method 'seek' of '_io.BufferedReader' objects}
       640    0.000    0.000    0.000    0.000 {method 'setdefault' of 'dict' objects}
        32    0.000    0.000    0.000    0.000 {method 'setter' of 'property' objects}
@@ -3889,20 +3808,20 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
      4333    0.002    0.000    0.002    0.000 {method 'split' of 'str' objects}
        25    0.000    0.000    0.000    0.000 {method 'splitlines' of 'str' objects}
        45    0.000    0.000    0.000    0.000 {method 'startswith' of 'bytes' objects}
-    19301    0.006    0.000    0.006    0.000 {method 'startswith' of 'str' objects}
+    19297    0.006    0.000    0.006    0.000 {method 'startswith' of 'str' objects}
         3    0.000    0.000    0.000    0.000 {method 'stride' of 'torch._C.TensorBase' objects}
       846    0.000    0.000    0.000    0.000 {method 'strip' of 'str' objects}
       113    0.001    0.000    0.001    0.000 {method 'sub' of 're.Pattern' objects}
-      173    0.137    0.001    0.153    0.001 {method 'to' of 'torch._C.TensorBase' objects}
+      173    0.140    0.001    0.154    0.001 {method 'to' of 'torch._C.TensorBase' objects}
         1    0.000    0.000    0.000    0.000 {method 'translate' of 'bytearray' objects}
       310    0.001    0.000    0.001    0.000 {method 'translate' of 'str' objects}
       130    0.003    0.000    0.003    0.000 {method 'transpose' of 'torch._C.TensorBase' objects}
        80    0.006    0.000    0.006    0.000 {method 'unbind' of 'torch._C.TensorBase' objects}
-       44    0.147    0.003    0.147    0.003 {method 'uniform_' of 'torch._C.TensorBase' objects}
+       44    0.134    0.003    0.134    0.003 {method 'uniform_' of 'torch._C.TensorBase' objects}
         1    0.000    0.000    0.000    0.000 {method 'union' of 'set' objects}
        10    0.001    0.000    0.001    0.000 {method 'unsqueeze' of 'torch._C.TensorBase' objects}
      2613    0.001    0.000    0.001    0.000 {method 'update' of 'dict' objects}
-      757    0.001    0.000    0.001    0.000 {method 'update' of 'set' objects}
+      767    0.001    0.000    0.001    0.000 {method 'update' of 'set' objects}
       220    0.000    0.000    0.000    0.000 {method 'upper' of 'str' objects}
       181    0.000    0.000    0.000    0.000 {method 'values' of 'collections.OrderedDict' objects}
       428    0.000    0.000    0.000    0.000 {method 'values' of 'dict' objects}
@@ -3913,3 +3832,4 @@ tensor(25.5370, device='cuda:0', grad_fn=<MeanBackward0>)
 
 
 [Tegrastats] Monitoring stopped.
+{'mem_used_MB': {'max': 11053, 'min': 5852}, 'mem_total_MB': {'max': 15657, 'min': 15657}, 'power_mW_current': {'max': 20304, 'min': 7159}, 'power_mW_avg': {'max': 16504, 'min': 7159}, 'gpu_utilization': {'max': 99, 'min': 0}, 'gpu_temperature': {'max': 58.781, 'min': 52.125}}
