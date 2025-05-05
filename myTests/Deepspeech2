@@ -200,14 +200,14 @@ if __name__ == "__main__":
 
     profiling_output = s.getvalue()
     
-    backward_pattern = r'^\s*\d+\s+\d+\.\d+\s+\d+\.\d+\s+(\d+\.\d+)\s+\d+\.\d+\s+__init__\.py:\d+$backward$'
+    backward_pattern = r'\s+(-?\d+(?:\.\d+)?)\s+(-?\d+(?:\.\d+)?)\s+(-?\d+(?:\.\d+)?)\s+(-?\d+(?:\.\d+)?)\s+(-?\d+(?:\.\d+)?)\s__init__\.py:165\(backward\)'
     backward_match = re.search(backward_pattern, profiling_output, re.MULTILINE)
     if backward_match:
-        output_dict['backward_time'] = backward_match.group(1)
+        output_dict['backward_time'] = backward_match.group(4)
     
-    forward_pattern = r'^\s*\d+\s+\d+\.\d+\s+\d+\.\d+\s+(\d+\.\d+)\s+\d+\.\d+\s+model\.py:\d+$forward$'
+    forward_pattern = r'\s+(-?\d+(?:\.\d+)?)\s+(-?\d+(?:\.\d+)?)\s+(-?\d+(?:\.\d+)?)\s+(-?\d+(?:\.\d+)?)\s+(-?\d+(?:\.\d+)?)\smodel\.py:142\(forward\)'
     forward_match = re.search(forward_pattern, profiling_output, re.MULTILINE)
     if forward_match:
-        output_dict['forward_time'] = forward_match.group(1)
+        output_dict['forward_time'] = forward_match.group(4)
     
     print(output_dict)
