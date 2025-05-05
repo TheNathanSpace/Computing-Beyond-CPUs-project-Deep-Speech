@@ -2,58 +2,108 @@
   warnings.warn("dropout option adds dropout after all but last "
 [Tegrastats] Continuous monitoring started.
 cuda
-[Tegrastats] Stats: {'mem_used_MB': 7311, 'mem_total_MB': 15657, 'power_mW_current': 9288, 'power_mW_avg': 9288, 'gpu_utilization': 15, 'gpu_temperature': 55.031}
-[Tegrastats] Stats: {'mem_used_MB': 7514, 'mem_total_MB': 15657, 'power_mW_current': 9894, 'power_mW_avg': 9591, 'gpu_utilization': 35, 'gpu_temperature': 55.593}
-[Tegrastats] Stats: {'mem_used_MB': 8227, 'mem_total_MB': 15657, 'power_mW_current': 10580, 'power_mW_avg': 9920, 'gpu_utilization': 88, 'gpu_temperature': 55.781}
-[Tegrastats] Stats: {'mem_used_MB': 9289, 'mem_total_MB': 15657, 'power_mW_current': 14975, 'power_mW_avg': 11184, 'gpu_utilization': 99, 'gpu_temperature': 57.843}
-[Tegrastats] Stats: {'mem_used_MB': 10186, 'mem_total_MB': 15657, 'power_mW_current': 19060, 'power_mW_avg': 12759, 'gpu_utilization': 99, 'gpu_temperature': 59.031}
-[Tegrastats] Stats: {'mem_used_MB': 11012, 'mem_total_MB': 15657, 'power_mW_current': 19742, 'power_mW_avg': 13923, 'gpu_utilization': 99, 'gpu_temperature': 59.562}
-[Tegrastats] Stats: {'mem_used_MB': 11025, 'mem_total_MB': 15657, 'power_mW_current': 20344, 'power_mW_avg': 14840, 'gpu_utilization': 99, 'gpu_temperature': 59.781}
-[Tegrastats] Stats: {'mem_used_MB': 11235, 'mem_total_MB': 15657, 'power_mW_current': 20753, 'power_mW_avg': 15579, 'gpu_utilization': 99, 'gpu_temperature': 60.562}
-[Tegrastats] Stats: {'mem_used_MB': 11788, 'mem_total_MB': 15657, 'power_mW_current': 19020, 'power_mW_avg': 15961, 'gpu_utilization': 99, 'gpu_temperature': 60.093}
-[Tegrastats] Stats: {'mem_used_MB': 11814, 'mem_total_MB': 15657, 'power_mW_current': 17724, 'power_mW_avg': 16138, 'gpu_utilization': 99, 'gpu_temperature': 60.156}
-[Tegrastats] Stats: {'mem_used_MB': 11814, 'mem_total_MB': 15657, 'power_mW_current': 17563, 'power_mW_avg': 16267, 'gpu_utilization': 99, 'gpu_temperature': 59.781}
-[Tegrastats] Stats: {'mem_used_MB': 11814, 'mem_total_MB': 15657, 'power_mW_current': 16760, 'power_mW_avg': 16308, 'gpu_utilization': 97, 'gpu_temperature': 58.281}
-[Tegrastats] Stats: {'mem_used_MB': 11815, 'mem_total_MB': 15657, 'power_mW_current': 19582, 'power_mW_avg': 16560, 'gpu_utilization': 99, 'gpu_temperature': 61.437}
-[Tegrastats] Stats: {'mem_used_MB': 11815, 'mem_total_MB': 15657, 'power_mW_current': 19943, 'power_mW_avg': 16802, 'gpu_utilization': 99, 'gpu_temperature': 61.187}
-[Tegrastats] Stats: {'mem_used_MB': 11882, 'mem_total_MB': 15657, 'power_mW_current': 15941, 'power_mW_avg': 16744, 'gpu_utilization': 95, 'gpu_temperature': 59.312}
-tensor(1218.6353, device='cuda:0', grad_fn=<MeanBackward0>)
-[Tegrastats] Stats: {'mem_used_MB': 12040, 'mem_total_MB': 15657, 'power_mW_current': 19742, 'power_mW_avg': 16931, 'gpu_utilization': 99, 'gpu_temperature': 61.906}
-[Tegrastats] Stats: {'mem_used_MB': 12040, 'mem_total_MB': 15657, 'power_mW_current': 21874, 'power_mW_avg': 17222, 'gpu_utilization': 99, 'gpu_temperature': 61.562}
-[Tegrastats] Stats: {'mem_used_MB': 12040, 'mem_total_MB': 15657, 'power_mW_current': 21554, 'power_mW_avg': 17463, 'gpu_utilization': 99, 'gpu_temperature': 62.156}
-[Tegrastats] Stats: {'mem_used_MB': 12040, 'mem_total_MB': 15657, 'power_mW_current': 21794, 'power_mW_avg': 17691, 'gpu_utilization': 99, 'gpu_temperature': 62.375}
-[Tegrastats] Stats: {'mem_used_MB': 12053, 'mem_total_MB': 15657, 'power_mW_current': 20946, 'power_mW_avg': 17853, 'gpu_utilization': 99, 'gpu_temperature': 62.218}
-[Tegrastats] Stats: {'mem_used_MB': 12054, 'mem_total_MB': 15657, 'power_mW_current': 19020, 'power_mW_avg': 17909, 'gpu_utilization': 99, 'gpu_temperature': 61.968}
-[Tegrastats] Stats: {'mem_used_MB': 12055, 'mem_total_MB': 15657, 'power_mW_current': 18488, 'power_mW_avg': 17935, 'gpu_utilization': 99, 'gpu_temperature': 61.781}
-[Tegrastats] Stats: {'mem_used_MB': 12051, 'mem_total_MB': 15657, 'power_mW_current': 17563, 'power_mW_avg': 17919, 'gpu_utilization': 99, 'gpu_temperature': 61.75}
-[Tegrastats] Stats: {'mem_used_MB': 12051, 'mem_total_MB': 15657, 'power_mW_current': 17443, 'power_mW_avg': 17899, 'gpu_utilization': 97, 'gpu_temperature': 60.218}
-[Tegrastats] Stats: {'mem_used_MB': 12051, 'mem_total_MB': 15657, 'power_mW_current': 19823, 'power_mW_avg': 17976, 'gpu_utilization': 97, 'gpu_temperature': 61.531}
-tensor(35.4169, device='cuda:0', grad_fn=<MeanBackward0>)
-[Tegrastats] Stats: {'mem_used_MB': 12054, 'mem_total_MB': 15657, 'power_mW_current': 16223, 'power_mW_avg': 17909, 'gpu_utilization': 33, 'gpu_temperature': 61.375}
-[Tegrastats] Stats: {'mem_used_MB': 12062, 'mem_total_MB': 15657, 'power_mW_current': 20392, 'power_mW_avg': 18001, 'gpu_utilization': 99, 'gpu_temperature': 62.875}
-[Tegrastats] Stats: {'mem_used_MB': 12065, 'mem_total_MB': 15657, 'power_mW_current': 21874, 'power_mW_avg': 18139, 'gpu_utilization': 99, 'gpu_temperature': 63.562}
-[Tegrastats] Stats: {'mem_used_MB': 12065, 'mem_total_MB': 15657, 'power_mW_current': 22275, 'power_mW_avg': 18282, 'gpu_utilization': 99, 'gpu_temperature': 63.875}
-[Tegrastats] Stats: {'mem_used_MB': 12065, 'mem_total_MB': 15657, 'power_mW_current': 21554, 'power_mW_avg': 18391, 'gpu_utilization': 98, 'gpu_temperature': 63.125}
-[Tegrastats] Stats: {'mem_used_MB': 12065, 'mem_total_MB': 15657, 'power_mW_current': 20224, 'power_mW_avg': 18450, 'gpu_utilization': 97, 'gpu_temperature': 62.343}
-[Tegrastats] Stats: {'mem_used_MB': 12065, 'mem_total_MB': 15657, 'power_mW_current': 20152, 'power_mW_avg': 18503, 'gpu_utilization': 99, 'gpu_temperature': 63.437}
-[Tegrastats] Stats: {'mem_used_MB': 12072, 'mem_total_MB': 15657, 'power_mW_current': 19863, 'power_mW_avg': 18544, 'gpu_utilization': 99, 'gpu_temperature': 63.843}
-[Tegrastats] Stats: {'mem_used_MB': 12072, 'mem_total_MB': 15657, 'power_mW_current': 19983, 'power_mW_avg': 18586, 'gpu_utilization': 99, 'gpu_temperature': 63.75}
-[Tegrastats] Stats: {'mem_used_MB': 12072, 'mem_total_MB': 15657, 'power_mW_current': 19301, 'power_mW_avg': 18607, 'gpu_utilization': 99, 'gpu_temperature': 63.687}
-[Tegrastats] Stats: {'mem_used_MB': 12072, 'mem_total_MB': 15657, 'power_mW_current': 17885, 'power_mW_avg': 18587, 'gpu_utilization': 99, 'gpu_temperature': 63.531}
-tensor(-7.3997, device='cuda:0', grad_fn=<MeanBackward0>)
-[Tegrastats] Stats: {'mem_used_MB': 12105, 'mem_total_MB': 15657, 'power_mW_current': 19622, 'power_mW_avg': 18615, 'gpu_utilization': 99, 'gpu_temperature': 64.062}
-[Tegrastats] Stats: {'mem_used_MB': 12106, 'mem_total_MB': 15657, 'power_mW_current': 22115, 'power_mW_avg': 18707, 'gpu_utilization': 99, 'gpu_temperature': 64.968}
-[Tegrastats] Stats: {'mem_used_MB': 12106, 'mem_total_MB': 15657, 'power_mW_current': 21434, 'power_mW_avg': 18777, 'gpu_utilization': 95, 'gpu_temperature': 64.937}
-[Tegrastats] Stats: {'mem_used_MB': 12106, 'mem_total_MB': 15657, 'power_mW_current': 22311, 'power_mW_avg': 18865, 'gpu_utilization': 99, 'gpu_temperature': 65.218}
-[Tegrastats] Stats: {'mem_used_MB': 12106, 'mem_total_MB': 15657, 'power_mW_current': 19341, 'power_mW_avg': 18877, 'gpu_utilization': 97, 'gpu_temperature': 64.062}
-[Tegrastats] Stats: {'mem_used_MB': 12106, 'mem_total_MB': 15657, 'power_mW_current': 18930, 'power_mW_avg': 18878, 'gpu_utilization': 99, 'gpu_temperature': 64.343}
-[Tegrastats] Error: '>' not supported between instances of 'NoneType' and 'float'
-tensor(-6.4643, device='cuda:0', grad_fn=<MeanBackward0>)
-tensor(-5.1163, device='cuda:0', grad_fn=<MeanBackward0>)
-tensor(-4.0685, device='cuda:0', grad_fn=<MeanBackward0>)
-tensor(-3.1295, device='cuda:0', grad_fn=<MeanBackward0>)
-tensor(-2.3124, device='cuda:0', grad_fn=<MeanBackward0>)
-tensor(-1.4043, device='cuda:0', grad_fn=<MeanBackward0>)
-tensor(-0.8028, device='cuda:0', grad_fn=<MeanBackward0>)
+[Tegrastats] Stats: {'mem_used_MB': 5862, 'mem_total_MB': 15657, 'power_mW_current': 7321, 'power_mW_avg': 7321, 'gpu_utilization': 0, 'gpu_temperature': 51.218}
+[Tegrastats] Stats: {'mem_used_MB': 5960, 'mem_total_MB': 15657, 'power_mW_current': 7725, 'power_mW_avg': 7523, 'gpu_utilization': 0, 'gpu_temperature': 51.375}
+[Tegrastats] Stats: {'mem_used_MB': 6877, 'mem_total_MB': 15657, 'power_mW_current': 8453, 'power_mW_avg': 7833, 'gpu_utilization': 0, 'gpu_temperature': 51.312}
+[Tegrastats] Stats: {'mem_used_MB': 7478, 'mem_total_MB': 15657, 'power_mW_current': 16518, 'power_mW_avg': 10004, 'gpu_utilization': 0, 'gpu_temperature': 53.406}
+[Tegrastats] Stats: {'mem_used_MB': 8731, 'mem_total_MB': 15657, 'power_mW_current': 17885, 'power_mW_avg': 11580, 'gpu_utilization': 99, 'gpu_temperature': 55.687}
+[Tegrastats] Stats: {'mem_used_MB': 9557, 'mem_total_MB': 15657, 'power_mW_current': 20023, 'power_mW_avg': 12987, 'gpu_utilization': 99, 'gpu_temperature': 57.187}
+[Tegrastats] Stats: {'mem_used_MB': 10384, 'mem_total_MB': 15657, 'power_mW_current': 21554, 'power_mW_avg': 14211, 'gpu_utilization': 99, 'gpu_temperature': 57.968}
+[Tegrastats] Stats: {'mem_used_MB': 10934, 'mem_total_MB': 15657, 'power_mW_current': 20264, 'power_mW_avg': 14967, 'gpu_utilization': 99, 'gpu_temperature': 57.812}
+[Tegrastats] Stats: {'mem_used_MB': 10959, 'mem_total_MB': 15657, 'power_mW_current': 20224, 'power_mW_avg': 15551, 'gpu_utilization': 99, 'gpu_temperature': 57.937}
+[Tegrastats] Stats: {'mem_used_MB': 10959, 'mem_total_MB': 15657, 'power_mW_current': 20552, 'power_mW_avg': 16051, 'gpu_utilization': 99, 'gpu_temperature': 58.031}
+[Tegrastats] Stats: {'mem_used_MB': 10959, 'mem_total_MB': 15657, 'power_mW_current': 20632, 'power_mW_avg': 16468, 'gpu_utilization': 99, 'gpu_temperature': 58.312}
+[Tegrastats] Stats: {'mem_used_MB': 10959, 'mem_total_MB': 15657, 'power_mW_current': 20673, 'power_mW_avg': 16818, 'gpu_utilization': 99, 'gpu_temperature': 58.437}
+[Tegrastats] Stats: {'mem_used_MB': 11110, 'mem_total_MB': 15657, 'power_mW_current': 15835, 'power_mW_avg': 16743, 'gpu_utilization': 2, 'gpu_temperature': 55.937}
+tensor(1577.0237, device='cuda:0', grad_fn=<MeanBackward0>)
+[Tegrastats] Stats: {'mem_used_MB': 11201, 'mem_total_MB': 15657, 'power_mW_current': 21794, 'power_mW_avg': 17103, 'gpu_utilization': 99, 'gpu_temperature': 59.562}
+[Tegrastats] Stats: {'mem_used_MB': 11201, 'mem_total_MB': 15657, 'power_mW_current': 23640, 'power_mW_avg': 17539, 'gpu_utilization': 99, 'gpu_temperature': 60.062}
+[Tegrastats] Stats: {'mem_used_MB': 11201, 'mem_total_MB': 15657, 'power_mW_current': 23320, 'power_mW_avg': 17900, 'gpu_utilization': 99, 'gpu_temperature': 60.437}
+[Tegrastats] Stats: {'mem_used_MB': 11216, 'mem_total_MB': 15657, 'power_mW_current': 22235, 'power_mW_avg': 18155, 'gpu_utilization': 99, 'gpu_temperature': 59.968}
+[Tegrastats] Stats: {'mem_used_MB': 11216, 'mem_total_MB': 15657, 'power_mW_current': 20873, 'power_mW_avg': 18306, 'gpu_utilization': 99, 'gpu_temperature': 60.218}
+[Tegrastats] Stats: {'mem_used_MB': 11216, 'mem_total_MB': 15657, 'power_mW_current': 20753, 'power_mW_avg': 18435, 'gpu_utilization': 99, 'gpu_temperature': 60.343}
+[Tegrastats] Stats: {'mem_used_MB': 11216, 'mem_total_MB': 15657, 'power_mW_current': 20833, 'power_mW_avg': 18555, 'gpu_utilization': 99, 'gpu_temperature': 60.312}
+[Tegrastats] Stats: {'mem_used_MB': 11216, 'mem_total_MB': 15657, 'power_mW_current': 20833, 'power_mW_avg': 18663, 'gpu_utilization': 99, 'gpu_temperature': 60.687}
+tensor(147.8791, device='cuda:0', grad_fn=<MeanBackward0>)
+[Tegrastats] Stats: {'mem_used_MB': 11242, 'mem_total_MB': 15657, 'power_mW_current': 17443, 'power_mW_avg': 18608, 'gpu_utilization': 99, 'gpu_temperature': 60.468}
+[Tegrastats] Stats: {'mem_used_MB': 11243, 'mem_total_MB': 15657, 'power_mW_current': 22880, 'power_mW_avg': 18794, 'gpu_utilization': 99, 'gpu_temperature': 61.718}
+[Tegrastats] Stats: {'mem_used_MB': 11243, 'mem_total_MB': 15657, 'power_mW_current': 23880, 'power_mW_avg': 19005, 'gpu_utilization': 99, 'gpu_temperature': 62.093}
+[Tegrastats] Stats: {'mem_used_MB': 11243, 'mem_total_MB': 15657, 'power_mW_current': 23880, 'power_mW_avg': 19200, 'gpu_utilization': 99, 'gpu_temperature': 62.093}
+[Tegrastats] Stats: {'mem_used_MB': 11243, 'mem_total_MB': 15657, 'power_mW_current': 22395, 'power_mW_avg': 19323, 'gpu_utilization': 99, 'gpu_temperature': 61.937}
+[Tegrastats] Stats: {'mem_used_MB': 11243, 'mem_total_MB': 15657, 'power_mW_current': 21314, 'power_mW_avg': 19397, 'gpu_utilization': 99, 'gpu_temperature': 61.875}
+[Tegrastats] Stats: {'mem_used_MB': 11243, 'mem_total_MB': 15657, 'power_mW_current': 21193, 'power_mW_avg': 19461, 'gpu_utilization': 99, 'gpu_temperature': 61.812}
+[Tegrastats] Stats: {'mem_used_MB': 11243, 'mem_total_MB': 15657, 'power_mW_current': 21273, 'power_mW_avg': 19524, 'gpu_utilization': 99, 'gpu_temperature': 61.968}
+[Tegrastats] Stats: {'mem_used_MB': 11243, 'mem_total_MB': 15657, 'power_mW_current': 21314, 'power_mW_avg': 19583, 'gpu_utilization': 98, 'gpu_temperature': 62.437}
+tensor(-4.2197, device='cuda:0', grad_fn=<MeanBackward0>)
+[Tegrastats] Stats: {'mem_used_MB': 11265, 'mem_total_MB': 15657, 'power_mW_current': 17282, 'power_mW_avg': 19509, 'gpu_utilization': 99, 'gpu_temperature': 61.406}
+[Tegrastats] Stats: {'mem_used_MB': 11266, 'mem_total_MB': 15657, 'power_mW_current': 23400, 'power_mW_avg': 19631, 'gpu_utilization': 99, 'gpu_temperature': 62.968}
+[Tegrastats] Stats: {'mem_used_MB': 11266, 'mem_total_MB': 15657, 'power_mW_current': 23240, 'power_mW_avg': 19740, 'gpu_utilization': 99, 'gpu_temperature': 63.406}
+[Tegrastats] Stats: {'mem_used_MB': 11266, 'mem_total_MB': 15657, 'power_mW_current': 24200, 'power_mW_avg': 19871, 'gpu_utilization': 99, 'gpu_temperature': 63.812}
+[Tegrastats] Stats: {'mem_used_MB': 11266, 'mem_total_MB': 15657, 'power_mW_current': 22395, 'power_mW_avg': 19943, 'gpu_utilization': 98, 'gpu_temperature': 62.937}
+[Tegrastats] Stats: {'mem_used_MB': 11266, 'mem_total_MB': 15657, 'power_mW_current': 21073, 'power_mW_avg': 19975, 'gpu_utilization': 13, 'gpu_temperature': 62.437}
+[Tegrastats] Stats: {'mem_used_MB': 11266, 'mem_total_MB': 15657, 'power_mW_current': 20625, 'power_mW_avg': 19992, 'gpu_utilization': 13, 'gpu_temperature': 61.718}
+[Tegrastats] Stats: {'mem_used_MB': 11266, 'mem_total_MB': 15657, 'power_mW_current': 20224, 'power_mW_avg': 19998, 'gpu_utilization': 13, 'gpu_temperature': 61.593}
+[Tegrastats] Stats: {'mem_used_MB': 11266, 'mem_total_MB': 15657, 'power_mW_current': 19020, 'power_mW_avg': 19973, 'gpu_utilization': 13, 'gpu_temperature': 61.187}
+tensor(-6.7469, device='cuda:0', grad_fn=<MeanBackward0>)
+[Tegrastats] Stats: {'mem_used_MB': 10995, 'mem_total_MB': 15657, 'power_mW_current': 19221, 'power_mW_avg': 19954, 'gpu_utilization': 99, 'gpu_temperature': 63.875}
+[Tegrastats] Stats: {'mem_used_MB': 10996, 'mem_total_MB': 15657, 'power_mW_current': 23880, 'power_mW_avg': 20050, 'gpu_utilization': 99, 'gpu_temperature': 64.781}
+[Tegrastats] Stats: {'mem_used_MB': 10996, 'mem_total_MB': 15657, 'power_mW_current': 23640, 'power_mW_avg': 20136, 'gpu_utilization': 99, 'gpu_temperature': 64.656}
+[Tegrastats] Stats: {'mem_used_MB': 10996, 'mem_total_MB': 15657, 'power_mW_current': 24440, 'power_mW_avg': 20236, 'gpu_utilization': 99, 'gpu_temperature': 64.906}
+[Tegrastats] Stats: {'mem_used_MB': 10996, 'mem_total_MB': 15657, 'power_mW_current': 18820, 'power_mW_avg': 20203, 'gpu_utilization': 13, 'gpu_temperature': 61.906}
+[Tegrastats] Stats: {'mem_used_MB': 10996, 'mem_total_MB': 15657, 'power_mW_current': 18046, 'power_mW_avg': 20155, 'gpu_utilization': 24, 'gpu_temperature': 62.406}
+[Tegrastats] Stats: {'mem_used_MB': 10996, 'mem_total_MB': 15657, 'power_mW_current': 17925, 'power_mW_avg': 20107, 'gpu_utilization': 47, 'gpu_temperature': 62.562}
+[Tegrastats] Stats: {'mem_used_MB': 10996, 'mem_total_MB': 15657, 'power_mW_current': 17885, 'power_mW_avg': 20060, 'gpu_utilization': 99, 'gpu_temperature': 63.031}
+[Tegrastats] Stats: {'mem_used_MB': 10996, 'mem_total_MB': 15657, 'power_mW_current': 18287, 'power_mW_avg': 20023, 'gpu_utilization': 99, 'gpu_temperature': 64.156}
+tensor(-5.5544, device='cuda:0', grad_fn=<MeanBackward0>)
+[Tegrastats] Stats: {'mem_used_MB': 10996, 'mem_total_MB': 15657, 'power_mW_current': 20953, 'power_mW_avg': 20042, 'gpu_utilization': 99, 'gpu_temperature': 65.125}
+[Tegrastats] Stats: {'mem_used_MB': 10996, 'mem_total_MB': 15657, 'power_mW_current': 22996, 'power_mW_avg': 20101, 'gpu_utilization': 99, 'gpu_temperature': 65.843}
+[Tegrastats] Stats: {'mem_used_MB': 10996, 'mem_total_MB': 15657, 'power_mW_current': 24160, 'power_mW_avg': 20180, 'gpu_utilization': 99, 'gpu_temperature': 66.375}
+[Tegrastats] Stats: {'mem_used_MB': 10922, 'mem_total_MB': 15657, 'power_mW_current': 23200, 'power_mW_avg': 20238, 'gpu_utilization': 99, 'gpu_temperature': 65.343}
+[Tegrastats] Stats: {'mem_used_MB': 10922, 'mem_total_MB': 15657, 'power_mW_current': 19341, 'power_mW_avg': 20221, 'gpu_utilization': 99, 'gpu_temperature': 64.875}
+[Tegrastats] Stats: {'mem_used_MB': 10922, 'mem_total_MB': 15657, 'power_mW_current': 19060, 'power_mW_avg': 20200, 'gpu_utilization': 99, 'gpu_temperature': 65.062}
+[Tegrastats] Stats: {'mem_used_MB': 10922, 'mem_total_MB': 15657, 'power_mW_current': 19181, 'power_mW_avg': 20181, 'gpu_utilization': 99, 'gpu_temperature': 65.156}
+[Tegrastats] Stats: {'mem_used_MB': 10922, 'mem_total_MB': 15657, 'power_mW_current': 19341, 'power_mW_avg': 20166, 'gpu_utilization': 99, 'gpu_temperature': 65.343}
+[Tegrastats] Stats: {'mem_used_MB': 10922, 'mem_total_MB': 15657, 'power_mW_current': 18860, 'power_mW_avg': 20143, 'gpu_utilization': 99, 'gpu_temperature': 65.281}
+tensor(-4.3566, device='cuda:0', grad_fn=<MeanBackward0>)
+[Tegrastats] Stats: {'mem_used_MB': 10976, 'mem_total_MB': 15657, 'power_mW_current': 22075, 'power_mW_avg': 20177, 'gpu_utilization': 99, 'gpu_temperature': 66.312}
+[Tegrastats] Stats: {'mem_used_MB': 10977, 'mem_total_MB': 15657, 'power_mW_current': 23520, 'power_mW_avg': 20233, 'gpu_utilization': 99, 'gpu_temperature': 66.593}
+[Tegrastats] Stats: {'mem_used_MB': 10977, 'mem_total_MB': 15657, 'power_mW_current': 24360, 'power_mW_avg': 20302, 'gpu_utilization': 99, 'gpu_temperature': 66.781}
+[Tegrastats] Stats: {'mem_used_MB': 10978, 'mem_total_MB': 15657, 'power_mW_current': 23000, 'power_mW_avg': 20346, 'gpu_utilization': 99, 'gpu_temperature': 66.437}
+[Tegrastats] Stats: {'mem_used_MB': 10978, 'mem_total_MB': 15657, 'power_mW_current': 20344, 'power_mW_avg': 20346, 'gpu_utilization': 99, 'gpu_temperature': 66.093}
+[Tegrastats] Stats: {'mem_used_MB': 10978, 'mem_total_MB': 15657, 'power_mW_current': 20184, 'power_mW_avg': 20344, 'gpu_utilization': 99, 'gpu_temperature': 66.437}
+[Tegrastats] Stats: {'mem_used_MB': 10978, 'mem_total_MB': 15657, 'power_mW_current': 20224, 'power_mW_avg': 20342, 'gpu_utilization': 99, 'gpu_temperature': 66.437}
+[Tegrastats] Stats: {'mem_used_MB': 10978, 'mem_total_MB': 15657, 'power_mW_current': 20304, 'power_mW_avg': 20341, 'gpu_utilization': 99, 'gpu_temperature': 66.187}
+[Tegrastats] Stats: {'mem_used_MB': 10978, 'mem_total_MB': 15657, 'power_mW_current': 18820, 'power_mW_avg': 20318, 'gpu_utilization': 99, 'gpu_temperature': 65.656}
+tensor(-3.3512, device='cuda:0', grad_fn=<MeanBackward0>)
+[Tegrastats] Stats: {'mem_used_MB': 11030, 'mem_total_MB': 15657, 'power_mW_current': 21714, 'power_mW_avg': 20339, 'gpu_utilization': 99, 'gpu_temperature': 66.218}
+[Tegrastats] Stats: {'mem_used_MB': 11030, 'mem_total_MB': 15657, 'power_mW_current': 23840, 'power_mW_avg': 20391, 'gpu_utilization': 99, 'gpu_temperature': 67.718}
+[Tegrastats] Stats: {'mem_used_MB': 11030, 'mem_total_MB': 15657, 'power_mW_current': 23400, 'power_mW_avg': 20434, 'gpu_utilization': 99, 'gpu_temperature': 67.5}
+[Tegrastats] Stats: {'mem_used_MB': 11030, 'mem_total_MB': 15657, 'power_mW_current': 22836, 'power_mW_avg': 20468, 'gpu_utilization': 99, 'gpu_temperature': 67.406}
+[Tegrastats] Stats: {'mem_used_MB': 11030, 'mem_total_MB': 15657, 'power_mW_current': 20873, 'power_mW_avg': 20474, 'gpu_utilization': 99, 'gpu_temperature': 67.375}
+[Tegrastats] Stats: {'mem_used_MB': 11030, 'mem_total_MB': 15657, 'power_mW_current': 20753, 'power_mW_avg': 20478, 'gpu_utilization': 99, 'gpu_temperature': 67.375}
+[Tegrastats] Stats: {'mem_used_MB': 11030, 'mem_total_MB': 15657, 'power_mW_current': 20833, 'power_mW_avg': 20483, 'gpu_utilization': 99, 'gpu_temperature': 67.125}
+[Tegrastats] Stats: {'mem_used_MB': 11030, 'mem_total_MB': 15657, 'power_mW_current': 20913, 'power_mW_avg': 20489, 'gpu_utilization': 99, 'gpu_temperature': 67.437}
+tensor(-2.4756, device='cuda:0', grad_fn=<MeanBackward0>)
+[Tegrastats] Stats: {'mem_used_MB': 11031, 'mem_total_MB': 15657, 'power_mW_current': 17845, 'power_mW_avg': 20453, 'gpu_utilization': 99, 'gpu_temperature': 66.625}
+[Tegrastats] Stats: {'mem_used_MB': 11031, 'mem_total_MB': 15657, 'power_mW_current': 22515, 'power_mW_avg': 20481, 'gpu_utilization': 99, 'gpu_temperature': 67.875}
+[Tegrastats] Stats: {'mem_used_MB': 11031, 'mem_total_MB': 15657, 'power_mW_current': 24160, 'power_mW_avg': 20528, 'gpu_utilization': 99, 'gpu_temperature': 68.375}
+[Tegrastats] Stats: {'mem_used_MB': 11031, 'mem_total_MB': 15657, 'power_mW_current': 23920, 'power_mW_avg': 20572, 'gpu_utilization': 99, 'gpu_temperature': 68.875}
+[Tegrastats] Stats: {'mem_used_MB': 11031, 'mem_total_MB': 15657, 'power_mW_current': 22796, 'power_mW_avg': 20600, 'gpu_utilization': 99, 'gpu_temperature': 68.062}
+[Tegrastats] Stats: {'mem_used_MB': 11031, 'mem_total_MB': 15657, 'power_mW_current': 21554, 'power_mW_avg': 20612, 'gpu_utilization': 99, 'gpu_temperature': 68.312}
+[Tegrastats] Stats: {'mem_used_MB': 11031, 'mem_total_MB': 15657, 'power_mW_current': 21394, 'power_mW_avg': 20622, 'gpu_utilization': 99, 'gpu_temperature': 68.343}
+[Tegrastats] Stats: {'mem_used_MB': 11031, 'mem_total_MB': 15657, 'power_mW_current': 21434, 'power_mW_avg': 20631, 'gpu_utilization': 99, 'gpu_temperature': 67.968}
+[Tegrastats] Stats: {'mem_used_MB': 11031, 'mem_total_MB': 15657, 'power_mW_current': 21474, 'power_mW_avg': 20642, 'gpu_utilization': 99, 'gpu_temperature': None}
+tensor(-1.7794, device='cuda:0', grad_fn=<MeanBackward0>)
+[Tegrastats] Stats: {'mem_used_MB': 11031, 'mem_total_MB': 15657, 'power_mW_current': 17805, 'power_mW_avg': 20608, 'gpu_utilization': 67, 'gpu_temperature': 66.843}
+[Tegrastats] Stats: {'mem_used_MB': 11031, 'mem_total_MB': 15657, 'power_mW_current': 23320, 'power_mW_avg': 20640, 'gpu_utilization': 99, 'gpu_temperature': 69.218}
+[Tegrastats] Stats: {'mem_used_MB': 11031, 'mem_total_MB': 15657, 'power_mW_current': 23720, 'power_mW_avg': 20676, 'gpu_utilization': 99, 'gpu_temperature': 68.75}
+[Tegrastats] Stats: {'mem_used_MB': 11031, 'mem_total_MB': 15657, 'power_mW_current': 24200, 'power_mW_avg': 20716, 'gpu_utilization': 99, 'gpu_temperature': 69.312}
+[Tegrastats] Stats: {'mem_used_MB': 11031, 'mem_total_MB': 15657, 'power_mW_current': 22796, 'power_mW_avg': 20740, 'gpu_utilization': 99, 'gpu_temperature': 68.843}
+[Tegrastats] Stats: {'mem_used_MB': 11031, 'mem_total_MB': 15657, 'power_mW_current': 21794, 'power_mW_avg': 20751, 'gpu_utilization': 99, 'gpu_temperature': 69.125}
+[Tegrastats] Stats: {'mem_used_MB': 10980, 'mem_total_MB': 15657, 'power_mW_current': 21754, 'power_mW_avg': 20763, 'gpu_utilization': 99, 'gpu_temperature': 69.187}
+[Tegrastats] Stats: {'mem_used_MB': 10980, 'mem_total_MB': 15657, 'power_mW_current': 21834, 'power_mW_avg': 20774, 'gpu_utilization': 98, 'gpu_temperature': 69.406}
+[Tegrastats] Stats: {'mem_used_MB': 10980, 'mem_total_MB': 15657, 'power_mW_current': 21915, 'power_mW_avg': 20787, 'gpu_utilization': 98, 'gpu_temperature': 69.281}
+tensor(-1.0241, device='cuda:0', grad_fn=<MeanBackward0>)
 [Tegrastats] Monitoring stopped.
-{'mem_used_MB': {'max': 12106, 'min': 7311}, 'mem_total_MB': {'max': 15657, 'min': 15657}, 'power_mW_current': {'max': 22311, 'min': 9288}, 'power_mW_avg': {'max': 18878, 'min': 9288}, 'gpu_utilization': {'max': 99, 'min': 15}, 'gpu_temperature': {'max': 65.218, 'min': 55.031}, 'total_time': 111.18748501300014}
+
+{'mem_used_MB': {'max': 11266, 'min': 5862}, 'mem_total_MB': None, 'power_mW_current': {'max': 24440, 'min': 7321}, 'power_mW_avg': {'max': 20787, 'min': 7321}, 'gpu_utilization': {'max': 99, 'min': 2}, 'gpu_temperature': {'max': 69.406, 'min': 51.218}, 'total_time': 93.30093714499985}
