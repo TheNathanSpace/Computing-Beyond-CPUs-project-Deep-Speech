@@ -96,7 +96,7 @@ class TegrastatsMonitor:
         return return_dict
 
     def _monitor(self):
-        print("[Tegrastats] Continuous monitoring started.")
+        # print("[Tegrastats] Continuous monitoring started.")
         try:
             proc = subprocess.Popen(['tegrastats'], stdout=subprocess.PIPE, stderr=subprocess.DEVNULL, text=True)
             while self.running:
@@ -104,11 +104,11 @@ class TegrastatsMonitor:
                 if not line:
                     break
                 stats = self.parse_tegrastats_output(line.strip())
-                print(f"[Tegrastats] Stats: {stats}")
+                # print(f"[Tegrastats] Stats: {stats}")
                 time.sleep(self.interval)  # Optional: throttle processing
             proc.terminate()
         except Exception as e:
-            print(f"[Tegrastats] Error: {e}")
+            # print(f"[Tegrastats] Error: {e}")
 
     def start(self):
         if not self.running:
@@ -120,7 +120,7 @@ class TegrastatsMonitor:
         if self.running:
             self.running = False
             self.thread.join()
-            print("[Tegrastats] Monitoring stopped.")
+            # print("[Tegrastats] Monitoring stopped.")
 
 
 
@@ -131,7 +131,7 @@ def func(batch_size):
     cuda = torch.cuda.is_available()
     device = torch.device('cuda' if cuda else 'cpu')
 
-    print(device)
+    # print(device)
 
     model = DeepSpeech2(num_classes=10, input_dim=dimension).to(device)
 
@@ -165,7 +165,7 @@ def func(batch_size):
         loss = criterion(outputs.transpose(0, 1), targets[:, 1:], output_lengths, target_lengths)
         loss.backward()
         optimizer.step()
-        print(loss)
+        # print(loss)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Benchmark model training with specified batch size.')
@@ -192,7 +192,6 @@ if __name__ == "__main__":
 
     ps.print_stats()
     profiling_output = s.getvalue()
-    print(profiling_output)
 
     backward_pattern = r'\s+(-?\d+(?:\.\d+)?)\s+(-?\d+(?:\.\d+)?)\s+(-?\d+(?:\.\d+)?)\s+(-?\d+(?:\.\d+)?)\s+(-?\d+(?:\.\d+)?).*__init__\.py:165\(backward\)'
     backward_match = re.search(backward_pattern, profiling_output, re.MULTILINE)
@@ -212,5 +211,5 @@ if __name__ == "__main__":
         else:
             values.append(value)
 
-    print(monitor.max_min)
+    # print(monitor.max_min)
     print(', '.join(map(str, values)))
