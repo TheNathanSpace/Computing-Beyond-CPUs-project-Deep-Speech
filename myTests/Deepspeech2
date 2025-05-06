@@ -220,3 +220,4 @@ if __name__ == "__main__":
 
     # print(monitor.max_min)
     print(', '.join(map(str, values)))
+    exit(0)
