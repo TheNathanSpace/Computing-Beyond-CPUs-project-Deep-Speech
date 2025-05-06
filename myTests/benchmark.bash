@@ -17,7 +17,7 @@ else
 fi
 
 echo "Device identified: ${device}"
-echo "Device identifier: ${device_id}"
+echo "Device name: ${device_id}"
 echo "Starting ./Deepspeech2 script in background..."
 echo "-------"
 
@@ -25,7 +25,7 @@ echo "-------"
 for batch_size in {${start_batch_size}..${end_batch_size}}; do
     echo "Running with batch size: ${batch_size}"
 
-    output_file="${device_id}_${batch_size}_output.txt"
+    output_file="output/${device_id}_${batch_size}_output.txt"
     echo "" > $output_file
     echo "Output file: ${output_file}"
 
