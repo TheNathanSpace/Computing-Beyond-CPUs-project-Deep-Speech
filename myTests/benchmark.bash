@@ -1,12 +1,10 @@
 #!/bin/bash
 
 if [ "$#" -ne 3 ]; then
-    echo "Usage: $0 <device_id> <start_batch_size> <end_batch_size>"
+    echo "Usage: $0 <device_id>"
     exit 1
 fi
 device_id=$1
-start_batch_size=$2
-end_batch_size=$3
 
 pip install psutil
 
@@ -21,8 +19,7 @@ echo "Device name: ${device_id}"
 echo "Starting ./Deepspeech2 script in background..."
 echo "-------"
 
-# Loop through batch sizes from 1 to 12
-for batch_size in $(seq ${start_batch_size} ${end_batch_size}); do
+for batch_size in 1 2 4 8 16 32; do
     echo "Running with batch size: ${batch_size}"
 
     output_file="output/${device_id}_${batch_size}_output.txt"
