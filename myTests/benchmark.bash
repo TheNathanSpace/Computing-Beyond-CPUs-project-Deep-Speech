@@ -30,12 +30,10 @@ for batch_size in {1..12}; do
     # Monitor the output
     tail -f "${output_file}" | while read -r line; do
         echo "$line"
-        if [[ "$line" == *"Peak memory"* ]]; then
+        if [[ "$line" == *"Finished. Exiting."* ]]; then
             break
         fi
     done
-
-    wait
 
     git add --all
     git commit -m "push ${output_file}"
