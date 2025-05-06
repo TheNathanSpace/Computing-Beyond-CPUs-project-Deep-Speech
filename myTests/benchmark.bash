@@ -35,6 +35,10 @@ for batch_size in {1..12}; do
 
     wait
 
+    git add --all
+    git commit -m "push ${output_file}"
+    git push
+
     echo "-------"
 done
 
