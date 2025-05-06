@@ -1,0 +1,4 @@
+/usr/local/lib/python3.10/dist-packages/torch/nn/modules/rnn.py:83: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.1 and num_layers=1
+  warnings.warn("dropout option adds dropout after all but last "
+13299, 3722, 15657, 24800, 7685, 20742, 7685, 99, 14, 76.187, 68.75, 112.67768688700016, 64.662, 41.549
+Finished. Exiting.
