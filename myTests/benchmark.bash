@@ -1,5 +1,7 @@
 #!/bin/bash
 
+pip install psutil
+
 echo "Enter device identifier: "
 read device_id
 
