@@ -1,8 +1,4 @@
 /usr/local/lib/python3.10/dist-packages/torch/nn/modules/rnn.py:83: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.1 and num_layers=1
   warnings.warn("dropout option adds dropout after all but last "
-Traceback (most recent call last):
-  File "/home/nathanpanzer/Computing-Beyond-CPUs-project-Deep-Speech/myTests/./Deepspeech2", line 188, in <module>
-    func(args.batch_size)
-  File "/home/nathanpanzer/Computing-Beyond-CPUs-project-Deep-Speech/myTests/./Deepspeech2", line 158, in func
-    targets = torch.LongTensor([[1, 3, 3, 3, 3, 3, 4, 5, 6, 2],
-TypeError: not a sequence
+8768, 3721, 15657, 24720, 7644, 21310, 7644, 99, 13, 74.656, 67.093, 92.45771863100002, 50.891, 36.879
+Finished. Exiting.
