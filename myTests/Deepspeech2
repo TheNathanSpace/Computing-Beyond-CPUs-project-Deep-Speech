@@ -25,6 +25,7 @@ import re
 import math
 import pstats
 import io
+import psutil
 
 from kospeech.models import DeepSpeech2
 
