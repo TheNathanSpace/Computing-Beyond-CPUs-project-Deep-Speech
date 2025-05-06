@@ -1,16 +1,4 @@
 /usr/local/lib/python3.10/dist-packages/torch/nn/modules/rnn.py:83: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.1 and num_layers=1
   warnings.warn("dropout option adds dropout after all but last "
-Traceback (most recent call last):
-  File "/home/nathanpanzer/Computing-Beyond-CPUs-project-Deep-Speech/myTests/./Deepspeech2", line 188, in <module>
-    func(args.batch_size)
-  File "/home/nathanpanzer/Computing-Beyond-CPUs-project-Deep-Speech/myTests/./Deepspeech2", line 172, in func
-    loss = criterion(outputs.transpose(0, 1), targets[:, 1:], output_lengths, target_lengths)
-  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
-    return self._call_impl(*args, **kwargs)
-  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/module.py", line 1541, in _call_impl
-    return forward_call(*args, **kwargs)
-  File "/usr/local/lib/python3.10/dist-packages/torch/nn/modules/loss.py", line 1785, in forward
-    return F.ctc_loss(log_probs, targets, input_lengths, target_lengths, self.blank, self.reduction,
-  File "/usr/local/lib/python3.10/dist-packages/torch/nn/functional.py", line 2687, in ctc_loss
-    return torch.ctc_loss(
-RuntimeError: target_lengths must be of size batch_size
+6913, 3733, 15657, 24320, 7482, 21714, 7482, 99, 11, 74.25, 63.562, 97.96344583199982, 52.847, 40.830
+Finished. Exiting.
