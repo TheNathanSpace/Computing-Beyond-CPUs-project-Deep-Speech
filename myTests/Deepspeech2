@@ -105,6 +105,8 @@ class TegrastatsMonitor:
                 if not line:
                     break
                 stats = self.parse_tegrastats_output(line.strip())
+                print(', '.join(map(str, values)))
+
                 # print(f"[Tegrastats] Stats: {stats}")
                 time.sleep(self.interval)  # Optional: throttle processing
             self.proc.terminate()
