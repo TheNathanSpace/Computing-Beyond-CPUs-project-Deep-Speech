@@ -1,7 +1,14 @@
+Requirement already satisfied: psutil in /home/nathanpanzer/Computing-Beyond-CPUs-project-Deep-Speech/.venv/lib/python3.10/site-packages (7.0.0)
+Device identified: gpu
+Device name: orin_nx_16
+Starting ./Deepspeech2 script in background...
+-------
+Running with batch size: 8
+Output file: output/orin_nx_16_8_output.txt
 Args: Namespace(batch_size=8)
 Starting setup
 /usr/local/lib/python3.10/dist-packages/torch/nn/modules/rnn.py:83: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.1 and num_layers=1
-  warnings.warn("dropout option adds dropout after all but last "
+warnings.warn("dropout option adds dropout after all but last "
 {'mem_used_MB': 2843, 'mem_total_MB': 15657, 'power_mW_current': 7240, 'power_mW_avg': 7240, 'gpu_utilization': 0, 'gpu_temperature': 55.312}
 Setup complete
 Starting epoch 0
@@ -137,3 +144,4 @@ Starting epoch 9
 Finalizing monitoring
 15473, 2843, 15657, 24800, 7240, 20551, 7240, 99, 5, 71.5, 55.312, 122.55095463100007, 69.772, 45.189
 Finished. Exiting.
+Already up to date.

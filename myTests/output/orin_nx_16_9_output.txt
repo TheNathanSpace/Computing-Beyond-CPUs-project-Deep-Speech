@@ -1,0 +1,17 @@
+Args: Namespace(batch_size=9)
+Starting setup
+/usr/local/lib/python3.10/dist-packages/torch/nn/modules/rnn.py:83: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.1 and num_layers=1
+  warnings.warn("dropout option adds dropout after all but last "
+{'mem_used_MB': 2824, 'mem_total_MB': 15657, 'power_mW_current': 6997, 'power_mW_avg': 6997, 'gpu_utilization': 0, 'gpu_temperature': 50.875}
+Setup complete
+Starting epoch 0
+{'mem_used_MB': 2878, 'mem_total_MB': 15657, 'power_mW_current': 7037, 'power_mW_avg': 7017, 'gpu_utilization': 0, 'gpu_temperature': 51.312}
+{'mem_used_MB': 2948, 'mem_total_MB': 15657, 'power_mW_current': 7927, 'power_mW_avg': 7320, 'gpu_utilization': 0, 'gpu_temperature': 51.531}
+{'mem_used_MB': 3687, 'mem_total_MB': 15657, 'power_mW_current': 11289, 'power_mW_avg': 8312, 'gpu_utilization': 96, 'gpu_temperature': 52.718}
+{'mem_used_MB': 6532, 'mem_total_MB': 15657, 'power_mW_current': 8696, 'power_mW_avg': 8389, 'gpu_utilization': 99, 'gpu_temperature': 52.593}
+{'mem_used_MB': 7778, 'mem_total_MB': 15657, 'power_mW_current': 14894, 'power_mW_avg': 9473, 'gpu_utilization': 0, 'gpu_temperature': None}
+{'mem_used_MB': 9137, 'mem_total_MB': 15657, 'power_mW_current': 22355, 'power_mW_avg': 11313, 'gpu_utilization': 99, 'gpu_temperature': 56.687}
+{'mem_used_MB': 11514, 'mem_total_MB': 15657, 'power_mW_current': 20465, 'power_mW_avg': 12457, 'gpu_utilization': 99, 'gpu_temperature': 57.343}
+{'mem_used_MB': 13894, 'mem_total_MB': 15657, 'power_mW_current': 15619, 'power_mW_avg': 12808, 'gpu_utilization': 99, 'gpu_temperature': 56.406}
+{'mem_used_MB': 15188, 'mem_total_MB': 15657, 'power_mW_current': 13928, 'power_mW_avg': 12920, 'gpu_utilization': 0, 'gpu_temperature': 53.875}
+{'mem_used_MB': 15342, 'mem_total_MB': 15657, 'power_mW_current': 9086, 'power_mW_avg': 12572, 'gpu_utilization': 0, 'gpu_temperature': 52.656}
