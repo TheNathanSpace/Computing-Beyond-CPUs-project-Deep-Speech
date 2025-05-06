@@ -139,21 +139,21 @@ def func(batch_size):
     criterion = nn.CTCLoss(blank=3, zero_infinity=True)
     optimizer = torch.optim.Adam(model.parameters(), lr=1e-04)
 
-    input_lengths = torch.IntTensor([12345] + [12000] * (batch_size - 1)).to(device)
-    
-    # Define the target sequences
-    base_target = [1, 3, 3, 3, 3, 3, 4]
-    targets = [base_target + [5, 6, 2]]  # First target sequence
-    for i in range(1, batch_size):
-        if i == 1:
-            targets.append(base_target + [5, 2, 0])  # Second target sequence
+    if batch_size == 1:
+        input_lengths = torch.IntTensor([12345]).to(device)
+        targets = torch.LongTensor([[1, 3, 3, 3, 3, 3, 4, 5, 6, 2]]).to(device)
+        target_lengths = torch.LongTensor([9]).to(device)
+    else:
+        input_lengths = torch.IntTensor([12345, 12300] + [12000] * (batch_size - 2)).to(device)
+        targets = torch.LongTensor([[1, 3, 3, 3, 3, 3, 4, 5, 6, 2],
+                                     [1, 3, 3, 3, 3, 3, 4, 5, 2, 0]]
+                                     + [1, 3, 3, 3, 3, 3, 4, 2, 0, 0] * (batch_size - 2)).to(device)
+        if batch_size > 9:
+            tmp = list(range(9, 9-batch_size-1, -1))
+            tmp += [0] * (batch_size - 9)
+            target_lengths = torch.LongTensor(tmp).to(device)
         else:
-            targets.append(base_target + [2] + [0] * (batch_size - i))  # Subsequent target sequences
-    
-    targets = torch.LongTensor(targets).to(device)
-    
-    # Define target lengths
-    target_lengths = torch.LongTensor([len(target) for target in targets]).to(device)
+            target_lengths = torch.LongTensor(list(range(9, 9-batch_size-1, -1))).to(device)
 
     for i in range(10):
         inputs = torch.rand(batch_size, sequence_length, dimension).to(device)
