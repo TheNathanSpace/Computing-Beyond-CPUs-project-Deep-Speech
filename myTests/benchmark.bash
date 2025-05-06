@@ -1,13 +1,12 @@
 #!/bin/bash
 
-echo "Enter device identifier: "
-read device_id
-
-echo "Enter first batch size: "
-read start_batch_size
-
-echo "Enter last batch size: "
-read end_batch_size
+if [ "$#" -ne 3 ]; then
+    echo "Usage: $0 <device_id> <start_batch_size> <end_batch_size>"
+    exit 1
+fi
+device_id=$1
+start_batch_size=$2
+end_batch_size=$3
 
 pip install psutil
 
