@@ -98,15 +98,15 @@ class TegrastatsMonitor:
     def _monitor(self):
         # print("[Tegrastats] Continuous monitoring started.")
         try:
-            proc = subprocess.Popen(['tegrastats'], stdout=subprocess.PIPE, stderr=subprocess.DEVNULL, text=True)
+            self.proc = subprocess.Popen(['tegrastats'], stdout=subprocess.PIPE, stderr=subprocess.DEVNULL, text=True)
             while self.running:
-                line = proc.stdout.readline()
+                line = self.proc.stdout.readline()
                 if not line:
                     break
                 stats = self.parse_tegrastats_output(line.strip())
                 # print(f"[Tegrastats] Stats: {stats}")
                 time.sleep(self.interval)  # Optional: throttle processing
-            proc.terminate()
+            self.proc.terminate()
         except Exception as e:
             # print(f"[Tegrastats] Error: {e}")
             pass
@@ -128,7 +128,7 @@ class TegrastatsMonitor:
                     proc.kill()
                 process.kill()
             
-            kill(proc.pid)
+            kill(self.proc.pid)
 
             # print("[Tegrastats] Monitoring stopped.")
 
