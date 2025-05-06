@@ -105,7 +105,7 @@ class TegrastatsMonitor:
                 if not line:
                     break
                 stats = self.parse_tegrastats_output(line.strip())
-                print(', '.join(map(str, values)))
+                self.print_values()
 
                 # print(f"[Tegrastats] Stats: {stats}")
                 time.sleep(self.interval)  # Optional: throttle processing
@@ -135,6 +135,16 @@ class TegrastatsMonitor:
 
             # print("[Tegrastats] Monitoring stopped.")
 
+    def print_values(self):
+        values = []
+        for key, value in self.max_min.items():
+            if isinstance(value, dict):
+                values.append(value['max'])
+                values.append(value['min'])
+            else:
+                values.append(value)
+    
+        print(', '.join(map(str, values)))
 
 
 def func(batch_size):
@@ -220,16 +230,7 @@ if __name__ == "__main__":
     forward_match = re.search(forward_pattern, profiling_output, re.MULTILINE)
     if forward_match:
         output_dict['forward_time'] = forward_match.group(4)
-    
-    values = []
-    for key, value in monitor.max_min.items():
-        if isinstance(value, dict):
-            values.append(value['max'])
-            values.append(value['min'])
-        else:
-            values.append(value)
 
-    # print(monitor.max_min)
-    print(', '.join(map(str, values)))
+    monitor.print_values()
     print("Finished. Exiting.")
     exit(0)
