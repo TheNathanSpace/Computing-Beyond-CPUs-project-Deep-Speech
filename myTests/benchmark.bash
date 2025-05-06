@@ -1,9 +1,15 @@
 #!/bin/bash
 
-pip install psutil
-
 echo "Enter device identifier: "
 read device_id
+
+echo "Enter first batch size: "
+read start_batch_size
+
+echo "Enter last batch size: "
+read end_batch_size
+
+pip install psutil
 
 if python -c "import torch; print(torch.cuda.is_available())" | grep -q "True"; then
     device="gpu"
@@ -17,7 +23,7 @@ echo "Starting ./Deepspeech2 script in background..."
 echo "-------"
 
 # Loop through batch sizes from 1 to 12
-for batch_size in {1..12}; do
+for batch_size in {${start_batch_size}..${end_batch_size}}; do
     echo "Running with batch size: ${batch_size}"
 
     output_file="${device_id}_${batch_size}_output.txt"
@@ -35,6 +41,7 @@ for batch_size in {1..12}; do
         fi
     done
 
+    git pull
     git add --all
     git commit -m "push ${output_file}"
     git push
