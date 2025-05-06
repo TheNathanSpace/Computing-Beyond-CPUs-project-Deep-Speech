@@ -136,6 +136,8 @@ class TegrastatsMonitor:
 
 
 def func(batch_size):
+    print("Starting setup")
+
     sequence_length = 14321
     dimension = 80
 
@@ -165,7 +167,10 @@ def func(batch_size):
         else:
             target_lengths = torch.LongTensor(list(range(9, 9-batch_size, -1))).to(device)
 
+    print("Setup complete")
+
     for i in range(10):
+        print(f"Starting epoch {i}")
         inputs = torch.rand(batch_size, sequence_length, dimension).to(device)
         outputs, output_lengths = model(inputs, input_lengths)
 
@@ -180,6 +185,8 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
+    print(f"Args: {args}")
+
     monitor = TegrastatsMonitor(interval=1)
     pr = cProfile.Profile()
 
@@ -188,6 +195,8 @@ if __name__ == "__main__":
     func(args.batch_size)
     pr.disable()
     monitor.stop()
+
+    print("Finalizing monitoring")
 
     s = io.StringIO()
     sortby = 'cumulative'

@@ -30,7 +30,7 @@ for batch_size in $(seq ${start_batch_size} ${end_batch_size}); do
     echo "Output file: ${output_file}"
 
     # Run the Deepspeech2 script in the background
-    ./Deepspeech2 $batch_size > "${output_file}" 2>&1 &
+    python -u ./Deepspeech2 $batch_size > "${output_file}" 2>&1 &
 
     # Monitor the output
     tail -f "${output_file}" | while read -r line; do
