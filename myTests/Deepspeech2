@@ -163,7 +163,7 @@ def func(batch_size):
             tmp += [0] * (batch_size - 9)
             target_lengths = torch.LongTensor(tmp).to(device)
         else:
-            target_lengths = torch.LongTensor(list(range(9, 9-batch_size-1, -1))).to(device)
+            target_lengths = torch.LongTensor(list(range(9, 9-batch_size, -1))).to(device)
 
     for i in range(10):
         inputs = torch.rand(batch_size, sequence_length, dimension).to(device)
