@@ -22,7 +22,7 @@ echo "Starting ./Deepspeech2 script in background..."
 echo "-------"
 
 # Loop through batch sizes from 1 to 12
-for batch_size in {${start_batch_size}..${end_batch_size}}; do
+for batch_size in $(seq ${start_batch_size} ${end_batch_size}); do
     echo "Running with batch size: ${batch_size}"
 
     output_file="output/${device_id}_${batch_size}_output.txt"
