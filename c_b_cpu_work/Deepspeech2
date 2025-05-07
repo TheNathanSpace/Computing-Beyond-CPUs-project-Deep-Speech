@@ -66,6 +66,7 @@ class TegrastatsMonitor:
         power_match = re.search(r'VDD_IN (\d+)mW/(\d+)mW', output)
         utilization_match = re.search(r'GR3D_FREQ (\d+)%', output)
         temperature_match = re.search(r'gpu@(\d+\.\d+)C', output)
+        temperature_match2 = re.search(r'GPU@(\d+\.\d+)C', output)
 
         mem_used = int(mem_match.group(1)) if mem_match else None
         mem_total = int(mem_match.group(2)) if mem_match else None
@@ -73,6 +74,7 @@ class TegrastatsMonitor:
         power_avg = int(power_match.group(2)) if power_match else None
         gpu_usage = int(utilization_match.group(1)) if utilization_match else None
         gpu_temp = float(temperature_match.group(1)) if temperature_match else None
+        gpu_temp = float(temperature_match2.group(1)) if temperature_match2 else gpu_temp
 
         return_dict = {
             'mem_used_MB': mem_used,
