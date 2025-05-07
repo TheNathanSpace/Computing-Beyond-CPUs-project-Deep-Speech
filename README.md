@@ -15,7 +15,9 @@
 
 Once inside the main directory, run the following command to install the DeepSpeech2 library.
 
+```bash
 pip install -e .
+```
 
 ## Hardware
 
