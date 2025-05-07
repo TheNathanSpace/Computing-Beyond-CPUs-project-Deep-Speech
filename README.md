@@ -11,6 +11,12 @@
 - Final presentation: https://docs.google.com/presentation/d/1Lb727cLMYT1DMdu8xMY3hpeKyWsRrzorPoalHLxiYps/edit
 - Final report: https://www.overleaf.com/project/680a1ffd30432b62e04277cf
 
+## Installation
+
+Once inside the main directory, run the following command to install the DeepSpeech2 library.
+
+pip install -e .
+
 ## Hardware
 
 Devices: https://docs.google.com/spreadsheets/d/1T0_5deevIndqut1mj5xcdKnLcyRoxotqW6UR4lgH-x4/edit
