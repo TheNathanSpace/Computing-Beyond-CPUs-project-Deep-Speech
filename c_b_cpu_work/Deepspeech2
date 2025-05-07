@@ -225,6 +225,12 @@ if __name__ == "__main__":
     backward_match = re.search(backward_pattern, profiling_output, re.MULTILINE)
     if backward_match:
         output_dict['backward_time'] = backward_match.group(4)
+    else:
+        backward_pattern2 = r'\s+(-?\d+(?:\.\d+)?)\s+(-?\d+(?:\.\d+)?)\s+(-?\d+(?:\.\d+)?)\s+(-?\d+(?:\.\d+)?)\s+(-?\d+(?:\.\d+)?).*__init__\.py:110\(backward\)'
+        backward_match2 = re.search(backward_pattern2, profiling_output, re.MULTILINE)
+        if backward_match2:
+            output_dict['backward_time'] = backward_match2.group(4)
+
     
     forward_pattern = r'\s+(-?\d+(?:\.\d+)?)\s+(-?\d+(?:\.\d+)?)\s+(-?\d+(?:\.\d+)?)\s+(-?\d+(?:\.\d+)?)\s+(-?\d+(?:\.\d+)?).*model\.py:142\(forward\)'
     forward_match = re.search(forward_pattern, profiling_output, re.MULTILINE)
@@ -233,4 +239,7 @@ if __name__ == "__main__":
 
     monitor.print_values()
     print("Finished. Exiting.")
+
+
+
     exit(0)
