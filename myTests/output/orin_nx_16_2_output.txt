@@ -1,4 +1,45 @@
+Args: Namespace(batch_size=2)
+Starting setup
 /usr/local/lib/python3.10/dist-packages/torch/nn/modules/rnn.py:83: UserWarning: dropout option adds dropout after all but last recurrent layer, so non-zero dropout expects num_layers greater than 1, but got dropout=0.1 and num_layers=1
   warnings.warn("dropout option adds dropout after all but last "
-6914, 3721, 15657, 24440, 7442, 21765, 7442, 99, 12, 73.562, 62.562, 97.68918873700001, 52.613, 40.824
-Finished. Exiting.
+{'mem_used_MB': 2827, 'mem_total_MB': 15657, 'power_mW_current': 7482, 'power_mW_avg': 7482, 'gpu_utilization': 0, 'gpu_temperature': 64.531}
+Setup complete
+Starting epoch 0
+{'mem_used_MB': 2924, 'mem_total_MB': 15657, 'power_mW_current': 8008, 'power_mW_avg': 7745, 'gpu_utilization': 0, 'gpu_temperature': 64.125}
+{'mem_used_MB': 3089, 'mem_total_MB': 15657, 'power_mW_current': 12821, 'power_mW_avg': 9437, 'gpu_utilization': 99, 'gpu_temperature': 66.75}
+{'mem_used_MB': 3281, 'mem_total_MB': 15657, 'power_mW_current': 21394, 'power_mW_avg': 12426, 'gpu_utilization': 99, 'gpu_temperature': None}
+{'mem_used_MB': 3849, 'mem_total_MB': 15657, 'power_mW_current': 22195, 'power_mW_avg': 14380, 'gpu_utilization': 99, 'gpu_temperature': 69.312}
+{'mem_used_MB': 4418, 'mem_total_MB': 15657, 'power_mW_current': 22676, 'power_mW_avg': 15762, 'gpu_utilization': 99, 'gpu_temperature': 69.437}
+{'mem_used_MB': 4986, 'mem_total_MB': 15657, 'power_mW_current': 22920, 'power_mW_avg': 16785, 'gpu_utilization': 99, 'gpu_temperature': 69.562}
+{'mem_used_MB': 5137, 'mem_total_MB': 15657, 'power_mW_current': 22960, 'power_mW_avg': 17557, 'gpu_utilization': 99, 'gpu_temperature': 69.593}
+{'mem_used_MB': 5161, 'mem_total_MB': 15657, 'power_mW_current': 22836, 'power_mW_avg': 18143, 'gpu_utilization': 99, 'gpu_temperature': 69.968}
+{'mem_used_MB': 5161, 'mem_total_MB': 15657, 'power_mW_current': 22920, 'power_mW_avg': 18621, 'gpu_utilization': 99, 'gpu_temperature': 70.281}
+{'mem_used_MB': 5161, 'mem_total_MB': 15657, 'power_mW_current': 22876, 'power_mW_avg': 19008, 'gpu_utilization': 99, 'gpu_temperature': 70.531}
+{'mem_used_MB': 5161, 'mem_total_MB': 15657, 'power_mW_current': 23160, 'power_mW_avg': 19354, 'gpu_utilization': 99, 'gpu_temperature': 70.781}
+Starting epoch 1
+{'mem_used_MB': 5292, 'mem_total_MB': 15657, 'power_mW_current': 16961, 'power_mW_avg': 19169, 'gpu_utilization': 99, 'gpu_temperature': 67.718}
+{'mem_used_MB': 5292, 'mem_total_MB': 15657, 'power_mW_current': 22920, 'power_mW_avg': 19437, 'gpu_utilization': 99, 'gpu_temperature': 70.25}
+{'mem_used_MB': 5292, 'mem_total_MB': 15657, 'power_mW_current': 23640, 'power_mW_avg': 19717, 'gpu_utilization': 99, 'gpu_temperature': 70.593}
+{'mem_used_MB': 5292, 'mem_total_MB': 15657, 'power_mW_current': 23600, 'power_mW_avg': 19960, 'gpu_utilization': 99, 'gpu_temperature': 70.312}
+{'mem_used_MB': 5596, 'mem_total_MB': 15657, 'power_mW_current': 22716, 'power_mW_avg': 20122, 'gpu_utilization': 99, 'gpu_temperature': 71.125}
+{'mem_used_MB': 5596, 'mem_total_MB': 15657, 'power_mW_current': 20465, 'power_mW_avg': 20141, 'gpu_utilization': 99, 'gpu_temperature': 70.843}
+{'mem_used_MB': 5596, 'mem_total_MB': 15657, 'power_mW_current': 20064, 'power_mW_avg': 20137, 'gpu_utilization': 99, 'gpu_temperature': 70.656}
+{'mem_used_MB': 5596, 'mem_total_MB': 15657, 'power_mW_current': 19742, 'power_mW_avg': 20117, 'gpu_utilization': 99, 'gpu_temperature': 70.187}
+{'mem_used_MB': 5597, 'mem_total_MB': 15657, 'power_mW_current': 19702, 'power_mW_avg': 20098, 'gpu_utilization': 99, 'gpu_temperature': 70.218}
+{'mem_used_MB': 5597, 'mem_total_MB': 15657, 'power_mW_current': 19261, 'power_mW_avg': 20059, 'gpu_utilization': 99, 'gpu_temperature': 70.281}
+Starting epoch 2
+{'mem_used_MB': 5627, 'mem_total_MB': 15657, 'power_mW_current': 22636, 'power_mW_avg': 20171, 'gpu_utilization': 99, 'gpu_temperature': 71.125}
+{'mem_used_MB': 5627, 'mem_total_MB': 15657, 'power_mW_current': 22956, 'power_mW_avg': 20287, 'gpu_utilization': 99, 'gpu_temperature': 71.156}
+{'mem_used_MB': 5627, 'mem_total_MB': 15657, 'power_mW_current': 23480, 'power_mW_avg': 20415, 'gpu_utilization': 99, 'gpu_temperature': 71.531}
+{'mem_used_MB': 5627, 'mem_total_MB': 15657, 'power_mW_current': 23680, 'power_mW_avg': 20541, 'gpu_utilization': 99, 'gpu_temperature': 71.437}
+{'mem_used_MB': 5627, 'mem_total_MB': 15657, 'power_mW_current': 24080, 'power_mW_avg': 20672, 'gpu_utilization': 99, 'gpu_temperature': 71.875}
+{'mem_used_MB': 5627, 'mem_total_MB': 15657, 'power_mW_current': 23280, 'power_mW_avg': 20765, 'gpu_utilization': 99, 'gpu_temperature': 71.875}
+{'mem_used_MB': 5627, 'mem_total_MB': 15657, 'power_mW_current': 23480, 'power_mW_avg': 20859, 'gpu_utilization': 99, 'gpu_temperature': 72.093}
+{'mem_used_MB': 5627, 'mem_total_MB': 15657, 'power_mW_current': 23480, 'power_mW_avg': 20946, 'gpu_utilization': 99, 'gpu_temperature': 72.156}
+{'mem_used_MB': 5624, 'mem_total_MB': 15657, 'power_mW_current': 23520, 'power_mW_avg': 21029, 'gpu_utilization': 99, 'gpu_temperature': 72.281}
+Starting epoch 3
+{'mem_used_MB': 5624, 'mem_total_MB': 15657, 'power_mW_current': 19662, 'power_mW_avg': 20986, 'gpu_utilization': 99, 'gpu_temperature': 71.093}
+{'mem_used_MB': 5624, 'mem_total_MB': 15657, 'power_mW_current': 23480, 'power_mW_avg': 21062, 'gpu_utilization': 99, 'gpu_temperature': 71.843}
+{'mem_used_MB': 5624, 'mem_total_MB': 15657, 'power_mW_current': 24000, 'power_mW_avg': 21148, 'gpu_utilization': 99, 'gpu_temperature': 72.062}
+{'mem_used_MB': 5624, 'mem_total_MB': 15657, 'power_mW_current': 23040, 'power_mW_avg': 21202, 'gpu_utilization': 99, 'gpu_temperature': 72.125}
+{'mem_used_MB': 5624, 'mem_total_MB': 15657, 'power_mW_current': 23760, 'power_mW_avg': 21273, 'gpu_utilization': 99, 'gpu_temperature': 72.593}
